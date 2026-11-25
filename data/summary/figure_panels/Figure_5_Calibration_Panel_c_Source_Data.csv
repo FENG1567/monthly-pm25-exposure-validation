@@ -1,0 +1,17 @@
+country,task,profile,fold_n,row_weighted_mean_interval_width,width_weight_rows,finite_width_folds,unbounded_q90_folds
+CAN,T1_station,no_met,5,21.789810852859343,12658,5,0
+CAN,T1_station,with_met,5,21.670372384064848,12658,5,0
+CAN,T2_spatial,no_met,5,21.257962698158277,12658,5,0
+CAN,T2_spatial,with_met,5,21.98764901984471,12658,5,0
+CAN,T2_spatial_buffer50km,no_met,5,20.70536621062084,12658,5,0
+CAN,T2_spatial_buffer50km,with_met,5,19.69492750959114,12658,5,0
+CAN,T3_year_2022,no_met,1,21.633498149789933,2557,1,0
+CAN,T3_year_2022,with_met,1,22.776353273497943,2557,1,0
+USA,T1_station,no_met,5,18.734239817688064,38358,5,0
+USA,T1_station,with_met,5,18.739720597375314,38358,5,0
+USA,T2_spatial,no_met,5,17.56397811226479,38358,5,0
+USA,T2_spatial,with_met,5,17.62543681623265,38358,5,0
+USA,T2_spatial_buffer50km,no_met,5,18.395959537458218,38358,5,0
+USA,T2_spatial_buffer50km,with_met,5,17.687619320331486,38358,5,0
+USA,T3_year_2022,no_met,1,19.128019981072296,8704,1,0
+USA,T3_year_2022,with_met,1,18.76210432073565,8704,1,0

@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "candidate_revision_id": "candidate1-ec0b743a91582d98",
+  "python": "3.11.16",
+  "execution": "Linux server, one thread; original project analysis environment",
+  "checks": [
+    {
+      "check": "all_python_source_syntax_and_code_only_legacy_archive",
+      "passed": true
+    },
+    {
+      "check": "unit_tests",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 5.31
+    },
+    {
+      "check": "manifest",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 0.97
+    },
+    {
+      "check": "all",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 103.66
+    },
+    {
+      "check": "self_check",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 6.0
+    },
+    {
+      "check": "missing_inputs",
+      "returncode": 2,
+      "expected": 2,
+      "seconds": 0.06
+    },
+    {
+      "check": "S7_lossless_source_identity",
+      "rows": 7716800,
+      "uncompressed_sha256": "eb9eeb836798d762339ffe9f2608e264e87a0813321c1dd0755b6a2efdedb76b",
+      "passed": true
+    },
+    {
+      "check": "all_35_panel_row_counts",
+      "passed": true,
+      "figures": 14,
+      "panels": 35
+    }
+  ],
+  "new_full_model_fit": false,
+  "raw_end_to_end_reconstruction": false,
+  "limitations": [
+    "M02 upstream target aggregation not recovered",
+    "M03 historical meteorology/population product generation mapping incomplete",
+    "External-input full model and bootstrap reruns not performed in this package verification run"
+  ]
+}

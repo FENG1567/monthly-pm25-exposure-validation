@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "years": [
+    {
+      "year": 2025,
+      "raw_sha256": "cc8cb80bcc0317705202d12a472918438b8bee60316f54777d6f748c58ac2661",
+      "daily": {
+        "passed": true,
+        "saved_rows": 334202,
+        "replayed_rows": 334202,
+        "matched_rows": 334202,
+        "saved_only": 0,
+        "replay_only": 0,
+        "finite_masks_equal": {
+          "pm25": true,
+          "lat": true,
+          "lon": true
+        },
+        "max_abs_difference": {
+          "pm25": 0.0,
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      },
+      "monthly": {
+        "passed": true,
+        "saved_rows": 10765,
+        "replayed_rows": 10765,
+        "matched_rows": 10765,
+        "saved_only": 0,
+        "replay_only": 0,
+        "finite_masks_equal": {
+          "pm25": true,
+          "ndays": true,
+          "lat": true,
+          "lon": true
+        },
+        "max_abs_difference": {
+          "pm25": 0.0,
+          "ndays": 0.0,
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      },
+      "passed": true
+    }
+  ],
+  "saved_daily_sha256": "c24f7a0f045bc38ad376389ecca58ec1fbbd6243a8087bbb2cf59909ba471009",
+  "saved_monthly_sha256": "ee3a2d752bfd1c87f6d4087370f26c685b37c5177732b899bc137e12a739b660",
+  "recipe_sha256": "b0e0c219a2091791e0578359aa40f6583f73790105221992fb2d2cfee8284d02",
+  "manifest_sha256": "8a4ef02d4c299c5afb3d67333339a6200ac575313700335951b451fc081eb754",
+  "cli_sha256": "5d3e2b687d09da1c88241a9ce8ff73dfaac2daccc7d06f773ac4693d14d6f3f5",
+  "model_fitting": false,
+  "saved_source_files_modified": false,
+  "pandas_version": "2.1.4",
+  "numpy_version": "1.26.4"
+}

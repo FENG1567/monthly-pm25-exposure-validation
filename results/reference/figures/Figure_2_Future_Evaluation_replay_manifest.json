@@ -1,0 +1,50 @@
+{
+  "figure": "Figure_2_Future_Evaluation",
+  "caption": "Figure 2 | Future-year performance by meteorological profile and update policy. Panels (A,B) show United States R² and RMSE; (C,D) show Canadian results under strict-QA HGB full models. Solid lines/filled markers denote fixed-window models, and dashed lines/open markers denote rolling updates. Color and shape distinguish meteorological profiles. Lines connect observed evaluation years. The reference line marks 2023. The inset lists the four Canadian 2024 RMSE values that overlap at the main panel scale. RMSE is in µg m⁻³.",
+  "panel_sources": {
+    "USA_r2": {
+      "filename": "data/summary/figure_panels/Figure_2_Future_Evaluation_Panel_USA_r2_Source_Data.csv",
+      "rows": 10,
+      "sha256": "6efa7dae7c842802b0fbb7bbf011f058be571f790f42e128de528692b2c9e488"
+    },
+    "USA_rmse": {
+      "filename": "data/summary/figure_panels/Figure_2_Future_Evaluation_Panel_USA_rmse_Source_Data.csv",
+      "rows": 10,
+      "sha256": "a6168c592607dbd520543025ca36a48871e1b4ada8c095d56f65cc5e87df64da"
+    },
+    "CAN_r2": {
+      "filename": "data/summary/figure_panels/Figure_2_Future_Evaluation_Panel_CAN_r2_Source_Data.csv",
+      "rows": 6,
+      "sha256": "c7a10879ff30c02aa142265f563089c44e452e0de36cb5d9fcf20abfc3ba05a4"
+    },
+    "CAN_rmse": {
+      "filename": "data/summary/figure_panels/Figure_2_Future_Evaluation_Panel_CAN_rmse_Source_Data.csv",
+      "rows": 6,
+      "sha256": "7e69cbfad9e83a6244699925c363c9510323e5f6d61ebb2545e833d17d61e12a"
+    }
+  },
+  "panel_rows": {
+    "USA_r2": 10,
+    "USA_rmse": 10,
+    "CAN_r2": 6,
+    "CAN_rmse": 6
+  },
+  "outputs": {
+    "pdf": {
+      "filename": "Figure_2_Future_Evaluation.pdf",
+      "sha256": "fc5f72d27b697bc6a88fbd2b33ff87ada33b1275c53b120ccbcef2b262da987d"
+    },
+    "png": {
+      "filename": "Figure_2_Future_Evaluation.png",
+      "sha256": "802121cf1837373ececaf0544876fb96d8bf6d19cf7bc30be2ec87136ef804d0"
+    },
+    "svg": {
+      "filename": "Figure_2_Future_Evaluation.svg",
+      "sha256": "528e165630a4f50ad3eefa5ac85940619b8f8905ea1a9d829c9b8553f332e770"
+    },
+    "tiff": {
+      "filename": "Figure_2_Future_Evaluation.tiff",
+      "sha256": "9476a5214760209b67a3e769ba41d2ef50f5786af3f892646423e38714b1f9cd"
+    }
+  }
+}

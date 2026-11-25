@@ -1,0 +1,38 @@
+{
+  "figure": "Supplementary_Figure_S3",
+  "caption": "Supplementary Figure S3 | Historical station-grouped sensitivity. Panels (A,B) compare strict/sensitivity AOD quality screening and HGB/Ridge estimators under log-smear prediction. Panels (C,D) compare strict-HGB target/retransformation branches. Left-hand panels use models without meteorology, and right-hand panels use models with meteorology. Cell labels give R²; colors use a symmetric logarithmic scale. Negative estimates are retained, and Portugal is labeled PT. AOD denotes aerosol optical depth; HGB denotes histogram-based gradient boosting. QA denotes quality assurance; sens. denotes the sensitivity AOD screening rule.",
+  "panel_sources": {
+    "a": {
+      "filename": "data/summary/figure_panels/Supplementary_Figure_S3_Panel_a_Source_Data.csv",
+      "rows": 112,
+      "sha256": "65890c9fd9f151e4b162fd62560c57a970c00a587942bfd06084dc285353419d"
+    },
+    "b": {
+      "filename": "data/summary/figure_panels/Supplementary_Figure_S3_Panel_b_Source_Data.csv",
+      "rows": 84,
+      "sha256": "1b2a7edc077a98ac1a6992173acd01df3709f68b79286927d69952e8b2e1a945"
+    }
+  },
+  "panel_rows": {
+    "a": 112,
+    "b": 84
+  },
+  "outputs": {
+    "pdf": {
+      "filename": "Supplementary_Figure_S3.pdf",
+      "sha256": "ad7270af7180d82d37626014be63652f5f6939a31cf288ad1b575109da5e48f3"
+    },
+    "png": {
+      "filename": "Supplementary_Figure_S3.png",
+      "sha256": "23345cf4a7bf414f77289b80336cdf5bf9a506ac0bf0a4ed276318b52c8effc1"
+    },
+    "svg": {
+      "filename": "Supplementary_Figure_S3.svg",
+      "sha256": "544ffe72cbee480019d7224db7f2b2e76e0f937daa7202a49483b971259118e2"
+    },
+    "tiff": {
+      "filename": "Supplementary_Figure_S3.tiff",
+      "sha256": "ced479bf6896dc7a02bfa92a476c477c8ba2282f0ad2cd5f8c07ae71ee4cfc06"
+    }
+  }
+}

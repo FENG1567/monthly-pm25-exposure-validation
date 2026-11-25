@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "validation_scope": "export table consistency and deterministic seed matching",
+  "metric_rows": 1056,
+  "contrast_rows": 704,
+  "model_support_cells": 352,
+  "all_seed_matches": 704,
+  "point_difference_max_abs_error": {
+    "rmse": 8.881784197001252e-16,
+    "mae": 2.220446049250313e-15,
+    "bias": 1.7763568394002505e-15,
+    "r2": 1.7763568394002505e-15
+  },
+  "eligible_contrasts": 640,
+  "withheld_contrasts": 64,
+  "distributed_sha256": {
+    "annual_metrics": "679af31fcc4df1240cc346e8de629de4bf5ea1b2e3081ede784daf17016230b6",
+    "annual_deltas": "c6304b6eef8c774d84e1eea49d754d6a6ba4723d85efa44f3495559071b68b57"
+  },
+  "catalog_sha256": "e656b38e74d6837b97ee2a04012ada14d371d2ebf9e0087fbdf16a2279123f07",
+  "original_source_csv_bytes_recovered": false,
+  "raw_source_numerical_comparison": false,
+  "bootstrap_reexecuted": false,
+  "estimates_or_intervals_regenerated": false
+}

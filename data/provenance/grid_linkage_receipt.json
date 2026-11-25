@@ -1,0 +1,167 @@
+{
+  "status": "passed",
+  "scope": "recovered 2018-2022 USA/CAN pre-MAIAC parents, not a new raw-ERA5 reconstruction or final-table rerun",
+  "source_pins": {
+    "pop_0p1.nc": "33102dc73a6c23549141c1d424837043c2b46947a476cd295a4870f4a8b71dc8",
+    "era5_monthly_0p1.nc": "76c842128cc4de74d8e06fe90af1da942776da610a30182fd8726405dbd49417",
+    "usa_clean_features_2018_2022.parquet": "a5aa787dd7ff682d3fe0b6b41c23f8ccd8a928a55adaedbc0ddb9812b63b7190",
+    "can_clean_features_2018_2022.parquet": "d889ff82d7f6605bc348f98c8eebdada8ca350da6aad69923def23501efd1ca5"
+  },
+  "checks": [
+    {
+      "country": "USA",
+      "field": "lpop",
+      "grid": "pop_0p1.nc",
+      "rows": 38358,
+      "finite_original": 38358,
+      "finite_grid": 38358,
+      "finite_mask_equal": true,
+      "max_abs_error": 0.0,
+      "exact_values_including_missing": true
+    },
+    {
+      "country": "CAN",
+      "field": "lpop",
+      "grid": "pop_0p1.nc",
+      "rows": 12658,
+      "finite_original": 12658,
+      "finite_grid": 12658,
+      "finite_mask_equal": true,
+      "max_abs_error": 0.0,
+      "exact_values_including_missing": true
+    },
+    {
+      "country": "USA",
+      "field": "blh",
+      "grid": "era5_monthly_0p1.nc",
+      "rows": 38358,
+      "finite_original": 38358,
+      "finite_grid": 38358,
+      "finite_mask_equal": true,
+      "max_abs_error": 0.0,
+      "exact_values_including_missing": true
+    },
+    {
+      "country": "CAN",
+      "field": "blh",
+      "grid": "era5_monthly_0p1.nc",
+      "rows": 12658,
+      "finite_original": 12658,
+      "finite_grid": 12658,
+      "finite_mask_equal": true,
+      "max_abs_error": 0.0,
+      "exact_values_including_missing": true
+    },
+    {
+      "country": "USA",
+      "field": "wind10",
+      "grid": "era5_monthly_0p1.nc",
+      "rows": 38358,
+      "finite_original": 38358,
+      "finite_grid": 38358,
+      "finite_mask_equal": true,
+      "max_abs_error": 0.0,
+      "exact_values_including_missing": true
+    },
+    {
+      "country": "CAN",
+      "field": "wind10",
+      "grid": "era5_monthly_0p1.nc",
+      "rows": 12658,
+      "finite_original": 12658,
+      "finite_grid": 12658,
+      "finite_mask_equal": true,
+      "max_abs_error": 0.0,
+      "exact_values_including_missing": true
+    },
+    {
+      "country": "USA",
+      "field": "tp",
+      "grid": "era5_monthly_0p1.nc",
+      "rows": 38358,
+      "finite_original": 38358,
+      "finite_grid": 38358,
+      "finite_mask_equal": true,
+      "max_abs_error": 0.0,
+      "exact_values_including_missing": true
+    },
+    {
+      "country": "CAN",
+      "field": "tp",
+      "grid": "era5_monthly_0p1.nc",
+      "rows": 12658,
+      "finite_original": 12658,
+      "finite_grid": 12658,
+      "finite_mask_equal": true,
+      "max_abs_error": 0.0,
+      "exact_values_including_missing": true
+    },
+    {
+      "country": "USA",
+      "field": "t2m",
+      "grid": "era5_monthly_0p1.nc",
+      "rows": 38358,
+      "finite_original": 38358,
+      "finite_grid": 38358,
+      "finite_mask_equal": true,
+      "max_abs_error": 0.0,
+      "exact_values_including_missing": true
+    },
+    {
+      "country": "CAN",
+      "field": "t2m",
+      "grid": "era5_monthly_0p1.nc",
+      "rows": 12658,
+      "finite_original": 12658,
+      "finite_grid": 12658,
+      "finite_mask_equal": true,
+      "max_abs_error": 0.0,
+      "exact_values_including_missing": true
+    },
+    {
+      "country": "USA",
+      "field": "rh",
+      "grid": "era5_monthly_0p1.nc",
+      "rows": 38358,
+      "finite_original": 38358,
+      "finite_grid": 38358,
+      "finite_mask_equal": true,
+      "max_abs_error": 0.0,
+      "exact_values_including_missing": true
+    },
+    {
+      "country": "CAN",
+      "field": "rh",
+      "grid": "era5_monthly_0p1.nc",
+      "rows": 12658,
+      "finite_original": 12658,
+      "finite_grid": 12658,
+      "finite_mask_equal": true,
+      "max_abs_error": 0.0,
+      "exact_values_including_missing": true
+    },
+    {
+      "country": "USA",
+      "field": "vent",
+      "grid": "era5_monthly_0p1.nc",
+      "rows": 38358,
+      "finite_original": 38358,
+      "finite_grid": 38358,
+      "finite_mask_equal": true,
+      "max_abs_error": 0.0,
+      "exact_values_including_missing": true
+    },
+    {
+      "country": "CAN",
+      "field": "vent",
+      "grid": "era5_monthly_0p1.nc",
+      "rows": 12658,
+      "finite_original": 12658,
+      "finite_grid": 12658,
+      "finite_mask_equal": true,
+      "max_abs_error": 0.0,
+      "exact_values_including_missing": true
+    }
+  ],
+  "pid": 1705960
+}

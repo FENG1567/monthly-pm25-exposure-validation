@@ -1,0 +1,441 @@
+{
+  "notes": [
+    "Canonical code versions are kept distinct.",
+    "No internal QA records, credentials or raw observations are copied.",
+    "Required legacy source member and statistical protocol supplied; no raw data archive distributed.",
+    "Most source files are unchanged. Path-only redactions are declared per file with original and distribution hashes; no analysis mathematics or numeric parameters were modified.",
+    "Most source files are unchanged. Path-only redactions are declared per file with original and distribution hashes; no analysis mathematics or numeric parameters were modified.",
+    "Most source files are unchanged. Path-only redactions are declared per file with original and distribution hashes; no analysis mathematics or numeric parameters were modified.",
+    "Most source files are unchanged. Path-only redactions are declared per file with original and distribution hashes; no analysis mathematics or numeric parameters were modified.",
+    "Most source files are unchanged. Path-only redactions are declared per file with original and distribution hashes; no analysis mathematics or numeric parameters were modified."
+  ],
+  "files": [
+    {
+      "file": "analysis/original/historical/validation/validation_core.py",
+      "source_snapshot": "historical",
+      "sha256": "027fedd8cc1c77be30ee4dfe78e39291efe2e9ace89548369710814e71f34157",
+      "original_sha256": "027fedd8cc1c77be30ee4dfe78e39291efe2e9ace89548369710814e71f34157",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/historical/validation/run_validation.py",
+      "source_snapshot": "historical",
+      "sha256": "05f4a584d9f9bfef3cf3de627345d95d4e76558594672e69594dc79d0b3b287c",
+      "original_sha256": "05f4a584d9f9bfef3cf3de627345d95d4e76558594672e69594dc79d0b3b287c",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/historical/validation/support_diagnostics.py",
+      "source_snapshot": "historical",
+      "sha256": "27b1e546971bbcbcfad4539ca1010c3aa83db51cb7230a35651024d25bcc91bc",
+      "original_sha256": "27b1e546971bbcbcfad4539ca1010c3aa83db51cb7230a35651024d25bcc91bc",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/historical/validation/conformal_sensitivity.py",
+      "source_snapshot": "historical",
+      "sha256": "0b11184d6d89566851666ca25a4164c98fdddbed0156068c45dabc687ddac5c5",
+      "original_sha256": "0b11184d6d89566851666ca25a4164c98fdddbed0156068c45dabc687ddac5c5",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/historical/validation/fast_cluster_bootstrap.py",
+      "source_snapshot": "historical",
+      "sha256": "f8cbbbb53ce94a79b3da6b506788583880d81b817f18a5eba2b0f92fd1eb9332",
+      "original_sha256": "f8cbbbb53ce94a79b3da6b506788583880d81b817f18a5eba2b0f92fd1eb9332",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/historical/validation/run_external_year.py",
+      "source_snapshot": "historical",
+      "sha256": "1ba54715ca8e2a48c181767232555ea8863f28700fa1e2c38d5e6d263b16afbe",
+      "original_sha256": "1ba54715ca8e2a48c181767232555ea8863f28700fa1e2c38d5e6d263b16afbe",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/historical/fast_cluster_bootstrap.py",
+      "source_snapshot": "historical",
+      "sha256": "f8cbbbb53ce94a79b3da6b506788583880d81b817f18a5eba2b0f92fd1eb9332",
+      "original_sha256": "f8cbbbb53ce94a79b3da6b506788583880d81b817f18a5eba2b0f92fd1eb9332",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/portugal/validation/validation_core.py",
+      "source_snapshot": "portugal",
+      "sha256": "027fedd8cc1c77be30ee4dfe78e39291efe2e9ace89548369710814e71f34157",
+      "original_sha256": "027fedd8cc1c77be30ee4dfe78e39291efe2e9ace89548369710814e71f34157",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/portugal/validation/run_validation.py",
+      "source_snapshot": "portugal",
+      "sha256": "3ba6a7fd3830cd10c50c030871d06405eed85cd2bc380e06f31891fbd2d43539",
+      "original_sha256": "3ba6a7fd3830cd10c50c030871d06405eed85cd2bc380e06f31891fbd2d43539",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/portugal/validation/support_diagnostics.py",
+      "source_snapshot": "portugal",
+      "sha256": "27b1e546971bbcbcfad4539ca1010c3aa83db51cb7230a35651024d25bcc91bc",
+      "original_sha256": "27b1e546971bbcbcfad4539ca1010c3aa83db51cb7230a35651024d25bcc91bc",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/portugal/validation/conformal_sensitivity.py",
+      "source_snapshot": "portugal",
+      "sha256": "0b11184d6d89566851666ca25a4164c98fdddbed0156068c45dabc687ddac5c5",
+      "original_sha256": "0b11184d6d89566851666ca25a4164c98fdddbed0156068c45dabc687ddac5c5",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/portugal/validation/fast_cluster_bootstrap.py",
+      "source_snapshot": "portugal",
+      "sha256": "f8cbbbb53ce94a79b3da6b506788583880d81b817f18a5eba2b0f92fd1eb9332",
+      "original_sha256": "f8cbbbb53ce94a79b3da6b506788583880d81b817f18a5eba2b0f92fd1eb9332",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/portugal/fast_cluster_bootstrap.py",
+      "source_snapshot": "portugal",
+      "sha256": "f8cbbbb53ce94a79b3da6b506788583880d81b817f18a5eba2b0f92fd1eb9332",
+      "original_sha256": "f8cbbbb53ce94a79b3da6b506788583880d81b817f18a5eba2b0f92fd1eb9332",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/loco/validation/validation_core.py",
+      "source_snapshot": "loco",
+      "sha256": "027fedd8cc1c77be30ee4dfe78e39291efe2e9ace89548369710814e71f34157",
+      "original_sha256": "027fedd8cc1c77be30ee4dfe78e39291efe2e9ace89548369710814e71f34157",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/loco/validation/run_loco.py",
+      "source_snapshot": "loco",
+      "sha256": "193a7094576e8e2b4c822130067df1a43ce29b6fdc4248946b2ce0d3ee87185b",
+      "original_sha256": "193a7094576e8e2b4c822130067df1a43ce29b6fdc4248946b2ce0d3ee87185b",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/loco/fast_cluster_bootstrap.py",
+      "source_snapshot": "loco",
+      "sha256": "f8cbbbb53ce94a79b3da6b506788583880d81b817f18a5eba2b0f92fd1eb9332",
+      "original_sha256": "f8cbbbb53ce94a79b3da6b506788583880d81b817f18a5eba2b0f92fd1eb9332",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/historical/checks/assess_deployment_support.py",
+      "source_snapshot": "global_contrast_checks",
+      "sha256": "b7c88d905b5ece5a57f26fae9cbd4236b2da41248b37d70ddd85dce5367353c8",
+      "original_sha256": "b7c88d905b5ece5a57f26fae9cbd4236b2da41248b37d70ddd85dce5367353c8",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/historical/checks/fast_cluster_bootstrap.py",
+      "source_snapshot": "global_contrast_checks",
+      "sha256": "f8cbbbb53ce94a79b3da6b506788583880d81b817f18a5eba2b0f92fd1eb9332",
+      "original_sha256": "f8cbbbb53ce94a79b3da6b506788583880d81b817f18a5eba2b0f92fd1eb9332",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/historical/checks/multiplicity_final.py",
+      "source_snapshot": "global_contrast_checks",
+      "sha256": "544e71ee5f7ae87747c66358505df31a36bfe8a2c609c458212bcec45b1f1abe",
+      "original_sha256": "544e71ee5f7ae87747c66358505df31a36bfe8a2c609c458212bcec45b1f1abe",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/historical/checks/multiplicity_sensitivity.py",
+      "source_snapshot": "global_contrast_checks",
+      "sha256": "08e3f2f8568b2fe79192aa8fa00fa25a8838e5ee02b7c43f6e3a7b444f268be1",
+      "original_sha256": "08e3f2f8568b2fe79192aa8fa00fa25a8838e5ee02b7c43f6e3a7b444f268be1",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/historical/checks/final_multiplicity_family_registry.json",
+      "source_snapshot": "global_contrast_checks",
+      "sha256": "16df3d4a05756f998505cfcf589f4b06cdc63c81dba183f84ea993b88ddb9e1c",
+      "original_sha256": "6b58ce17e2c417e4203080f591cba573603a1b84d7f08b5f29256d6baabcf020",
+      "modified": true,
+      "change": "Only institutional absolute paths replaced with /external/project or a relative protocol path; scientific logic/parameters unchanged."
+    },
+    {
+      "file": "analysis/original/extras/run_station_thinning.py",
+      "source_snapshot": "component-specific",
+      "sha256": "f4db75a5327df2b0f1e69f0a4bb74f679f45c75f61278945573354c3008acf0e",
+      "original_sha256": "f4db75a5327df2b0f1e69f0a4bb74f679f45c75f61278945573354c3008acf0e",
+      "modified": false,
+      "scope": "Archived actual implementation; input contracts and external caches required"
+    },
+    {
+      "file": "analysis/original/extras/prepare_targets.py",
+      "source_snapshot": "component-specific",
+      "sha256": "65551f3a5c49fb37fc5e8103a9e787b608e87cfeb685e3b4c33d61023bfbceea",
+      "original_sha256": "65551f3a5c49fb37fc5e8103a9e787b608e87cfeb685e3b4c33d61023bfbceea",
+      "modified": false,
+      "scope": "Archived actual implementation; input contracts and external caches required"
+    },
+    {
+      "file": "analysis/original/extras/prepare_maiac_qa_features.py",
+      "source_snapshot": "component-specific",
+      "sha256": "3aa38b55aff406b1085082b60c0107ec5660990e43aad530783b647cd7f42680",
+      "original_sha256": "3aa38b55aff406b1085082b60c0107ec5660990e43aad530783b647cd7f42680",
+      "modified": false,
+      "scope": "Archived actual implementation; input contracts and external caches required"
+    },
+    {
+      "file": "analysis/original/extras/run_monthly_benchmark.py",
+      "source_snapshot": "component-specific",
+      "sha256": "10b0a8c95d09119c23a71f9cdad8e5db9256ae7f78b88f7839894c3035d99fb5",
+      "original_sha256": "c5add63861f36b8f3556c643f9a3f601ac0b4ab2e9e0d2438625bb8d2fc68b15",
+      "modified": true,
+      "scope": "Archived actual implementation; input contracts and external caches required",
+      "change": "Only institutional absolute paths replaced with /external/project or a relative protocol path; scientific logic/parameters unchanged."
+    },
+    {
+      "file": "analysis/original/extras/pt_tail_diagnostic.py",
+      "source_snapshot": "component-specific",
+      "sha256": "2e8851152f7235d15e50efb55db20105490b2f945579cc1234162ad332e523aa",
+      "original_sha256": "f35135bfd9ba217f2958876c956511fa6803a8a4c359f08d2d11973d8df67275",
+      "modified": true,
+      "scope": "Archived actual implementation; input contracts and external caches required",
+      "change": "Only institutional absolute paths replaced with /external/project or a relative protocol path; scientific logic/parameters unchanged."
+    },
+    {
+      "file": "analysis/original/historical/checks/multiplicity_final_protocol_addendum_20261113.md",
+      "source_snapshot": "hash-bound statistical protocol",
+      "sha256": "b3777b73fab176dda6c75868d456c92921d048d57d8146a6331474ecda1efc86",
+      "original_sha256": "b3777b73fab176dda6c75868d456c92921d048d57d8146a6331474ecda1efc86",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/work/repair_v2/multiplicity_final_protocol_addendum_20261113.md",
+      "source_snapshot": "hash-bound statistical protocol",
+      "sha256": "b3777b73fab176dda6c75868d456c92921d048d57d8146a6331474ecda1efc86",
+      "original_sha256": "b3777b73fab176dda6c75868d456c92921d048d57d8146a6331474ecda1efc86",
+      "modified": false
+    },
+    {
+      "file": "analysis/original/historical/checks/validation/qa_feature_inputs/qa_server_bundle_v3.zip",
+      "source_snapshot": "legacy mathematical provenance dependency",
+      "sha256": "37d785dfb588e8d06bb44a7feeb25af1a476b7eec2d2d313c9500741953d5920",
+      "original_archive_sha256": "3e288963ba5551cac14ffa69f0b4ce089da88148ac4965e86bc2237226809e54",
+      "member": "validation/validation_core.py",
+      "member_sha256": "a37bf3a381d007d5d541cdf74cf1a8ba81777b126189d1eb65bc6d5deafb562c",
+      "modified": true,
+      "change": "Only the required byte-identical source-code member is distributed; all other archive members excluded."
+    },
+    {
+      "file": "analysis/original/supplementary/results/summary_results.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "a2d3746615f1965b9429b94e872163e46f6499fc2d6528e5c2b1ec1d7ecdc3bd",
+      "original_sha256": "1b94d169983c29a9c99cd081427337370a3daf09e66afa222f174487948738bc",
+      "modified": true,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed.",
+      "change": "Only institutional absolute paths replaced with /external/project, /external/, or a relative protocol path; scientific logic/parameters unchanged."
+    },
+    {
+      "file": "analysis/original/supplementary/protocol/audit_protocol_inputs.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "6a3778152f4c7a5804930a5fe354a654468f6259a007e6e0783584482c1a0a77",
+      "original_sha256": "c6fe11e863d8cb53bbbec35a5ab1a318146b27cbcfbab6dbbc668458da036eb0",
+      "modified": true,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed.",
+      "change": "Only institutional absolute paths replaced with /external/project, /external/, or a relative protocol path; scientific logic/parameters unchanged."
+    },
+    {
+      "file": "analysis/original/supplementary/figures/plot_revision_figures.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "8bf86c413fa734c764799e02f3ba9442165e7f78cb459643299271b7b4da8c38",
+      "original_sha256": "8bf86c413fa734c764799e02f3ba9442165e7f78cb459643299271b7b4da8c38",
+      "modified": false,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed."
+    },
+    {
+      "file": "analysis/original/supplementary/figures/supp_semantics_fix/build_supp_semantics.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "97810efe5bc9f251f0035248201f4dd3464847070e0c945c27d013458d7e0c4e",
+      "original_sha256": "cacf68933c38fe6c93ba1ea63b07d286decd3d62aad1197ddfef7a935a545bf1",
+      "modified": true,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed.",
+      "change": "Only institutional absolute paths replaced with /external/project, /external/, or a relative protocol path; scientific logic/parameters unchanged."
+    },
+    {
+      "file": "analysis/original/auxiliary/final_grid_execution/build_reference16_v2.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "317723ad77c7927ad99f3b6b594839f24c7df4ddea6c89180ad9a75a283ffd5c",
+      "original_sha256": "317723ad77c7927ad99f3b6b594839f24c7df4ddea6c89180ad9a75a283ffd5c",
+      "modified": false,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed."
+    },
+    {
+      "file": "analysis/original/auxiliary/final_grid_execution/write_prediction_grid_v2.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "0049035bb798ddeede6100b8391975660d99f2a5b1f7438bf4b687ef1f8038e4",
+      "original_sha256": "0049035bb798ddeede6100b8391975660d99f2a5b1f7438bf4b687ef1f8038e4",
+      "modified": false,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed."
+    },
+    {
+      "file": "analysis/original/auxiliary/uscan_future_smoke_postfit/future28_diagnostics_v4.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "3acbf934cc5554c96b4b9b8ffa0a2a747c1598ffa2828bdd7c50b29998d88392",
+      "original_sha256": "3acbf934cc5554c96b4b9b8ffa0a2a747c1598ffa2828bdd7c50b29998d88392",
+      "modified": false,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed."
+    },
+    {
+      "file": "analysis/original/auxiliary/uscan_future_smoke_postfit/finish_hms_v1.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "32b78fe9f01dae8e507ea27310e9908db059ab248829c94162a8090cd61c18c2",
+      "original_sha256": "32b78fe9f01dae8e507ea27310e9908db059ab248829c94162a8090cd61c18c2",
+      "modified": false,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed."
+    },
+    {
+      "file": "analysis/original/auxiliary/uscan_future_smoke_postfit/hms_monthly_source_v1.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "d104f1cb2a5f6569a3b639c27842b93bb9cd0bfe115c56770730b4dfca3d115d",
+      "original_sha256": "d104f1cb2a5f6569a3b639c27842b93bb9cd0bfe115c56770730b4dfca3d115d",
+      "modified": false,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed."
+    },
+    {
+      "file": "analysis/original/auxiliary/uscan_future_smoke_postfit/historical_hms_pure_helpers_v1.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "e0861e57d28ac2953e93c93e15d1cd7842308d872c5b485807025b13e7f19b5b",
+      "original_sha256": "e0861e57d28ac2953e93c93e15d1cd7842308d872c5b485807025b13e7f19b5b",
+      "modified": false,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed."
+    },
+    {
+      "file": "analysis/original/auxiliary/uscan_future_smoke_postfit/original_validate_hms_2023.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "be8563fba7c6969a2a8f41100f2cf0a88a858fbf744fc4871ff9d279d701b1b7",
+      "original_sha256": "be8563fba7c6969a2a8f41100f2cf0a88a858fbf744fc4871ff9d279d701b1b7",
+      "modified": false,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed."
+    },
+    {
+      "file": "analysis/original/auxiliary/uscan_future_smoke_postfit/audit_oc2023_v2.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "8f81b3a06f9fb2396e159dc6628ff093996eb773f80f97bc8c8d6dcd5e09cc16",
+      "original_sha256": "8f81b3a06f9fb2396e159dc6628ff093996eb773f80f97bc8c8d6dcd5e09cc16",
+      "modified": false,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed."
+    },
+    {
+      "file": "analysis/original/auxiliary/uscan_future_smoke_postfit/historical_comparator_helpers.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "29b1645924b8cbff91226511f3cc9f410800e548871435d607d3b38c27481f93",
+      "original_sha256": "a655a1d158e8c52e8b54c3c77481e76e2977663d221d9b9f62a90b993f81bb00",
+      "modified": true,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed.",
+      "change": "Only institutional absolute paths replaced with /external/project, /external/, or a relative protocol path; scientific logic/parameters unchanged."
+    },
+    {
+      "file": "analysis/original/auxiliary/uscan_future_smoke_postfit/historical_joint_helpers.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "780c78abb8bc7c37003948bc15da3ff44a085eea53b5b60549a1526dd15371ec",
+      "original_sha256": "780fd37472e3241334cea697dd688f039f99a8d4f91102e28cb5196e3e7711b4",
+      "modified": true,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed.",
+      "change": "Only institutional absolute paths replaced with /external/project, /external/, or a relative protocol path; scientific logic/parameters unchanged."
+    },
+    {
+      "file": "analysis/original/auxiliary/uscan_future_smoke_postfit/joint_future_support_v1.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "4ced01c4f2879e36490bb40881234aa271b86901712b3e61833e0b33ae455a3e",
+      "original_sha256": "4ced01c4f2879e36490bb40881234aa271b86901712b3e61833e0b33ae455a3e",
+      "modified": false,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed."
+    },
+    {
+      "file": "analysis/original/auxiliary/uscan_future_smoke_postfit/audit_global_comparators_v1.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "ffb6f1f1a437d5b9bea54854aad8d7312c70e7ec5dc6026d7b32d99d91b66c64",
+      "original_sha256": "ffb6f1f1a437d5b9bea54854aad8d7312c70e7ec5dc6026d7b32d99d91b66c64",
+      "modified": false,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed."
+    },
+    {
+      "file": "analysis/original/auxiliary/uscan_future_smoke_postfit/future_core_gate_v1.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "13da303483814e11fd4b6a95442e014f4ec760ed46027c5519907dc42be5f0b4",
+      "original_sha256": "93f7f5903ecb73092bca57df9a386e8c6899ce7b2fb0bc57c5b33f1058716d00",
+      "modified": true,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed.",
+      "change": "Only institutional absolute paths replaced with /external/project, /external/, or a relative protocol path; scientific logic/parameters unchanged."
+    },
+    {
+      "file": "analysis/original/auxiliary/uscan_future_smoke_execution/run_future_smoke4_v1.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "2ecfec3caef072b774ff065ce092c5c75c793d25b1755555f6ecfd0d73d87a00",
+      "original_sha256": "ac11a6c9d0359723650db2a205a5634e333dc858d773b5c24eb969b9206761c3",
+      "modified": true,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed.",
+      "change": "Only institutional absolute paths replaced with /external/project, /external/, or a relative protocol path; scientific logic/parameters unchanged."
+    },
+    {
+      "file": "analysis/original/auxiliary/uscan_future_smoke_execution/materialize_future_smoke_v3.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "ffb935eb246249eaf285b3dcde46e60f6c9ee5e03c26ea9b81fe1f64affa4453",
+      "original_sha256": "99782f2e572562dc2c1d783a1996816a44eccb1b1010b4798da4ecd566a27b74",
+      "modified": true,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed.",
+      "change": "Only institutional absolute paths replaced with /external/project, /external/, or a relative protocol path; scientific logic/parameters unchanged."
+    },
+    {
+      "file": "analysis/original/auxiliary/uscan_future_smoke_execution/configure_future_smoke_v1.py",
+      "source_snapshot": "final revision supplementary/auxiliary runtime",
+      "sha256": "894f9044c88905e2d412a3d4fc5bae8b2bd9122fef3dcf27215e9aa3f7ce3d7b",
+      "original_sha256": "894f9044c88905e2d412a3d4fc5bae8b2bd9122fef3dcf27215e9aa3f7ce3d7b",
+      "modified": false,
+      "scope": "Archived source and dependencies; external feature/prediction/QA contracts required; no new raw rerun is claimed."
+    },
+    {
+      "file": "analysis/original/auxiliary/cams/global/fit_global.py",
+      "source_snapshot": "CAMS fitted comparator runtime",
+      "sha256": "85afce2921b9f7d1cce6a84441cfd3ceb757aa5a763b86065eb968c369ef1f71",
+      "original_sha256": "d4e3110900d291e9d13966dd88d5539cbbaea2c51c69c2132c51ba080e720a12",
+      "modified": true,
+      "scope": "Archived fitted-CAMS model and matched-comparison implementation; external accepted feature/OOF contracts required.",
+      "change": "Only institutional absolute paths replaced with /external/project, /external/, or a relative protocol path; scientific logic/parameters unchanged."
+    },
+    {
+      "file": "analysis/original/auxiliary/cams/global/compare_cams.py",
+      "source_snapshot": "CAMS fitted comparator runtime",
+      "sha256": "5596ec837e796cbfe789309bbf72c00a83df4edf4a0fafc588b921e31879a13d",
+      "original_sha256": "adfe83af59cc9ba7e6889a8229487e3961268b0b71f69bfe7b4bcc739462444c",
+      "modified": true,
+      "scope": "Archived fitted-CAMS model and matched-comparison implementation; external accepted feature/OOF contracts required.",
+      "change": "Only institutional absolute paths replaced with /external/project, /external/, or a relative protocol path; scientific logic/parameters unchanged."
+    },
+    {
+      "file": "analysis/original/auxiliary/cams/uscan/run_uscan_cams_usa_hgb_v2.py",
+      "source_snapshot": "CAMS fitted comparator runtime",
+      "sha256": "c0b97148887c42904351b50905ed368eff0efa8dad4e2fbf623517261908ffa9",
+      "original_sha256": "9186c836896c669ab3bc563212dfbe89e21792b67c3bb080cfebf6b52242539b",
+      "modified": true,
+      "scope": "Archived fitted-CAMS model and matched-comparison implementation; external accepted feature/OOF contracts required.",
+      "change": "Only institutional absolute paths replaced with /external/project, /external/, or a relative protocol path; scientific logic/parameters unchanged."
+    },
+    {
+      "file": "analysis/original/auxiliary/cams/uscan/run_remaining_cams_v2.py",
+      "source_snapshot": "CAMS fitted comparator runtime",
+      "sha256": "8cd4c319f8867cf3f65c1efa5f5f7b34863a864b1e53d168ae0f411911a6c355",
+      "original_sha256": "93fc4d991531a3624da89a1b635d2f1e9eaba5dfa7094fb16ab0248891acc5bd",
+      "modified": true,
+      "scope": "Archived fitted-CAMS model and matched-comparison implementation; external accepted feature/OOF contracts required.",
+      "change": "Only institutional absolute paths replaced with /external/project, /external/, or a relative protocol path; scientific logic/parameters unchanged."
+    },
+    {
+      "file": "analysis/original/auxiliary/cams/uscan/compare_remaining_cams_v3.py",
+      "source_snapshot": "CAMS fitted comparator runtime",
+      "sha256": "546662986f5ea0d2ede2680dd38f34e777d9bc2b5b82597a3f4015e865d4c641",
+      "original_sha256": "771cb6a06c619c555bbe3bececebf3d297152b223a663c40f068f62015bedb23",
+      "modified": true,
+      "scope": "Archived fitted-CAMS model and matched-comparison implementation; external accepted feature/OOF contracts required.",
+      "change": "Only institutional absolute paths replaced with /external/project, /external/, or a relative protocol path; scientific logic/parameters unchanged."
+    }
+  ]
+}

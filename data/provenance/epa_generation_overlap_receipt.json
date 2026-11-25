@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "kind": "daily",
+      "passed": true,
+      "saved_rows": 1638554,
+      "replayed_rows": 1638554,
+      "matched_rows": 1638554,
+      "saved_only": 0,
+      "replay_only": 0,
+      "finite_masks_equal": {
+        "pm25": true,
+        "lat": true,
+        "lon": true
+      },
+      "max_abs_difference": {
+        "pm25": 0.0,
+        "lat": 0.0,
+        "lon": 0.0
+      }
+    },
+    {
+      "kind": "monthly",
+      "passed": true,
+      "saved_rows": 49134,
+      "replayed_rows": 49134,
+      "matched_rows": 49134,
+      "saved_only": 0,
+      "replay_only": 0,
+      "finite_masks_equal": {
+        "pm25": true,
+        "ndays": true,
+        "lat": true,
+        "lon": true
+      },
+      "max_abs_difference": {
+        "pm25": 0.0,
+        "ndays": 0.0,
+        "lat": 0.0,
+        "lon": 0.0
+      }
+    }
+  ],
+  "scope": "The historical years in the extended target master equal the separately pinned six-year master in keys and compared fields."
+}

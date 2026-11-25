@@ -1,0 +1,44 @@
+{
+  "figure": "Figure_5_Calibration",
+  "caption": "Figure 5 | Prediction-interval coverage and width in the primary United States/Canada evaluation. (A) Station-month coverage pools covered/tested station-months. (B) Whole-station coverage pools test stations whose entire observed sequence is covered, divided by tested stations. (C) Mean width is weighted by test station-month counts, in µg m⁻³. All 64 primary folds have finite calibration thresholds. The 16 country–task–profile groups contain five folds for T1/T2 tasks and one for T3 2022 forward-year validation. Meteorological profiles are offset within country/task rows; vertical reference lines mark nominal 90% coverage. Fold detail and the separate feasibility construction are in Supplementary Figure S2.",
+  "panel_sources": {
+    "a": {
+      "filename": "data/summary/figure_panels/Figure_5_Calibration_Panel_a_Source_Data.csv",
+      "rows": 16,
+      "sha256": "4403fb01ea225763c82a98766ba9fb342526b1fdacbc9cce17a282a360e73259"
+    },
+    "b": {
+      "filename": "data/summary/figure_panels/Figure_5_Calibration_Panel_b_Source_Data.csv",
+      "rows": 16,
+      "sha256": "262eb9ce0e6d04c9b68ba66cae71ef83078987eb60cbdcbbd883dbe1b07cbcbd"
+    },
+    "c": {
+      "filename": "data/summary/figure_panels/Figure_5_Calibration_Panel_c_Source_Data.csv",
+      "rows": 16,
+      "sha256": "a5982d0c7bee245749c3c7400fcacfbff461dc8cc04e3404b1037b41b4266291"
+    }
+  },
+  "panel_rows": {
+    "a": 16,
+    "b": 16,
+    "c": 16
+  },
+  "outputs": {
+    "pdf": {
+      "filename": "Figure_5_Calibration.pdf",
+      "sha256": "c1a262519c65c6538915ee2fec4865f1da2ed60c8a839f9fbce974fea1c53700"
+    },
+    "png": {
+      "filename": "Figure_5_Calibration.png",
+      "sha256": "c9fd53252e3f090565cd3f0d175022790d2ee10d4fda23fad0ef1b6614101894"
+    },
+    "svg": {
+      "filename": "Figure_5_Calibration.svg",
+      "sha256": "ad63d8d3511e261b7c5415f243b4f949ab57f0fd1e5de58afe05d05e8ef7af49"
+    },
+    "tiff": {
+      "filename": "Figure_5_Calibration.tiff",
+      "sha256": "985e5612d54ea350c15f6d42f27b9e5f6db318fbaf14f0add37007329e0b1005"
+    }
+  }
+}

@@ -1,0 +1,2331 @@
+{
+  "main_tables": [
+    {
+      "id": "1",
+      "caption": "Table 1. Error and exposure support in high-fire-proxy months during fixed-window future evaluation. High-fire months exceed the 90th percentile of the outer-training regional fire feature. Errors are in µg m⁻³; signed bias is predicted minus observed. N/sites denotes P90 station-months/physical stations. Support columns show retained rows/sites (percentage of P90 rows); both rules combine the 50-km distance screen with bounds on non-geographic features. All-month and stratum-specific results and excluded counts are in Supplementary Tables S11–S12.",
+      "columns": [
+        "Country / year",
+        "Profile",
+        "P90 N / sites",
+        "P90 RMSE / bias",
+        "Other-month RMSE",
+        "Min–max retained",
+        "P01–P99 retained"
+      ],
+      "rows": [
+        [
+          "CAN 2023",
+          "No MET",
+          "725 / 210",
+          "11.081 / -4.157",
+          "1.830",
+          "466 / 185 (64.3%)",
+          "323 / 146 (44.6%)"
+        ],
+        [
+          "CAN 2023",
+          "With MET",
+          "725 / 210",
+          "11.736 / -4.678",
+          "1.808",
+          "466 / 185 (64.3%)",
+          "302 / 141 (41.7%)"
+        ],
+        [
+          "CAN 2024",
+          "No MET",
+          "326 / 115",
+          "4.486 / 0.798",
+          "1.786",
+          "279 / 112 (85.6%)",
+          "238 / 111 (73.0%)"
+        ],
+        [
+          "CAN 2024",
+          "With MET",
+          "326 / 115",
+          "4.566 / 0.691",
+          "1.691",
+          "279 / 112 (85.6%)",
+          "223 / 110 (68.4%)"
+        ],
+        [
+          "USA 2023",
+          "No MET",
+          "645 / 367",
+          "5.434 / -1.829",
+          "2.804",
+          "615 / 357 (95.3%)",
+          "495 / 317 (76.7%)"
+        ],
+        [
+          "USA 2023",
+          "With MET",
+          "645 / 367",
+          "5.260 / -1.749",
+          "2.726",
+          "614 / 357 (95.2%)",
+          "471 / 311 (73.0%)"
+        ],
+        [
+          "USA 2024",
+          "No MET",
+          "840 / 342",
+          "3.729 / 1.330",
+          "2.123",
+          "806 / 328 (96.0%)",
+          "754 / 326 (89.8%)"
+        ],
+        [
+          "USA 2024",
+          "With MET",
+          "840 / 342",
+          "3.690 / 1.316",
+          "2.035",
+          "803 / 325 (95.6%)",
+          "664 / 288 (79.0%)"
+        ],
+        [
+          "USA 2025",
+          "No MET",
+          "885 / 435",
+          "3.987 / 0.279",
+          "2.124",
+          "823 / 409 (93.0%)",
+          "781 / 404 (88.2%)"
+        ],
+        [
+          "USA 2025",
+          "With MET",
+          "885 / 435",
+          "3.952 / 0.193",
+          "2.064",
+          "823 / 409 (93.0%)",
+          "671 / 375 (75.8%)"
+        ]
+      ],
+      "source_csv": "data/summary/tables/Main_Table_1.csv",
+      "reference_csv": "results/reference/tables/Table_1.csv"
+    },
+    {
+      "id": "2",
+      "caption": "Table 2. Matched future comparison with a fitted B+CAMS model. Primary source policies, strict QA, log-smear/smearing and fixed historical training cutoff. RMSE and differences are in µg m⁻³. Positive B+CAMS minus full differences favor the full model. Brackets give conditional intervals from resampling physical stations; these comparator intervals are outside the 78-contrast multiplicity family. All fixed country-years and both profiles are reported.",
+      "columns": [
+        "Country / year",
+        "Profile",
+        "Full RMSE",
+        "B+CAMS RMSE",
+        "Difference [95% interval]"
+      ],
+      "rows": [
+        [
+          "CAN 2023",
+          "No MET",
+          "6.122",
+          "8.446",
+          "2.323 [1.900, 2.726]"
+        ],
+        [
+          "CAN 2023",
+          "With MET",
+          "6.457",
+          "7.765",
+          "1.308 [1.016, 1.661]"
+        ],
+        [
+          "CAN 2024",
+          "No MET",
+          "2.417",
+          "2.977",
+          "0.560 [0.036, 1.079]"
+        ],
+        [
+          "CAN 2024",
+          "With MET",
+          "2.382",
+          "2.836",
+          "0.454 [0.044, 0.876]"
+        ],
+        [
+          "USA 2023",
+          "No MET",
+          "3.058",
+          "3.090",
+          "0.032 [-0.017, 0.079]"
+        ],
+        [
+          "USA 2023",
+          "With MET",
+          "2.971",
+          "2.939",
+          "-0.032 [-0.074, 0.010]"
+        ],
+        [
+          "USA 2024",
+          "No MET",
+          "2.297",
+          "2.392",
+          "0.095 [0.009, 0.190]"
+        ],
+        [
+          "USA 2024",
+          "With MET",
+          "2.218",
+          "2.291",
+          "0.073 [0.002, 0.145]"
+        ],
+        [
+          "USA 2025",
+          "No MET",
+          "2.338",
+          "2.717",
+          "0.379 [0.229, 0.515]"
+        ],
+        [
+          "USA 2025",
+          "With MET",
+          "2.283",
+          "2.584",
+          "0.301 [0.198, 0.401]"
+        ]
+      ],
+      "source_csv": "data/summary/tables/Main_Table_2.csv",
+      "reference_csv": "results/reference/tables/Table_2.csv"
+    }
+  ],
+  "supplementary_tables": [
+    {
+      "id": "S1",
+      "caption": "Supplementary Table S1. Country-specific monitoring source, analysis period, input rows and sites, and eligibility for domestic T1 validation.",
+      "columns": [
+        "Code",
+        "Source / source policy",
+        "Period",
+        "Input rows / sites",
+        "Domestic T1 eligibility"
+      ],
+      "rows": [
+        [
+          "AUS",
+          "Queensland monitoring (QLD retain-valid-negative-hourly / coordinate-repaired primary)",
+          "2018–2022",
+          "1,508 / 42",
+          "Eligible"
+        ],
+        [
+          "BD",
+          "OpenAQ (OpenAQ reference-sensor-first)",
+          "2018–2022",
+          "52 / 1",
+          "Ineligible"
+        ],
+        [
+          "BRA",
+          "MonitorAr (source-month-coordinate convention; 2022 historical model cohort)",
+          "2022",
+          "180 / 43",
+          "Eligible"
+        ],
+        [
+          "CAN",
+          "NAPS (primary all-published target; common-method definitions separate sensitivities)",
+          "2018–2022",
+          "12,658 / 239",
+          "Eligible"
+        ],
+        [
+          "CL",
+          "OpenAQ (OpenAQ reference-sensor-first)",
+          "2018–2022",
+          "2,780 / 86",
+          "Eligible"
+        ],
+        [
+          "ES",
+          "OpenAQ (OpenAQ reference-sensor-first)",
+          "2019–2022",
+          "845 / 96",
+          "Eligible"
+        ],
+        [
+          "GR",
+          "OpenAQ (OpenAQ reference-sensor-first)",
+          "2020–2022",
+          "202 / 11",
+          "Eligible"
+        ],
+        [
+          "IN",
+          "OpenAQ (OpenAQ reference-sensor-first)",
+          "2018–2022",
+          "2,213 / 218",
+          "Eligible"
+        ],
+        [
+          "IT",
+          "OpenAQ (OpenAQ reference-sensor-first)",
+          "2020–2022",
+          "289 / 20",
+          "Eligible"
+        ],
+        [
+          "MEX",
+          "SINAICA (SINAICA operational-primary; source policy label nonnegative-hourly/quarantine 503/504/2022)",
+          "2018–2022",
+          "3,924 / 115",
+          "Eligible"
+        ],
+        [
+          "NP",
+          "OpenAQ (OpenAQ reference-sensor-first)",
+          "2018–2022",
+          "101 / 2",
+          "Ineligible"
+        ],
+        [
+          "PK",
+          "OpenAQ (OpenAQ reference-sensor-first)",
+          "2019–2022",
+          "147 / 5",
+          "Eligible"
+        ],
+        [
+          "PT",
+          "OpenAQ (OpenAQ reference-sensor-first)",
+          "2018–2022",
+          "434 / 16",
+          "Eligible"
+        ],
+        [
+          "TH",
+          "OpenAQ (OpenAQ reference-sensor-first)",
+          "2021–2022",
+          "1,367 / 114",
+          "Eligible"
+        ],
+        [
+          "USA",
+          "US EPA AQS/CSN (primary target excludes method codes 236/238)",
+          "2018–2022",
+          "38,358 / 866",
+          "Eligible"
+        ],
+        [
+          "VN",
+          "OpenAQ (OpenAQ reference-sensor-first)",
+          "2018–2022",
+          "103 / 2",
+          "Ineligible"
+        ],
+        [
+          "ZA",
+          "OpenAQ (OpenAQ reference-sensor-first)",
+          "2021–2022",
+          "322 / 61",
+          "Eligible"
+        ]
+      ],
+      "source_csv": "data/summary/tables/Supplementary_Table_S1.csv",
+      "reference_csv": "results/reference/tables/Table_S1.csv"
+    },
+    {
+      "id": "S2",
+      "caption": "Supplementary Table S2. PM2.5 target distribution among finite input rows. IQR is the 25th–75th percentile. Valid-day ranges and medians refer to selected historical station-months; IN and BRA use their original selected target masters.",
+      "columns": [
+        "Code",
+        "Finite targets n",
+        "Median",
+        "IQR (p25–p75)",
+        "P95",
+        "Min–max",
+        "Valid days: range; median"
+      ],
+      "rows": [
+        [
+          "AUS",
+          "1,508",
+          "5.347",
+          "4.267–6.499",
+          "10.778",
+          "1.511–25.070",
+          "20–31; 30"
+        ],
+        [
+          "BD",
+          "52",
+          "64.986",
+          "40.476–145.841",
+          "184.618",
+          "26.163–216.000",
+          "20–29; 28"
+        ],
+        [
+          "BRA",
+          "180",
+          "9.310",
+          "6.725–13.353",
+          "18.750",
+          "1.552–94.280",
+          "20–31; 28 (target master)"
+        ],
+        [
+          "CAN",
+          "12,658",
+          "5.775",
+          "4.507–7.501",
+          "11.537",
+          "0.554–113.778",
+          "20–31; 30"
+        ],
+        [
+          "CL",
+          "2,780",
+          "18.138",
+          "11.753–27.774",
+          "57.398",
+          "0.000–162.660",
+          "20–30; 28"
+        ],
+        [
+          "ES",
+          "845",
+          "2.920",
+          "0.441–9.345",
+          "16.312",
+          "0.000–68.356",
+          "20–30; 26"
+        ],
+        [
+          "GR",
+          "202",
+          "13.499",
+          "11.475–17.729",
+          "27.477",
+          "7.255–34.343",
+          "20–30; 25"
+        ],
+        [
+          "IN",
+          "2,213",
+          "45.461",
+          "27.757–79.107",
+          "182.786",
+          "0.000–917.667",
+          "20–30; 27 (target master)"
+        ],
+        [
+          "IT",
+          "289",
+          "13.799",
+          "11.099–17.689",
+          "28.433",
+          "4.438–219.648",
+          "20–30; 25"
+        ],
+        [
+          "MEX",
+          "3,924",
+          "19.011",
+          "14.171–25.102",
+          "40.089",
+          "0.000–987.287",
+          "20–31; 29"
+        ],
+        [
+          "NP",
+          "101",
+          "45.348",
+          "18.098–71.276",
+          "101.873",
+          "8.197–126.680",
+          "20–30; 27"
+        ],
+        [
+          "PK",
+          "147",
+          "59.505",
+          "36.173–89.304",
+          "195.190",
+          "21.064–358.000",
+          "20–30; 28"
+        ],
+        [
+          "PT",
+          "434",
+          "3.385",
+          "0.511–6.782",
+          "14.302",
+          "0.000–38.887",
+          "20–30; 26"
+        ],
+        [
+          "TH",
+          "1,367",
+          "21.221",
+          "14.036–29.041",
+          "38.064",
+          "4.722–60.104",
+          "20–29; 27"
+        ],
+        [
+          "USA",
+          "38,358",
+          "7.123",
+          "5.483–8.991",
+          "13.497",
+          "0.350–193.627",
+          "20–31; 30"
+        ],
+        [
+          "VN",
+          "103",
+          "32.712",
+          "25.814–50.716",
+          "168.028",
+          "11.276–662.365",
+          "20–29; 27"
+        ],
+        [
+          "ZA",
+          "322",
+          "17.054",
+          "9.659–27.385",
+          "42.579",
+          "0.026–101.444",
+          "20–31; 24"
+        ]
+      ],
+      "source_csv": "data/summary/tables/Supplementary_Table_S2.csv",
+      "reference_csv": "results/reference/tables/Table_S2.csv"
+    },
+    {
+      "id": "S3",
+      "caption": "Supplementary Table S3. Finite predictor coverage by country. Cells show finite rows (percentage of input rows); Absent means the column is unavailable. Nonfinite counts equal input rows minus finite rows. The complete 68-row source table, including column-presence and nonfinite counts, is supplied as Supplementary_Table_S3_Detail.csv.",
+      "columns": [
+        "Code",
+        "Input rows",
+        "Raw AOD",
+        "Used AOD",
+        "Boundary-layer height",
+        "Relative humidity"
+      ],
+      "rows": [
+        [
+          "AUS",
+          "1,508",
+          "1,508 (100.0%)",
+          "1,508 (100.0%)",
+          "1,508 (100.0%)",
+          "1,508 (100.0%)"
+        ],
+        [
+          "BD",
+          "52",
+          "45 (86.5%)",
+          "52 (100.0%)",
+          "52 (100.0%)",
+          "52 (100.0%)"
+        ],
+        [
+          "BRA",
+          "180",
+          "180 (100.0%)",
+          "180 (100.0%)",
+          "180 (100.0%)",
+          "180 (100.0%)"
+        ],
+        [
+          "CAN",
+          "12,658",
+          "10,215 (80.7%)",
+          "11,502 (90.9%)",
+          "12,658 (100.0%)",
+          "12,658 (100.0%)"
+        ],
+        [
+          "CL",
+          "2,780",
+          "2,779 (100.0%)",
+          "2,780 (100.0%)",
+          "1,341 (48.2%)",
+          "1,341 (48.2%)"
+        ],
+        [
+          "ES",
+          "845",
+          "845 (100.0%)",
+          "845 (100.0%)",
+          "845 (100.0%)",
+          "845 (100.0%)"
+        ],
+        [
+          "GR",
+          "202",
+          "202 (100.0%)",
+          "202 (100.0%)",
+          "202 (100.0%)",
+          "202 (100.0%)"
+        ],
+        [
+          "IN",
+          "2,213",
+          "2,012 (90.9%)",
+          "2,208 (99.8%)",
+          "2,213 (100.0%)",
+          "2,213 (100.0%)"
+        ],
+        [
+          "IT",
+          "289",
+          "286 (99.0%)",
+          "289 (100.0%)",
+          "289 (100.0%)",
+          "289 (100.0%)"
+        ],
+        [
+          "MEX",
+          "3,924",
+          "3,924 (100.0%)",
+          "3,924 (100.0%)",
+          "3,924 (100.0%)",
+          "3,924 (100.0%)"
+        ],
+        [
+          "NP",
+          "101",
+          "98 (97.0%)",
+          "101 (100.0%)",
+          "101 (100.0%)",
+          "101 (100.0%)"
+        ],
+        [
+          "PK",
+          "147",
+          "147 (100.0%)",
+          "147 (100.0%)",
+          "147 (100.0%)",
+          "147 (100.0%)"
+        ],
+        [
+          "PT",
+          "434",
+          "434 (100.0%)",
+          "434 (100.0%)",
+          "434 (100.0%)",
+          "434 (100.0%)"
+        ],
+        [
+          "TH",
+          "1,367",
+          "1,362 (99.6%)",
+          "1,367 (100.0%)",
+          "1,367 (100.0%)",
+          "1,367 (100.0%)"
+        ],
+        [
+          "USA",
+          "38,358",
+          "37,103 (96.7%)",
+          "37,821 (98.6%)",
+          "38,358 (100.0%)",
+          "38,358 (100.0%)"
+        ],
+        [
+          "VN",
+          "103",
+          "101 (98.1%)",
+          "103 (100.0%)",
+          "103 (100.0%)",
+          "103 (100.0%)"
+        ],
+        [
+          "ZA",
+          "322",
+          "322 (100.0%)",
+          "322 (100.0%)",
+          "0 (0.0%)",
+          "0 (0.0%)"
+        ]
+      ],
+      "source_csv": "data/summary/tables/Supplementary_Table_S3.csv",
+      "reference_csv": "results/reference/tables/Table_S3.csv"
+    },
+    {
+      "id": "S4",
+      "caption": "Table S4. Predictor definitions and documented source scope, including the distinction between later and earlier meteorological input generations and the remaining provenance limits.",
+      "columns": [
+        "Field",
+        "Definition and unit",
+        "Documented construction",
+        "Interpretation / source scope"
+      ],
+      "rows": [
+        [
+          "AOD",
+          "Observed QA-cell value, otherwise supplied 9 × 9 fill; unitless",
+          "Downstream raw/fill/used merge invariant; historical USA/CAN source census",
+          "Complete raw-granule reconstruction unavailable"
+        ],
+        [
+          "Population",
+          "GHSL 2020; people per 0.1° cell; log10(1+population)",
+          "Historical USA/CAN grid and specified future inputs",
+          "Other historical raster-to-field mappings incomplete"
+        ],
+        [
+          "blh",
+          "Monthly mean boundary-layer height, m",
+          "Historical USA/CAN grid; regional ERA5 records",
+          "Source generations remain distinct"
+        ],
+        [
+          "wind10",
+          "hypot(monthly mean u10,v10), m s⁻¹",
+          "Historical USA/CAN grid; regional ERA5 records",
+          "Not the monthly mean of hourly wind-speed magnitude"
+        ],
+        [
+          "tp",
+          "MODA mean daily accumulated precipitation × 1000, mm day⁻¹",
+          "Historical USA/CAN grid; regional ERA5 records",
+          "Legacy mm month⁻¹ comments do not describe these values"
+        ],
+        [
+          "t2m",
+          "Monthly mean 2-m temperature: K − 273.15, °C",
+          "Historical USA/CAN grid; regional ERA5 records",
+          "Source-generation equivalence not established for every country"
+        ],
+        [
+          "rh",
+          "Monthly-temperature/dewpoint Magnus expression; clipped 1–100%",
+          "17.67/243.5 Magnus coefficients in historical code and later regional helper",
+          "Monthly fields; earlier regional helper hash unresolved"
+        ],
+        [
+          "vent",
+          "blh × wind10, m² s⁻¹",
+          "Historical USA/CAN grid; regional ERA5 records",
+          "Product of monthly fields; not mean hourly ventilation"
+        ],
+        [
+          "MET fill",
+          "Only nonfinite values filled; prior finite values unchanged",
+          "The documented regional fill generation",
+          "Does not establish identical generation in every selected table"
+        ]
+      ],
+      "source_csv": "data/summary/tables/Supplementary_Table_S4.csv",
+      "reference_csv": "results/reference/tables/Table_S4.csv"
+    },
+    {
+      "id": "S5",
+      "caption": "Supplementary Table S5. Spatial validation geometry summarized by country and task. The complete 154-row fold-level source table is supplied separately; buffer exclusions are summed across folds, not unique stations.",
+      "columns": [
+        "Country / task",
+        "Folds",
+        "Test sites, range",
+        "Buffer exclusions, fold sum",
+        "Median distance, fold range",
+        "P90 distance, fold range",
+        "Test sites within 50 km, range"
+      ],
+      "rows": [
+        [
+          "AUS / T2",
+          "5",
+          "1–23",
+          "0",
+          "176.9–781.2 km",
+          "192.6–781.2 km",
+          "0.0%"
+        ],
+        [
+          "AUS / T2+50km",
+          "5",
+          "1–23",
+          "0",
+          "176.9–781.2 km",
+          "192.6–781.2 km",
+          "0.0%"
+        ],
+        [
+          "BRA / T2",
+          "4",
+          "1–2",
+          "0",
+          "445.5–886.6 km",
+          "445.5–886.6 km",
+          "0.0%"
+        ],
+        [
+          "BRA / T2+50km",
+          "4",
+          "1–2",
+          "0",
+          "445.5–886.6 km",
+          "445.5–886.6 km",
+          "0.0%"
+        ],
+        [
+          "CAN / T2",
+          "15",
+          "23–66",
+          "0",
+          "not recorded",
+          "not recorded",
+          "not recorded"
+        ],
+        [
+          "CAN / T2+50km",
+          "15",
+          "23–66",
+          "0",
+          "not recorded",
+          "not recorded",
+          "not recorded"
+        ],
+        [
+          "CL / T2",
+          "5",
+          "6–32",
+          "0",
+          "234.5–565.4 km",
+          "282.4–988.9 km",
+          "0.0%"
+        ],
+        [
+          "CL / T2+50km",
+          "5",
+          "6–32",
+          "0",
+          "234.5–565.4 km",
+          "282.4–988.9 km",
+          "0.0%"
+        ],
+        [
+          "ES / T2",
+          "5",
+          "10–28",
+          "0",
+          "138.9–262.4 km",
+          "153.7–299.5 km",
+          "0.0%"
+        ],
+        [
+          "ES / T2+50km",
+          "5",
+          "10–28",
+          "0",
+          "138.9–262.4 km",
+          "153.7–299.5 km",
+          "0.0%"
+        ],
+        [
+          "GR / T2",
+          "4",
+          "1–2",
+          "0",
+          "51.9–136.1 km",
+          "51.9–140.9 km",
+          "0.0%"
+        ],
+        [
+          "GR / T2+50km",
+          "4",
+          "1–2",
+          "0",
+          "51.9–136.1 km",
+          "51.9–140.9 km",
+          "0.0%"
+        ],
+        [
+          "IN / T2",
+          "5",
+          "22–74",
+          "0",
+          "253.0–545.5 km",
+          "375.6–694.2 km",
+          "0.0%"
+        ],
+        [
+          "IN / T2+50km",
+          "5",
+          "22–74",
+          "0",
+          "253.0–545.5 km",
+          "375.6–694.2 km",
+          "0.0%"
+        ],
+        [
+          "IT / T2",
+          "5",
+          "1–6",
+          "0",
+          "166.8–289.3 km",
+          "213.0–289.3 km",
+          "0.0%"
+        ],
+        [
+          "IT / T2+50km",
+          "5",
+          "1–6",
+          "0",
+          "166.8–289.3 km",
+          "213.0–289.3 km",
+          "0.0%"
+        ],
+        [
+          "MEX / T2",
+          "5",
+          "6–43",
+          "0",
+          "148.7–859.5 km",
+          "220.0–996.2 km",
+          "0.0–0.0%"
+        ],
+        [
+          "MEX / T2+50km",
+          "5",
+          "6–43",
+          "2",
+          "179.2–859.5 km",
+          "221.3–996.2 km",
+          "0.0%"
+        ],
+        [
+          "PK / T2",
+          "5",
+          "1–1",
+          "0",
+          "0.3–1035.6 km",
+          "0.3–1035.6 km",
+          "0.0–1.0%"
+        ],
+        [
+          "PK / T2+50km",
+          "3",
+          "1–1",
+          "0",
+          "149.0–1035.6 km",
+          "149.0–1035.6 km",
+          "0.0%"
+        ],
+        [
+          "PT / T2",
+          "5",
+          "1–5",
+          "0",
+          "86.1–146.9 km",
+          "96.5–209.5 km",
+          "0.0–0.2%"
+        ],
+        [
+          "PT / T2+50km",
+          "5",
+          "1–5",
+          "2",
+          "96.5–146.9 km",
+          "118.4–209.5 km",
+          "0.0%"
+        ],
+        [
+          "TH / T2",
+          "5",
+          "2–79",
+          "0",
+          "147.3–419.3 km",
+          "194.9–737.1 km",
+          "0.0%"
+        ],
+        [
+          "TH / T2+50km",
+          "5",
+          "2–79",
+          "0",
+          "147.3–419.3 km",
+          "194.9–737.1 km",
+          "0.0%"
+        ],
+        [
+          "USA / T2",
+          "5",
+          "127–205",
+          "0",
+          "not recorded",
+          "not recorded",
+          "not recorded"
+        ],
+        [
+          "USA / T2+50km",
+          "5",
+          "127–205",
+          "0",
+          "not recorded",
+          "not recorded",
+          "not recorded"
+        ],
+        [
+          "ZA / T2",
+          "5",
+          "3–38",
+          "0",
+          "168.4–655.3 km",
+          "210.0–666.9 km",
+          "0.0%"
+        ],
+        [
+          "ZA / T2+50km",
+          "5",
+          "3–38",
+          "0",
+          "168.4–655.3 km",
+          "210.0–666.9 km",
+          "0.0%"
+        ]
+      ],
+      "source_csv": "data/summary/tables/Supplementary_Table_S5.csv",
+      "reference_csv": "results/reference/tables/Table_S5.csv"
+    },
+    {
+      "id": "S6",
+      "caption": "Table S6. Native monthly SatPM comparison support. Each row is one model specification; observations are reused across MET and update-policy specifications. All 12 cells use the native 0.1° V6GL03 monthly product; no 2025 product was substituted.",
+      "columns": [
+        "Country / mode / year",
+        "Profile",
+        "Prediction rows / sites",
+        "Matched rows / sites",
+        "Row loss",
+        "Status"
+      ],
+      "rows": [
+        [
+          "CAN / fixed / 2023",
+          "no_met",
+          "2537 / 220",
+          "2537 / 220",
+          "0",
+          "eligible"
+        ],
+        [
+          "CAN / fixed / 2023",
+          "with_met",
+          "2537 / 220",
+          "2537 / 220",
+          "0",
+          "eligible"
+        ],
+        [
+          "CAN / fixed / 2024",
+          "no_met",
+          "2083 / 183",
+          "2083 / 183",
+          "0",
+          "eligible"
+        ],
+        [
+          "CAN / fixed / 2024",
+          "with_met",
+          "2083 / 183",
+          "2083 / 183",
+          "0",
+          "eligible"
+        ],
+        [
+          "CAN / rolling / 2024",
+          "no_met",
+          "2083 / 183",
+          "2083 / 183",
+          "0",
+          "eligible"
+        ],
+        [
+          "CAN / rolling / 2024",
+          "with_met",
+          "2083 / 183",
+          "2083 / 183",
+          "0",
+          "eligible"
+        ],
+        [
+          "USA / fixed / 2023",
+          "no_met",
+          "9371 / 855",
+          "9371 / 855",
+          "0",
+          "eligible"
+        ],
+        [
+          "USA / fixed / 2023",
+          "with_met",
+          "9371 / 855",
+          "9371 / 855",
+          "0",
+          "eligible"
+        ],
+        [
+          "USA / fixed / 2024",
+          "no_met",
+          "10242 / 909",
+          "10242 / 909",
+          "0",
+          "eligible"
+        ],
+        [
+          "USA / fixed / 2024",
+          "with_met",
+          "10242 / 909",
+          "10242 / 909",
+          "0",
+          "eligible"
+        ],
+        [
+          "USA / rolling / 2024",
+          "no_met",
+          "10242 / 909",
+          "10242 / 909",
+          "0",
+          "eligible"
+        ],
+        [
+          "USA / rolling / 2024",
+          "with_met",
+          "10242 / 909",
+          "10242 / 909",
+          "0",
+          "eligible"
+        ]
+      ],
+      "source_csv": "data/summary/tables/Supplementary_Table_S6.csv",
+      "reference_csv": "results/reference/tables/Table_S6.csv"
+    },
+    {
+      "id": "S7",
+      "caption": "Table S7. Portugal training-only retransformation diagnostics conducted after the extreme score was observed. Factors were reproduced under matched source data, split assignments, training support, and model settings; diagnostics did not select a replacement model.",
+      "columns": [
+        "Profile / task / fold",
+        "Training rows / sites",
+        "Smear factor",
+        "q99 exp(residual)",
+        "Largest-row share, %",
+        "Zero-clipped pairs"
+      ],
+      "rows": [
+        [
+          "no_met / T1 / 0",
+          "351 / 13",
+          "5.5705",
+          "71.76",
+          "8.30",
+          "0"
+        ],
+        [
+          "no_met / T1 / 1",
+          "348 / 13",
+          "8.5413",
+          "77.66",
+          "8.89",
+          "0"
+        ],
+        [
+          "no_met / T1 / 2",
+          "339 / 12",
+          "8.7758",
+          "59.01",
+          "4.21",
+          "0"
+        ],
+        [
+          "no_met / T1 / 3",
+          "349 / 13",
+          "9.4065",
+          "79.37",
+          "6.67",
+          "0"
+        ],
+        [
+          "no_met / T1 / 4",
+          "349 / 13",
+          "8.2749",
+          "112.62",
+          "7.27",
+          "0"
+        ],
+        [
+          "no_met / T3 2022 / 2022",
+          "339 / 16",
+          "6.6918",
+          "103.79",
+          "7.72",
+          "0"
+        ],
+        [
+          "with_met / T1 / 0",
+          "351 / 13",
+          "4.7499",
+          "60.53",
+          "9.70",
+          "0"
+        ],
+        [
+          "with_met / T1 / 1",
+          "348 / 13",
+          "8.1525",
+          "70.23",
+          "7.21",
+          "0"
+        ],
+        [
+          "with_met / T1 / 2",
+          "339 / 12",
+          "7.3937",
+          "44.44",
+          "2.97",
+          "0"
+        ],
+        [
+          "with_met / T1 / 3",
+          "349 / 13",
+          "9.8926",
+          "114.86",
+          "6.72",
+          "0"
+        ],
+        [
+          "with_met / T1 / 4",
+          "349 / 13",
+          "8.0207",
+          "87.42",
+          "7.46",
+          "0"
+        ],
+        [
+          "with_met / T3 2022 / 2022",
+          "339 / 16",
+          "6.3085",
+          "98.63",
+          "9.59",
+          "0"
+        ]
+      ],
+      "source_csv": "data/summary/tables/Supplementary_Table_S7.csv",
+      "reference_csv": "results/reference/tables/Table_S7.csv"
+    },
+    {
+      "id": "S8",
+      "caption": "Supplementary Table S8. OC tracer consistency in 2023. Strict QA, P90 fire gate, and log-smear branch; parameter/method series are separate. PM training ended in 2022 and excluded PM sites within 10 km of any OC site. N/sites denotes matched station-month pairs/stations. Intervals use station resampling with fitted predictions fixed. OC is nonspecific, and these correlations do not establish smoke mass.",
+      "columns": [
+        "Parameter / method",
+        "Profile",
+        "N / sites",
+        "Pearson r",
+        "95% interval"
+      ],
+      "rows": [
+        [
+          "88320/805",
+          "No MET",
+          "1,678/142",
+          "0.309",
+          "0.175–0.499"
+        ],
+        [
+          "88320/838",
+          "No MET",
+          "1,444/126",
+          "0.398",
+          "0.288–0.495"
+        ],
+        [
+          "88382/838",
+          "No MET",
+          "1,444/126",
+          "0.393",
+          "0.290–0.492"
+        ],
+        [
+          "88320/805",
+          "With MET",
+          "1,678/142",
+          "0.336",
+          "0.181–0.562"
+        ],
+        [
+          "88320/838",
+          "With MET",
+          "1,444/126",
+          "0.409",
+          "0.307–0.500"
+        ],
+        [
+          "88382/838",
+          "With MET",
+          "1,444/126",
+          "0.405",
+          "0.310–0.500"
+        ]
+      ],
+      "source_csv": "data/summary/tables/Supplementary_Table_S8.csv",
+      "reference_csv": "results/reference/tables/Table_S8.csv"
+    },
+    {
+      "id": "S9",
+      "caption": "Supplementary Table S9. Primary historical station-grouped validation. Strict QA, HGB, log-smear target with smearing retransformation, full feature arm. N/sites denotes held-out station-months/physical stations; periods and task-specific eligibility criteria are reported in Supplementary Data. AUS represents Queensland. RMSE is in µg m⁻³. No MET and With MET are prespecified profiles.",
+      "columns": [
+        "Code",
+        "N / sites",
+        "R² no MET",
+        "R² with MET",
+        "RMSE no MET",
+        "RMSE with MET"
+      ],
+      "rows": [
+        [
+          "AUS",
+          "1,508 / 42",
+          "0.683",
+          "0.706",
+          "1.548",
+          "1.493"
+        ],
+        [
+          "BD",
+          "Ineligible",
+          "—",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "BRA",
+          "180 / 43",
+          "-0.053",
+          "-0.053",
+          "7.944",
+          "7.942"
+        ],
+        [
+          "CAN",
+          "12,658 / 239",
+          "0.719",
+          "0.750",
+          "2.368",
+          "2.232"
+        ],
+        [
+          "CL",
+          "2,780 / 86",
+          "0.698",
+          "0.678",
+          "9.261",
+          "9.565"
+        ],
+        [
+          "ES",
+          "845 / 96",
+          "0.485",
+          "0.602",
+          "4.319",
+          "3.798"
+        ],
+        [
+          "GR",
+          "202 / 11",
+          "-0.076",
+          "-0.035",
+          "5.769",
+          "5.657"
+        ],
+        [
+          "IN",
+          "2,213 / 218",
+          "0.544",
+          "0.553",
+          "39.011",
+          "38.658"
+        ],
+        [
+          "IT",
+          "289 / 20",
+          "0.043",
+          "0.025",
+          "14.361",
+          "14.492"
+        ],
+        [
+          "MEX",
+          "3,924 / 115",
+          "-0.004",
+          "-0.008",
+          "48.976",
+          "49.071"
+        ],
+        [
+          "NP",
+          "Ineligible",
+          "—",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "PK",
+          "147 / 5",
+          "-0.103",
+          "0.202",
+          "57.216",
+          "48.667"
+        ],
+        [
+          "PT",
+          "434 / 16",
+          "-11.363",
+          "-13.403",
+          "18.039",
+          "19.471"
+        ],
+        [
+          "TH",
+          "1,367 / 114",
+          "0.754",
+          "0.757",
+          "4.666",
+          "4.630"
+        ],
+        [
+          "USA",
+          "38,358 / 866",
+          "0.640",
+          "0.665",
+          "2.692",
+          "2.599"
+        ],
+        [
+          "VN",
+          "Ineligible",
+          "—",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "ZA",
+          "322 / 61",
+          "0.176",
+          "0.221",
+          "12.857",
+          "12.503"
+        ]
+      ],
+      "source_csv": "data/summary/tables/Supplementary_Table_S9.csv",
+      "reference_csv": "results/reference/tables/Table_S9.csv"
+    },
+    {
+      "id": "S10",
+      "caption": "Supplementary Table S10. Fixed-window future validation of the full model. All models trained through 2022; primary source policies, strict QA, HGB and log-smear/smearing. N/sites denotes held-out station-months/stations. The 2023 period had been examined before final evaluation, whereas protocols for later-year evaluations were fixed before their final scores were examined. RMSE and signed bias are in µg m⁻³.",
+      "columns": [
+        "Country / year",
+        "Profile",
+        "N / sites",
+        "R²",
+        "RMSE",
+        "Bias"
+      ],
+      "rows": [
+        [
+          "CAN 2023",
+          "No MET",
+          "2,537/220",
+          "0.614",
+          "6.122",
+          "-1.117"
+        ],
+        [
+          "CAN 2023",
+          "With MET",
+          "2,537/220",
+          "0.570",
+          "6.457",
+          "-1.229"
+        ],
+        [
+          "CAN 2024",
+          "No MET",
+          "2,083/183",
+          "0.449",
+          "2.417",
+          "0.870"
+        ],
+        [
+          "CAN 2024",
+          "With MET",
+          "2,083/183",
+          "0.465",
+          "2.382",
+          "0.904"
+        ],
+        [
+          "USA 2023",
+          "No MET",
+          "9,371/855",
+          "0.450",
+          "3.058",
+          "-0.492"
+        ],
+        [
+          "USA 2023",
+          "With MET",
+          "9,371/855",
+          "0.481",
+          "2.971",
+          "-0.459"
+        ],
+        [
+          "USA 2024",
+          "No MET",
+          "10,242/909",
+          "0.443",
+          "2.297",
+          "0.631"
+        ],
+        [
+          "USA 2024",
+          "With MET",
+          "10,242/909",
+          "0.481",
+          "2.218",
+          "0.640"
+        ],
+        [
+          "USA 2025",
+          "No MET",
+          "10,538/924",
+          "0.434",
+          "2.338",
+          "0.237"
+        ],
+        [
+          "USA 2025",
+          "With MET",
+          "10,538/924",
+          "0.460",
+          "2.283",
+          "0.233"
+        ]
+      ],
+      "source_csv": "data/summary/tables/Supplementary_Table_S10.csv",
+      "reference_csv": "results/reference/tables/Table_S10.csv"
+    },
+    {
+      "id": "S11",
+      "caption": "Supplementary Table S11. Fixed-window future risk by fire-month stratum. Strict HGB full model with log-smear/smearing; no rolling rows are included. High fire denotes the P90 fire-feature proxy.",
+      "columns": [
+        "Country / year",
+        "Profile",
+        "Fire-month stratum",
+        "N / sites",
+        "Full RMSE (µg/m³)",
+        "Full bias (µg/m³)"
+      ],
+      "rows": [
+        [
+          "CAN 2023",
+          "No MET",
+          "All months",
+          "2,537 / 220",
+          "6.122",
+          "-1.117"
+        ],
+        [
+          "CAN 2023",
+          "No MET",
+          "P90 fire proxy",
+          "725 / 210",
+          "11.081",
+          "-4.157"
+        ],
+        [
+          "CAN 2023",
+          "No MET",
+          "Other months",
+          "1,812 / 220",
+          "1.830",
+          "0.099"
+        ],
+        [
+          "CAN 2023",
+          "With MET",
+          "All months",
+          "2,537 / 220",
+          "6.457",
+          "-1.229"
+        ],
+        [
+          "CAN 2023",
+          "With MET",
+          "P90 fire proxy",
+          "725 / 210",
+          "11.736",
+          "-4.678"
+        ],
+        [
+          "CAN 2023",
+          "With MET",
+          "Other months",
+          "1,812 / 220",
+          "1.808",
+          "0.151"
+        ],
+        [
+          "CAN 2024",
+          "No MET",
+          "All months",
+          "2,083 / 183",
+          "2.417",
+          "0.870"
+        ],
+        [
+          "CAN 2024",
+          "No MET",
+          "P90 fire proxy",
+          "326 / 115",
+          "4.486",
+          "0.798"
+        ],
+        [
+          "CAN 2024",
+          "No MET",
+          "Other months",
+          "1,757 / 183",
+          "1.786",
+          "0.883"
+        ],
+        [
+          "CAN 2024",
+          "With MET",
+          "All months",
+          "2,083 / 183",
+          "2.382",
+          "0.904"
+        ],
+        [
+          "CAN 2024",
+          "With MET",
+          "P90 fire proxy",
+          "326 / 115",
+          "4.566",
+          "0.691"
+        ],
+        [
+          "CAN 2024",
+          "With MET",
+          "Other months",
+          "1,757 / 183",
+          "1.691",
+          "0.943"
+        ],
+        [
+          "USA 2023",
+          "No MET",
+          "All months",
+          "9,371 / 855",
+          "3.058",
+          "-0.492"
+        ],
+        [
+          "USA 2023",
+          "No MET",
+          "P90 fire proxy",
+          "645 / 367",
+          "5.434",
+          "-1.829"
+        ],
+        [
+          "USA 2023",
+          "No MET",
+          "Other months",
+          "8,726 / 855",
+          "2.804",
+          "-0.393"
+        ],
+        [
+          "USA 2023",
+          "With MET",
+          "All months",
+          "9,371 / 855",
+          "2.971",
+          "-0.459"
+        ],
+        [
+          "USA 2023",
+          "With MET",
+          "P90 fire proxy",
+          "645 / 367",
+          "5.260",
+          "-1.749"
+        ],
+        [
+          "USA 2023",
+          "With MET",
+          "Other months",
+          "8,726 / 855",
+          "2.726",
+          "-0.363"
+        ],
+        [
+          "USA 2024",
+          "No MET",
+          "All months",
+          "10,242 / 909",
+          "2.297",
+          "0.631"
+        ],
+        [
+          "USA 2024",
+          "No MET",
+          "P90 fire proxy",
+          "840 / 342",
+          "3.729",
+          "1.330"
+        ],
+        [
+          "USA 2024",
+          "No MET",
+          "Other months",
+          "9,402 / 909",
+          "2.123",
+          "0.568"
+        ],
+        [
+          "USA 2024",
+          "With MET",
+          "All months",
+          "10,242 / 909",
+          "2.218",
+          "0.640"
+        ],
+        [
+          "USA 2024",
+          "With MET",
+          "P90 fire proxy",
+          "840 / 342",
+          "3.690",
+          "1.316"
+        ],
+        [
+          "USA 2024",
+          "With MET",
+          "Other months",
+          "9,402 / 909",
+          "2.035",
+          "0.580"
+        ],
+        [
+          "USA 2025",
+          "No MET",
+          "All months",
+          "10,538 / 924",
+          "2.338",
+          "0.237"
+        ],
+        [
+          "USA 2025",
+          "No MET",
+          "P90 fire proxy",
+          "885 / 435",
+          "3.987",
+          "0.279"
+        ],
+        [
+          "USA 2025",
+          "No MET",
+          "Other months",
+          "9,653 / 924",
+          "2.124",
+          "0.233"
+        ],
+        [
+          "USA 2025",
+          "With MET",
+          "All months",
+          "10,538 / 924",
+          "2.283",
+          "0.233"
+        ],
+        [
+          "USA 2025",
+          "With MET",
+          "P90 fire proxy",
+          "885 / 435",
+          "3.952",
+          "0.193"
+        ],
+        [
+          "USA 2025",
+          "With MET",
+          "Other months",
+          "9,653 / 924",
+          "2.064",
+          "0.237"
+        ]
+      ],
+      "source_csv": "data/summary/tables/Supplementary_Table_S11.csv",
+      "reference_csv": "results/reference/tables/Table_S11.csv"
+    },
+    {
+      "id": "S12",
+      "caption": "Supplementary Table S12. P90 fire-proxy support under fixed-window primary distance rules. Counts show eligible, retained and excluded rows/sites; retained fraction is retained rows divided by eligible rows. Rules combine the 50-km distance screen with non-geographic min–max or P01–P99 feature bounds. Rolling evaluations are excluded. Excluded sites are eligible sites with no retained high-fire-proxy month, not all sites with at least one excluded month.",
+      "columns": [
+        "Country / year",
+        "Profile",
+        "Support rule",
+        "Eligible rows / sites",
+        "Retained rows / sites",
+        "Excluded rows / sites",
+        "Retained row fraction"
+      ],
+      "rows": [
+        [
+          "CAN 2023",
+          "No MET",
+          "Min–max",
+          "725 / 210",
+          "466 / 185",
+          "259 / 25",
+          "64.3%"
+        ],
+        [
+          "CAN 2023",
+          "No MET",
+          "P01–P99",
+          "725 / 210",
+          "323 / 146",
+          "402 / 64",
+          "44.6%"
+        ],
+        [
+          "CAN 2023",
+          "With MET",
+          "Min–max",
+          "725 / 210",
+          "466 / 185",
+          "259 / 25",
+          "64.3%"
+        ],
+        [
+          "CAN 2023",
+          "With MET",
+          "P01–P99",
+          "725 / 210",
+          "302 / 141",
+          "423 / 69",
+          "41.7%"
+        ],
+        [
+          "CAN 2024",
+          "No MET",
+          "Min–max",
+          "326 / 115",
+          "279 / 112",
+          "47 / 3",
+          "85.6%"
+        ],
+        [
+          "CAN 2024",
+          "No MET",
+          "P01–P99",
+          "326 / 115",
+          "238 / 111",
+          "88 / 4",
+          "73.0%"
+        ],
+        [
+          "CAN 2024",
+          "With MET",
+          "Min–max",
+          "326 / 115",
+          "279 / 112",
+          "47 / 3",
+          "85.6%"
+        ],
+        [
+          "CAN 2024",
+          "With MET",
+          "P01–P99",
+          "326 / 115",
+          "223 / 110",
+          "103 / 5",
+          "68.4%"
+        ],
+        [
+          "USA 2023",
+          "No MET",
+          "Min–max",
+          "645 / 367",
+          "615 / 357",
+          "30 / 10",
+          "95.3%"
+        ],
+        [
+          "USA 2023",
+          "No MET",
+          "P01–P99",
+          "645 / 367",
+          "495 / 317",
+          "150 / 50",
+          "76.7%"
+        ],
+        [
+          "USA 2023",
+          "With MET",
+          "Min–max",
+          "645 / 367",
+          "614 / 357",
+          "31 / 10",
+          "95.2%"
+        ],
+        [
+          "USA 2023",
+          "With MET",
+          "P01–P99",
+          "645 / 367",
+          "471 / 311",
+          "174 / 56",
+          "73.0%"
+        ],
+        [
+          "USA 2024",
+          "No MET",
+          "Min–max",
+          "840 / 342",
+          "806 / 328",
+          "34 / 14",
+          "96.0%"
+        ],
+        [
+          "USA 2024",
+          "No MET",
+          "P01–P99",
+          "840 / 342",
+          "754 / 326",
+          "86 / 16",
+          "89.8%"
+        ],
+        [
+          "USA 2024",
+          "With MET",
+          "Min–max",
+          "840 / 342",
+          "803 / 325",
+          "37 / 17",
+          "95.6%"
+        ],
+        [
+          "USA 2024",
+          "With MET",
+          "P01–P99",
+          "840 / 342",
+          "664 / 288",
+          "176 / 54",
+          "79.0%"
+        ],
+        [
+          "USA 2025",
+          "No MET",
+          "Min–max",
+          "885 / 435",
+          "823 / 409",
+          "62 / 26",
+          "93.0%"
+        ],
+        [
+          "USA 2025",
+          "No MET",
+          "P01–P99",
+          "885 / 435",
+          "781 / 404",
+          "104 / 31",
+          "88.2%"
+        ],
+        [
+          "USA 2025",
+          "With MET",
+          "Min–max",
+          "885 / 435",
+          "823 / 409",
+          "62 / 26",
+          "93.0%"
+        ],
+        [
+          "USA 2025",
+          "With MET",
+          "P01–P99",
+          "885 / 435",
+          "671 / 375",
+          "214 / 60",
+          "75.8%"
+        ]
+      ],
+      "source_csv": "data/summary/tables/Supplementary_Table_S12.csv",
+      "reference_csv": "results/reference/tables/Table_S12.csv"
+    },
+    {
+      "id": "S13",
+      "caption": "Supplementary Table S13. Primary 90% station-level conformal intervals by country, task and meteorological profile. Coverage is pooled from summed fold numerators and denominators; mean interval width is weighted by test rows, and unbounded widths remain infinite.",
+      "columns": [
+        "Country / task",
+        "Profile",
+        "Calib. sites",
+        "Finite folds",
+        "Point % (covered/test)",
+        "Station % (covered/group)",
+        "Mean width (µg/m³)"
+      ],
+      "rows": [
+        [
+          "CAN / T1",
+          "No MET",
+          "39–39",
+          "5/5",
+          "99.7% (12,619/12,658)",
+          "90.4% (216/239)",
+          "21.790"
+        ],
+        [
+          "CAN / T1",
+          "With MET",
+          "39–39",
+          "5/5",
+          "99.7% (12,623/12,658)",
+          "91.2% (218/239)",
+          "21.670"
+        ],
+        [
+          "CAN / T2",
+          "No MET",
+          "35–43",
+          "5/5",
+          "99.3% (12,566/12,658)",
+          "73.6% (176/239)",
+          "21.258"
+        ],
+        [
+          "CAN / T2",
+          "With MET",
+          "35–43",
+          "5/5",
+          "99.2% (12,563/12,658)",
+          "74.1% (177/239)",
+          "21.988"
+        ],
+        [
+          "CAN / T2+50km",
+          "No MET",
+          "35–43",
+          "5/5",
+          "98.7% (12,493/12,658)",
+          "60.7% (145/239)",
+          "20.705"
+        ],
+        [
+          "CAN / T2+50km",
+          "With MET",
+          "35–43",
+          "5/5",
+          "98.6% (12,478/12,658)",
+          "59.8% (143/239)",
+          "19.695"
+        ],
+        [
+          "CAN / T3 2022",
+          "No MET",
+          "47–47",
+          "1/1",
+          "100.0% (2,557/2,557)",
+          "100.0% (220/220)",
+          "21.633"
+        ],
+        [
+          "CAN / T3 2022",
+          "With MET",
+          "47–47",
+          "1/1",
+          "100.0% (2,557/2,557)",
+          "100.0% (220/220)",
+          "22.776"
+        ],
+        [
+          "USA / T1",
+          "No MET",
+          "139–139",
+          "5/5",
+          "99.5% (38,185/38,358)",
+          "91.3% (791/866)",
+          "18.734"
+        ],
+        [
+          "USA / T1",
+          "With MET",
+          "139–139",
+          "5/5",
+          "99.6% (38,197/38,358)",
+          "91.9% (796/866)",
+          "18.740"
+        ],
+        [
+          "USA / T2",
+          "No MET",
+          "133–148",
+          "5/5",
+          "97.4% (37,369/38,358)",
+          "79.8% (691/866)",
+          "17.564"
+        ],
+        [
+          "USA / T2",
+          "With MET",
+          "133–148",
+          "5/5",
+          "97.5% (37,394/38,358)",
+          "78.9% (683/866)",
+          "17.625"
+        ],
+        [
+          "USA / T2+50km",
+          "No MET",
+          "133–148",
+          "5/5",
+          "97.5% (37,388/38,358)",
+          "81.2% (703/866)",
+          "18.396"
+        ],
+        [
+          "USA / T2+50km",
+          "With MET",
+          "133–148",
+          "5/5",
+          "97.3% (37,330/38,358)",
+          "80.1% (694/866)",
+          "17.688"
+        ],
+        [
+          "USA / T3 2022",
+          "No MET",
+          "162–162",
+          "1/1",
+          "99.5% (8,664/8,704)",
+          "96.0% (743/774)",
+          "19.128"
+        ],
+        [
+          "USA / T3 2022",
+          "With MET",
+          "162–162",
+          "1/1",
+          "99.5% (8,662/8,704)",
+          "96.0% (743/774)",
+          "18.762"
+        ]
+      ],
+      "source_csv": "data/summary/tables/Supplementary_Table_S13.csv",
+      "reference_csv": "results/reference/tables/Table_S13.csv",
+      "semantic_id": "primary_conformal"
+    },
+    {
+      "id": "S14",
+      "caption": "Supplementary Table S14. Portuguese T1 strict-HGB full-model performance across three target/back-transform branches. All branches use the same 434 station-months from 16 stations.",
+      "columns": [
+        "Transformation branch",
+        "Profile",
+        "N / sites",
+        "R²",
+        "RMSE (µg/m³)",
+        "MAE (µg/m³)",
+        "Bias (µg/m³)"
+      ],
+      "rows": [
+        [
+          "Log model; unsmeared inverse",
+          "No MET",
+          "434 / 16",
+          "-0.328",
+          "5.913",
+          "3.773",
+          "-2.806"
+        ],
+        [
+          "Log model; unsmeared inverse",
+          "With MET",
+          "434 / 16",
+          "-0.274",
+          "5.791",
+          "3.679",
+          "-2.454"
+        ],
+        [
+          "Log-smear; smearing back-transform",
+          "No MET",
+          "434 / 16",
+          "-11.363",
+          "18.039",
+          "13.158",
+          "11.500"
+        ],
+        [
+          "Log-smear; smearing back-transform",
+          "With MET",
+          "434 / 16",
+          "-13.403",
+          "19.471",
+          "14.086",
+          "12.655"
+        ],
+        [
+          "Original-scale fit",
+          "No MET",
+          "434 / 16",
+          "-0.016",
+          "5.171",
+          "3.624",
+          "-0.650"
+        ],
+        [
+          "Original-scale fit",
+          "With MET",
+          "434 / 16",
+          "-0.007",
+          "5.148",
+          "3.654",
+          "-0.521"
+        ]
+      ],
+      "source_csv": "data/summary/tables/Supplementary_Table_S14.csv",
+      "reference_csv": "results/reference/tables/Table_S14.csv"
+    },
+    {
+      "id": "S15",
+      "caption": "Supplementary Table S15. Full-model comparison with the true monthly SatPM V6GL03 product on identical matched station-months. RMSE differences are full minus SatPM with site-bootstrap 95% intervals; SatPM is a monitor-calibrated comparator, not independent measurement truth.",
+      "columns": [
+        "Code",
+        "Validation year",
+        "Profile",
+        "N / sites",
+        "Full RMSE (µg/m³)",
+        "SatPM RMSE (µg/m³)",
+        "ΔRMSE (95% CI)"
+      ],
+      "rows": [
+        [
+          "CAN",
+          "fixed 2023",
+          "No MET",
+          "2,537 / 220",
+          "6.122",
+          "9.413",
+          "-3.290 [-6.727, -0.792]"
+        ],
+        [
+          "CAN",
+          "fixed 2023",
+          "With MET",
+          "2,537 / 220",
+          "6.457",
+          "9.413",
+          "-2.955 [-6.370, -0.473]"
+        ],
+        [
+          "CAN",
+          "fixed 2024",
+          "No MET",
+          "2,083 / 183",
+          "2.417",
+          "2.506",
+          "-0.089 [-0.701, 0.393]"
+        ],
+        [
+          "CAN",
+          "fixed 2024",
+          "With MET",
+          "2,083 / 183",
+          "2.382",
+          "2.506",
+          "-0.124 [-0.781, 0.380]"
+        ],
+        [
+          "CAN",
+          "rolling 2024",
+          "No MET",
+          "2,083 / 183",
+          "2.335",
+          "2.506",
+          "-0.171 [-0.766, 0.319]"
+        ],
+        [
+          "CAN",
+          "rolling 2024",
+          "With MET",
+          "2,083 / 183",
+          "2.439",
+          "2.506",
+          "-0.067 [-0.637, 0.419]"
+        ],
+        [
+          "USA",
+          "fixed 2023",
+          "No MET",
+          "9,371 / 855",
+          "3.058",
+          "2.466",
+          "0.593 [0.485, 0.690]"
+        ],
+        [
+          "USA",
+          "fixed 2023",
+          "With MET",
+          "9,371 / 855",
+          "2.971",
+          "2.466",
+          "0.505 [0.411, 0.599]"
+        ],
+        [
+          "USA",
+          "fixed 2024",
+          "No MET",
+          "10,242 / 909",
+          "2.297",
+          "2.236",
+          "0.061 [-0.046, 0.168]"
+        ],
+        [
+          "USA",
+          "fixed 2024",
+          "With MET",
+          "10,242 / 909",
+          "2.218",
+          "2.236",
+          "-0.018 [-0.127, 0.092]"
+        ],
+        [
+          "USA",
+          "rolling 2024",
+          "No MET",
+          "10,242 / 909",
+          "2.269",
+          "2.236",
+          "0.033 [-0.070, 0.142]"
+        ],
+        [
+          "USA",
+          "rolling 2024",
+          "With MET",
+          "10,242 / 909",
+          "2.175",
+          "2.236",
+          "-0.061 [-0.172, 0.048]"
+        ]
+      ],
+      "source_csv": "data/summary/tables/Supplementary_Table_S15.csv",
+      "reference_csv": "results/reference/tables/Table_S15.csv"
+    }
+  ]
+}

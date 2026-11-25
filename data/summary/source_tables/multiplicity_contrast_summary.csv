@@ -1,0 +1,4 @@
+contrast,record_n,delta_rmse_nonmissing_n,all_below_zero_n,all_above_zero_n,contains_zero_n,interval_missing_n,all_below_zero_fraction,delta_rmse_median_signed,delta_rmse_q25,delta_rmse_q75,delta_rmse_median_absolute,delta_rmse_min,delta_rmse_max,family_size_contrasts_values,stored_replicate_values
+B+AOD - B,26,26,24,0,2,0,0.923076923076923,-0.705624598446782,-0.949604279426506,-0.401897732156936,0.705624598446782,-2.27281476552289,-0.0184401219453276,"[""78""]","[""10000""]"
+full - B,26,26,26,0,0,0,1,-0.684608713780177,-1.12794291144281,-0.568249469223937,0.684608713780177,-4.02035014755193,-0.330060006546958,"[""78""]","[""10000""]"
+full - B+AOD,26,26,12,0,14,0,0.461538461538462,-0.0946963507480797,-0.225163039037622,-0.0575195046546825,0.128359289029716,-1.95196112752257,0.178881632268592,"[""78""]","[""10000""]"

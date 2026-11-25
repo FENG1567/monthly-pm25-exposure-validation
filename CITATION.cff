@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated manuscript when available."
+type: software
+title: "Limits of monthly PM₂.₅ exposure assignment across space and time and implications for gallbladder and bile duct disease research"
+version: 0.1.0
+license: [MIT, CC-BY-4.0]
+authors:
+  - family-names: Feng
+    given-names: Shuo
+  - family-names: Shi
+    given-names: Chao
+  - family-names: Liu
+    given-names: Tianming
+  - family-names: Ding
+    given-names: Haoran
+  - family-names: Hang
+    given-names: Fenghe
+  - family-names: Huang
+    given-names: Zhenghao
+  - family-names: Meng
+    given-names: Xianzhi
+    email: mengxianzhi@hrbmu.edu.cn
+
+repository-code: "https://github.com/FENG1567/monthly-pm25-exposure-validation"
+url: "https://github.com/FENG1567/monthly-pm25-exposure-validation"

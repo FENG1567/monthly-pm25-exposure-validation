@@ -1,0 +1,31 @@
+Country / year,Profile,Fire-month stratum,N / sites,Full RMSE (µg/m³),Full bias (µg/m³)
+CAN 2023,No MET,All months,"2,537 / 220",6.122,-1.117
+CAN 2023,No MET,P90 fire proxy,725 / 210,11.081,-4.157
+CAN 2023,No MET,Other months,"1,812 / 220",1.830,0.099
+CAN 2023,With MET,All months,"2,537 / 220",6.457,-1.229
+CAN 2023,With MET,P90 fire proxy,725 / 210,11.736,-4.678
+CAN 2023,With MET,Other months,"1,812 / 220",1.808,0.151
+CAN 2024,No MET,All months,"2,083 / 183",2.417,0.870
+CAN 2024,No MET,P90 fire proxy,326 / 115,4.486,0.798
+CAN 2024,No MET,Other months,"1,757 / 183",1.786,0.883
+CAN 2024,With MET,All months,"2,083 / 183",2.382,0.904
+CAN 2024,With MET,P90 fire proxy,326 / 115,4.566,0.691
+CAN 2024,With MET,Other months,"1,757 / 183",1.691,0.943
+USA 2023,No MET,All months,"9,371 / 855",3.058,-0.492
+USA 2023,No MET,P90 fire proxy,645 / 367,5.434,-1.829
+USA 2023,No MET,Other months,"8,726 / 855",2.804,-0.393
+USA 2023,With MET,All months,"9,371 / 855",2.971,-0.459
+USA 2023,With MET,P90 fire proxy,645 / 367,5.260,-1.749
+USA 2023,With MET,Other months,"8,726 / 855",2.726,-0.363
+USA 2024,No MET,All months,"10,242 / 909",2.297,0.631
+USA 2024,No MET,P90 fire proxy,840 / 342,3.729,1.330
+USA 2024,No MET,Other months,"9,402 / 909",2.123,0.568
+USA 2024,With MET,All months,"10,242 / 909",2.218,0.640
+USA 2024,With MET,P90 fire proxy,840 / 342,3.690,1.316
+USA 2024,With MET,Other months,"9,402 / 909",2.035,0.580
+USA 2025,No MET,All months,"10,538 / 924",2.338,0.237
+USA 2025,No MET,P90 fire proxy,885 / 435,3.987,0.279
+USA 2025,No MET,Other months,"9,653 / 924",2.124,0.233
+USA 2025,With MET,All months,"10,538 / 924",2.283,0.233
+USA 2025,With MET,P90 fire proxy,885 / 435,3.952,0.193
+USA 2025,With MET,Other months,"9,653 / 924",2.064,0.237

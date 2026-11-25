@@ -1,0 +1,7 @@
+# Preserve exact release bytes: SHA-256 and CSV reference checks are byte based.
+# This overrides a contributor's core.autocrlf setting.
+* -text
+*.pdf binary
+*.png binary
+*.gz binary
+*.zip binary

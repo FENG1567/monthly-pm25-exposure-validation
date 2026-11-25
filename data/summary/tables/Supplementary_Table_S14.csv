@@ -1,0 +1,7 @@
+Transformation branch,Profile,N / sites,R²,RMSE (µg/m³),MAE (µg/m³),Bias (µg/m³)
+Log model; unsmeared inverse,No MET,434 / 16,-0.328,5.913,3.773,-2.806
+Log model; unsmeared inverse,With MET,434 / 16,-0.274,5.791,3.679,-2.454
+Log-smear; smearing back-transform,No MET,434 / 16,-11.363,18.039,13.158,11.500
+Log-smear; smearing back-transform,With MET,434 / 16,-13.403,19.471,14.086,12.655
+Original-scale fit,No MET,434 / 16,-0.016,5.171,3.624,-0.650
+Original-scale fit,With MET,434 / 16,-0.007,5.148,3.654,-0.521

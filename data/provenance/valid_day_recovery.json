@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "country": "USA",
+      "rows": 38358,
+      "sites": 866,
+      "min": 20,
+      "max": 31,
+      "median": 30.0,
+      "source_sha256": "a5aa787dd7ff682d3fe0b6b41c23f8ccd8a928a55adaedbc0ddb9812b63b7190",
+      "scope": "recovered historical parent"
+    },
+    {
+      "country": "CAN",
+      "rows": 12658,
+      "sites": 239,
+      "min": 20,
+      "max": 31,
+      "median": 30.0,
+      "source_sha256": "d889ff82d7f6605bc348f98c8eebdada8ca350da6aad69923def23501efd1ca5",
+      "scope": "recovered historical parent"
+    },
+    {
+      "country": "IN",
+      "rows": 2213,
+      "sites": 218,
+      "min": 20,
+      "max": 30,
+      "median": 27.0,
+      "source_sha256": "4d6bc5c4c2aab7da0e06cb43e49e68ae1c4089ec4d8f6d2d61e64bfeef10a765",
+      "scope": "original hash-pinned selected target master; final feature file unavailable"
+    },
+    {
+      "country": "BRA",
+      "rows": 180,
+      "sites": 43,
+      "min": 20,
+      "max": 31,
+      "median": 28.0,
+      "source_sha256": "8cd9bbd40154cd8e9ab86bc9b5be2bee1079644054829667ac700fb8d9a4572e",
+      "scope": "original hash-pinned selected target master; final feature file unavailable"
+    }
+  ]
+}

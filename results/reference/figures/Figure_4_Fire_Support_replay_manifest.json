@@ -1,0 +1,38 @@
+{
+  "figure": "Figure_4_Fire_Support",
+  "caption": "Figure 4 | Error and observation retention in high-fire-proxy months. (A) Full-model RMSE for P90 fire-proxy and other months across fixed-window country-years. (B) Retention of 2023 high-fire station-months under distance <50 km combined with non-geographic training min–max or P01–P99 bounds. The unrestricted sample is a reference. Canadian models with meteorology retain 466/725 observations (64.3%) under min–max and 302/725 (41.7%) under P01–P99 bounds. Rows group country/year in (A) and country in (B); color and offsets distinguish meteorological profiles. RMSE is in µg m⁻³; retention uses all eligible high-fire station-months as the denominator. P90 marks months above the regional fire-feature 90th percentile in the outer training set; P01–P99 denotes the training first-to-ninety-ninth-percentile range.",
+  "panel_sources": {
+    "a": {
+      "filename": "data/summary/figure_panels/Figure_4_Fire_Support_Panel_a_Source_Data.csv",
+      "rows": 20,
+      "sha256": "6d509403ad46beeeaca40031849d04f497f38d3aa616c244ed50aa9fe6fa7839"
+    },
+    "b": {
+      "filename": "data/summary/figure_panels/Figure_4_Fire_Support_Panel_b_Source_Data.csv",
+      "rows": 12,
+      "sha256": "24d33d78aebf57e967345f0d17ef3170dc57f1ec8ac93ac21ec29d425e3dbd22"
+    }
+  },
+  "panel_rows": {
+    "a": 20,
+    "b": 12
+  },
+  "outputs": {
+    "pdf": {
+      "filename": "Figure_4_Fire_Support.pdf",
+      "sha256": "9fd240fd15f7bc676d6bc5e4a86ce90c2d5e20227db73815c6f090eaa57137d7"
+    },
+    "png": {
+      "filename": "Figure_4_Fire_Support.png",
+      "sha256": "ae2351f8582a6ee040352fad9f67f5e9df04a07787d4983200287c00d7bbf5e4"
+    },
+    "svg": {
+      "filename": "Figure_4_Fire_Support.svg",
+      "sha256": "b7e918e52338a556dd0c6fd1b022f477ec4ae3dfcde0214fd1799d9b714407d1"
+    },
+    "tiff": {
+      "filename": "Figure_4_Fire_Support.tiff",
+      "sha256": "0718b248724b918bb9123b6aa43180df9eabe3f5164aa756a20849839f6a1151"
+    }
+  }
+}

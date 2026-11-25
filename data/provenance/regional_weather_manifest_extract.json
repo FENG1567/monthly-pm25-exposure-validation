@@ -1,0 +1,129 @@
+{
+  "created_utc": "2026-11-12T22:38:32.753484+00:00",
+  "feature_definition": {
+    "wind10": "hypot(monthly mean u10, monthly mean v10), m/s",
+    "tp": "ERA5 MODA monthly mean daily accumulated total precipitation multiplied by 1000, mm/day",
+    "t2m": "2m temperature, K converted to degrees Celsius",
+    "rh": "relative humidity derived from 2m temperature/dewpoint and clipped to [1, 100], percent",
+    "vent": "boundary layer height multiplied by wind10, m2/s"
+  },
+  "nearest_grid_tolerance_degrees": 0.200001,
+  "sampling_coordinate_rule": "Use existing grid_lat/grid_lon canonical predictor centers when present; otherwise actual feature-table lat/lon.",
+  "fill_rule": "Fill only previously non-finite feature values with finite sampled ERA5 values; preserve every previous finite value exactly.",
+  "code_sha256": "da74a05da2c32d7b882c8145fd7671e0151f449e67f3a33dd0baa2fbd4a9b2a6",
+  "original_manifest_sha256": "527f48f82b4b0d146f1538f0cf07deb4ba5299aee978edaf1a4e5670d4aae70f",
+  "original_helper_source_recovered": false,
+  "scope": "Metadata extracted from the hash-pinned original record; raw grids were not rehashed by this extraction and the missing early helper is not replaced by a later same-name file.",
+  "raw_source_groups": [
+    {
+      "name": "americas_2018_2022",
+      "bbox_n_w_s_e": [
+        72,
+        -141,
+        -34,
+        -34
+      ],
+      "coordinates": {
+        "latitude_count": 425,
+        "longitude_count": 429,
+        "latitude_bounds": [
+          -34.0,
+          72.0
+        ],
+        "longitude_bounds": [
+          -141.0,
+          -34.0
+        ]
+      },
+      "files": [
+        {
+          "sha256": "cc7a09a813a48352e31490af78daf5efb9c937f17bc25a375deb73512061db75",
+          "bytes": 16796941,
+          "variables": [
+            "tp"
+          ],
+          "units": {
+            "tp": "m"
+          },
+          "months": 60,
+          "filename": "data_stream-moda_stepType-avgad.nc"
+        },
+        {
+          "sha256": "8037412fd7fa14ccd590f1e9929b74a072e262b8866ba72f376672ed3e90c967",
+          "bytes": 93266639,
+          "variables": [
+            "u10",
+            "v10",
+            "blh",
+            "t2m",
+            "d2m"
+          ],
+          "units": {
+            "u10": "m s**-1",
+            "v10": "m s**-1",
+            "blh": "m",
+            "t2m": "K",
+            "d2m": "K"
+          },
+          "months": 60,
+          "filename": "data_stream-moda_stepType-avgua.nc"
+        }
+      ]
+    },
+    {
+      "name": "europe_2018_2022",
+      "bbox_n_w_s_e": [
+        48,
+        -10,
+        35,
+        30
+      ],
+      "coordinates": {
+        "latitude_count": 53,
+        "longitude_count": 161,
+        "latitude_bounds": [
+          35.0,
+          48.0
+        ],
+        "longitude_bounds": [
+          -10.0,
+          30.0
+        ]
+      },
+      "files": [
+        {
+          "sha256": "3aae6bdf2d51b464b1a87dc0b8d81610d687634d26e65210cbbe7065a71dc71c",
+          "bytes": 840836,
+          "variables": [
+            "tp"
+          ],
+          "units": {
+            "tp": "m"
+          },
+          "months": 60,
+          "filename": "data_stream-moda_stepType-avgad.nc"
+        },
+        {
+          "sha256": "e5beb5922b8a891bc422e14fbea05d6462800f718ca7d019f0c554bc8bd50823",
+          "bytes": 5176968,
+          "variables": [
+            "u10",
+            "v10",
+            "blh",
+            "t2m",
+            "d2m"
+          ],
+          "units": {
+            "u10": "m s**-1",
+            "v10": "m s**-1",
+            "blh": "m",
+            "t2m": "K",
+            "d2m": "K"
+          },
+          "months": 60,
+          "filename": "data_stream-moda_stepType-avgua.nc"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "package": "portable-annual-export-consistency-check",
+  "files": [
+    {
+      "name": "annual_metrics.csv",
+      "rows": 1056,
+      "columns": [
+        "alias", "qa", "profile", "estimator", "task", "arm",
+        "target_strategy", "backtransform", "country", "support_scope",
+        "benchmark_version", "rows", "sites", "source_annual_rows",
+        "excluded_annual_rows", "status", "n", "r2", "rmse", "mae",
+        "bias", "qa_variant", "estimator_kind"
+      ],
+      "sha256": "679af31fcc4df1240cc346e8de629de4bf5ea1b2e3081ede784daf17016230b6"
+    },
+    {
+      "name": "annual_deltas.csv",
+      "rows": 704,
+      "columns": [
+        "alias", "qa", "profile", "estimator", "task", "arm",
+        "target_strategy", "backtransform", "country", "support_scope",
+        "benchmark_version", "rows", "sites", "source_annual_rows",
+        "excluded_annual_rows", "status", "contrast", "bootstrap_seed",
+        "bootstrap_replicates", "uncertainty_status", "inference_scope",
+        "delta_rmse", "delta_rmse_ci_low", "delta_rmse_ci_high",
+        "delta_mae", "delta_mae_ci_low", "delta_mae_ci_high",
+        "delta_bias", "delta_bias_ci_low", "delta_bias_ci_high",
+        "delta_r2", "delta_r2_ci_low", "delta_r2_ci_high", "qa_variant",
+        "estimator_kind"
+      ],
+      "sha256": "c6304b6eef8c774d84e1eea49d754d6a6ba4723d85efa44f3495559071b68b57"
+    }
+  ],
+  "provenance": {
+    "annual_metrics_source": "work/provenance_followup_20261125/annual/annual_metrics.csv",
+    "annual_metrics_catalog": "work/submission_delivery_20261115/catalog.json",
+    "annual_deltas_source": "work/provenance_closure_20261125/github_candidate_v2/data/summary/source_tables/annual_deltas.csv",
+    "annual_deltas_release_manifest_sha256": "aa00c522785e44d75fb4a48d9310cd98b37bf24249567daa78f26fb4848962a6",
+    "annual_deltas_normalized_reference_sha256": "6a449dd8bb503b737b358e6ea4b6b355b7d7d25d4f19e0f52c72b054c46bb557",
+    "export_consistency_source": "work/provenance_followup_20261125/verify_annual_export_chain.py",
+    "seed_algorithm_source": "work/provenance_closure_20261125/github_candidate_v2/analysis/original/annual/compare_cams.py",
+    "seed_algorithm_source_sha256": "adfe83af59cc9ba7e6889a8229487e3961268b0b71f69bfe7b4bcc739462444c",
+    "original_source_csv_bytes_recovered": false,
+    "original_source_csv_recorded_sha256": {
+      "annual_metrics.csv": "7db25a686111b884e35f22feabc1027c3f62b13562890e3fbd2c50613283e603",
+      "annual_deltas.csv": "8c7df26faae1e4afcab321ed232e674a1134a39a8d7cae4f730d4daff34a989f"
+    },
+    "bootstrap_replay": false,
+    "raw_source_numerical_comparison": false
+  },
+  "licensing": {
+    "code": "MIT",
+    "author_owned_summaries": "CC BY 4.0",
+    "third_party_inputs_included": false
+  }
+}

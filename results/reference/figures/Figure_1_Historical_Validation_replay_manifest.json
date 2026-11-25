@@ -1,0 +1,50 @@
+{
+  "figure": "Figure_1_Historical_Validation",
+  "caption": "Figure 1 | Historical validation across countries and tasks. Full histogram-based gradient boosting (HGB) models use strict aerosol optical depth (AOD) quality screening, log targets and station-cross-fitted smearing. Panels (A,B) show R² with and without meteorology; (C,D) show corresponding root mean square error (RMSE) in µg m⁻³. T1 denotes station grouping, T2 spatial blocking, T2 buffer the 50-km buffer, and T3 2022 forward-year validation. R² colors use a signed logarithmic scale; labels show untransformed scores. RMSE uses a separate linear scale. NA denotes an unavailable metric; hatched I denotes an ineligible estimate. A dagger marks estimates based on fewer eligible folds. MET denotes meteorological predictors.",
+  "panel_sources": {
+    "a": {
+      "filename": "data/summary/figure_panels/Figure_1_Historical_Validation_Panel_a_Source_Data.csv",
+      "rows": 68,
+      "sha256": "7c025a6ae3ee637fe68ed519dcd20dcbcf7a4301018aea329cc285ace0e7063f"
+    },
+    "b": {
+      "filename": "data/summary/figure_panels/Figure_1_Historical_Validation_Panel_b_Source_Data.csv",
+      "rows": 68,
+      "sha256": "6f300dcb27e6d256603835d6d8176e9e8a20d0e90eeabc0027c709852d41522c"
+    },
+    "c": {
+      "filename": "data/summary/figure_panels/Figure_1_Historical_Validation_Panel_c_Source_Data.csv",
+      "rows": 68,
+      "sha256": "7c025a6ae3ee637fe68ed519dcd20dcbcf7a4301018aea329cc285ace0e7063f"
+    },
+    "d": {
+      "filename": "data/summary/figure_panels/Figure_1_Historical_Validation_Panel_d_Source_Data.csv",
+      "rows": 68,
+      "sha256": "6f300dcb27e6d256603835d6d8176e9e8a20d0e90eeabc0027c709852d41522c"
+    }
+  },
+  "panel_rows": {
+    "a": 68,
+    "b": 68,
+    "c": 68,
+    "d": 68
+  },
+  "outputs": {
+    "pdf": {
+      "filename": "Figure_1_Historical_Validation.pdf",
+      "sha256": "6292fa33aab16cc028b38bf6557b4f0bf3c42380eeb0852cfca6b1be8c82973f"
+    },
+    "png": {
+      "filename": "Figure_1_Historical_Validation.png",
+      "sha256": "0620086fd5ed4990bcf8efbb3d67b188f04a9753ea514f1eb4a6eb53506f771e"
+    },
+    "svg": {
+      "filename": "Figure_1_Historical_Validation.svg",
+      "sha256": "59a3103a095d914f9131f68d0c3cea3517f91a273f9d2f0f43b4a11562bf2ae2"
+    },
+    "tiff": {
+      "filename": "Figure_1_Historical_Validation.tiff",
+      "sha256": "667615d13fa91a0f03bf623628b099a9a861674b76efbebb93afd32323c48944"
+    }
+  }
+}

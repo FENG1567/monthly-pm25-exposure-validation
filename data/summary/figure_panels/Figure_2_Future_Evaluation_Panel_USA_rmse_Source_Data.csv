@@ -1,0 +1,11 @@
+country,profile,validation_mode,external_year,train_through,task,dataset_policy,n,n_stations,r2,rmse,source_job_id,metric
+USA,with_met,fixed,2023,2022,T4_external_2023_with_met,usa_primary,9371,855,0.4813845881000638,2.970703621013539,usa_primary_fixed_2023_strict_hgb,rmse
+USA,no_met,fixed,2023,2022,T4_external_2023_no_met,usa_primary,9371,855,0.4503774759737462,3.0582210785610275,usa_primary_fixed_2023_strict_hgb,rmse
+USA,with_met,fixed,2024,2022,T4_external_2024_with_met,usa_primary,10242,909,0.4806750543790568,2.217519421970151,usa_primary_fixed_2024_strict_hgb,rmse
+USA,no_met,fixed,2024,2022,T4_external_2024_no_met,usa_primary,10242,909,0.4426769438562156,2.2972134219707843,usa_primary_fixed_2024_strict_hgb,rmse
+USA,with_met,fixed,2025,2022,T4_external_2025_with_met,usa_primary,10538,924,0.4602873318162894,2.2830502631348013,usa_primary_fixed_2025_strict_hgb,rmse
+USA,no_met,fixed,2025,2022,T4_external_2025_no_met,usa_primary,10538,924,0.4337844698267818,2.3384336692288947,usa_primary_fixed_2025_strict_hgb,rmse
+USA,with_met,rolling,2024,2023,T4_external_2024_with_met,usa_primary,10242,909,0.500471113657059,2.174844165163727,usa_primary_rolling_2024_strict_hgb,rmse
+USA,no_met,rolling,2024,2023,T4_external_2024_no_met,usa_primary,10242,909,0.4562084930401452,2.2691544142736952,usa_primary_rolling_2024_strict_hgb,rmse
+USA,with_met,rolling,2025,2024,T4_external_2025_with_met,usa_primary,10538,924,0.5349585893370497,2.1192392098150363,usa_primary_rolling_2025_strict_hgb,rmse
+USA,no_met,rolling,2025,2024,T4_external_2025_no_met,usa_primary,10538,924,0.5002869363881484,2.1968202260395,usa_primary_rolling_2025_strict_hgb,rmse

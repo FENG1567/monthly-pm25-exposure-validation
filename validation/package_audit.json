@@ -1,0 +1,44 @@
+{
+  "files": 195,
+  "bytes": 27440640,
+  "largest_files": [
+    {
+      "file": "data/summary/figure_panels/Supplementary_Figure_S7_Panel_a_Source_Data.csv.gz",
+      "bytes": 19344205
+    },
+    {
+      "file": "data/summary/source_tables/historical_metrics.csv",
+      "bytes": 2135246
+    },
+    {
+      "file": "data/summary/source_tables/future_risk_summary.csv",
+      "bytes": 540869
+    },
+    {
+      "file": "data/summary/source_tables/historical_eligibility.csv",
+      "bytes": 454831
+    },
+    {
+      "file": "data/summary/source_tables/annual_deltas.csv",
+      "bytes": 398098
+    },
+    {
+      "file": "data/summary/source_tables/annual_comparator_primary_subtable.csv",
+      "bytes": 369326
+    },
+    {
+      "file": "data/summary/source_tables/future_metrics.csv",
+      "bytes": 261748
+    },
+    {
+      "file": "data/summary/source_tables/transform_sensitivity.csv",
+      "bytes": 206920
+    }
+  ],
+  "files_at_or_over_25MiB": [],
+  "credential_pattern_matches": [],
+  "private_absolute_path_matches": [],
+  "path_only_source_redactions": [],
+  "excluded_generated_outputs": true,
+  "scope": "Pattern scan and inventory; source licences handled separately."
+}

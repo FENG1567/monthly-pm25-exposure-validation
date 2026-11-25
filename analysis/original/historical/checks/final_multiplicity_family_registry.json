@@ -1,0 +1,254 @@
+{
+  "format": "repair-v2-final-multiplicity-family-v1",
+  "locked_local_date": "2026-11-13",
+  "before_new_year_pm_model_scores": true,
+  "protocol_path": "work/repair_v2/multiplicity_final_protocol_addendum_20261113.md",
+  "protocol_sha256": "b3777b73fab176dda6c75868d456c92921d048d57d8146a6331474ecda1efc86",
+  "qa_variant": "strict",
+  "estimator_kind": "hgb",
+  "target_strategy": "log_smear",
+  "smear_strategy": "crossfit_station",
+  "backtransform": "smearing",
+  "contrasts": [
+    "B+AOD - B",
+    "full - B+AOD",
+    "full - B"
+  ],
+  "station_multiplier_distribution": "Exp(1)",
+  "replicates": 10000,
+  "seed": 20261113,
+  "minimum_test_stations": 30,
+  "expected_cells": 26,
+  "maximum_contrasts": 78,
+  "scope": "Execution-stage exploratory sensitivity; not whole global result matrix or confirmatory inference",
+  "cells": [
+    {
+      "country": "USA",
+      "profile": "with_met",
+      "kind": "historical",
+      "task": "T1_station",
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "USA",
+      "profile": "with_met",
+      "kind": "historical",
+      "task": "T2_spatial",
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "USA",
+      "profile": "with_met",
+      "kind": "historical",
+      "task": "T2_spatial_buffer50km",
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "USA",
+      "profile": "with_met",
+      "kind": "historical",
+      "task": "T3_year_2022",
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "USA",
+      "profile": "with_met",
+      "kind": "fixed_external",
+      "task": "T4_external_2023_with_met",
+      "train_through": 2022,
+      "external_year": 2023,
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "USA",
+      "profile": "with_met",
+      "kind": "fixed_external",
+      "task": "T4_external_2024_with_met",
+      "train_through": 2022,
+      "external_year": 2024,
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "USA",
+      "profile": "with_met",
+      "kind": "fixed_external",
+      "task": "T4_external_2025_with_met",
+      "train_through": 2022,
+      "external_year": 2025,
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "USA",
+      "profile": "no_met",
+      "kind": "historical",
+      "task": "T1_station",
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "USA",
+      "profile": "no_met",
+      "kind": "historical",
+      "task": "T2_spatial",
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "USA",
+      "profile": "no_met",
+      "kind": "historical",
+      "task": "T2_spatial_buffer50km",
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "USA",
+      "profile": "no_met",
+      "kind": "historical",
+      "task": "T3_year_2022",
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "USA",
+      "profile": "no_met",
+      "kind": "fixed_external",
+      "task": "T4_external_2023_no_met",
+      "train_through": 2022,
+      "external_year": 2023,
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "USA",
+      "profile": "no_met",
+      "kind": "fixed_external",
+      "task": "T4_external_2024_no_met",
+      "train_through": 2022,
+      "external_year": 2024,
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "USA",
+      "profile": "no_met",
+      "kind": "fixed_external",
+      "task": "T4_external_2025_no_met",
+      "train_through": 2022,
+      "external_year": 2025,
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "CAN",
+      "profile": "with_met",
+      "kind": "historical",
+      "task": "T1_station",
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "CAN",
+      "profile": "with_met",
+      "kind": "historical",
+      "task": "T2_spatial",
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "CAN",
+      "profile": "with_met",
+      "kind": "historical",
+      "task": "T2_spatial_buffer50km",
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "CAN",
+      "profile": "with_met",
+      "kind": "historical",
+      "task": "T3_year_2022",
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "CAN",
+      "profile": "with_met",
+      "kind": "fixed_external",
+      "task": "T4_external_2023_with_met",
+      "train_through": 2022,
+      "external_year": 2023,
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "CAN",
+      "profile": "with_met",
+      "kind": "fixed_external",
+      "task": "T4_external_2024_with_met",
+      "train_through": 2022,
+      "external_year": 2024,
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "CAN",
+      "profile": "no_met",
+      "kind": "historical",
+      "task": "T1_station",
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "CAN",
+      "profile": "no_met",
+      "kind": "historical",
+      "task": "T2_spatial",
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "CAN",
+      "profile": "no_met",
+      "kind": "historical",
+      "task": "T2_spatial_buffer50km",
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "CAN",
+      "profile": "no_met",
+      "kind": "historical",
+      "task": "T3_year_2022",
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "CAN",
+      "profile": "no_met",
+      "kind": "fixed_external",
+      "task": "T4_external_2023_no_met",
+      "train_through": 2022,
+      "external_year": 2023,
+      "status": "pending_final_inputs",
+      "source_binding": null
+    },
+    {
+      "country": "CAN",
+      "profile": "no_met",
+      "kind": "fixed_external",
+      "task": "T4_external_2024_no_met",
+      "train_through": 2022,
+      "external_year": 2024,
+      "status": "pending_final_inputs",
+      "source_binding": null
+    }
+  ]
+}

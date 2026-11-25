@@ -1,0 +1,38 @@
+{
+  "figure": "Figure_6_Monthly_Benchmark",
+  "caption": "Figure 6 | Full-model and native monthly SatPM V6.GL.03 performance on matched station-months. (A) RMSE for the two estimates across 12 country–year–profile combinations: fixed 2023, fixed 2024 and rolling 2024. Filled circles denote the full model and open squares SatPM. (B) Paired ΔRMSE (full minus SatPM) with station-cluster bootstrap 95% intervals (500 resamples; seed 20261116). Negative differences favor the full model. The 2023 difference favors SatPM in the United States and the full model in Canada; all 2024 RMSE intervals include zero. Rows group country, year and update policy, with meteorological profiles offset. Units are µg m⁻³.",
+  "panel_sources": {
+    "a": {
+      "filename": "data/summary/figure_panels/Figure_6_Monthly_Benchmark_Panel_a_Source_Data.csv",
+      "rows": 12,
+      "sha256": "7bc48e47d44d7e85cf64e18ba2eaeb9d945325c3efa014e8ee0987ed24c4feb7"
+    },
+    "b": {
+      "filename": "data/summary/figure_panels/Figure_6_Monthly_Benchmark_Panel_b_Source_Data.csv",
+      "rows": 12,
+      "sha256": "b767b4e51d70235b4575d573f779df432016589a9513927740f581fd6e40d88f"
+    }
+  },
+  "panel_rows": {
+    "a": 12,
+    "b": 12
+  },
+  "outputs": {
+    "pdf": {
+      "filename": "Figure_6_Monthly_Benchmark.pdf",
+      "sha256": "7301490f452ed48acad9f24630d3bbb216950ec928e0857819f3ee2cddee90a2"
+    },
+    "png": {
+      "filename": "Figure_6_Monthly_Benchmark.png",
+      "sha256": "a7c1ba1e2aec38897eeb3dc855fe1611759933228d3cdc2d91dacd7c87228f8c"
+    },
+    "svg": {
+      "filename": "Figure_6_Monthly_Benchmark.svg",
+      "sha256": "a4000c742ad7c0db609b4929f62bae94cc3a0d5d6c2e37a52103e49b8bac072b"
+    },
+    "tiff": {
+      "filename": "Figure_6_Monthly_Benchmark.tiff",
+      "sha256": "31212f3515420b7f0dde6bd5cbbd374019e095ddc2b28f874275dd9cd5980390"
+    }
+  }
+}

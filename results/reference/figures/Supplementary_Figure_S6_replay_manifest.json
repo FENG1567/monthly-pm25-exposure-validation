@@ -1,0 +1,38 @@
+{
+  "figure": "Supplementary_Figure_S6",
+  "caption": "Supplementary Figure S6 | Plume-definition, date-alignment and fire-threshold sensitivity. (A–C) All 264 Pearson correlations across United States PM₂.₅, Canadian PM₂.₅ and United States organic-carbon (OC) comparisons. Columns cross same-date/±1-day alignment, any-plume/medium-heavy definition, and P80/P90/P95 fire thresholds; P90 is primary. Rows identify year/task/profile or OC parameter/method/profile. (D) Median, range and available/missing counts for days with known HMS status and retained observations across 264 comparisons. Dates with missing HMS archives are treated as unknown. Analyses sharing observations are descriptive comparisons, not independent replications. HMS denotes the Hazard Mapping System; EPA parameter/method codes identify the OC series. P80, P90 and P95 are training-set fire-feature percentiles.",
+  "panel_sources": {
+    "a": {
+      "filename": "data/summary/figure_panels/Supplementary_Figure_S6_Panel_a_Source_Data.csv",
+      "rows": 264,
+      "sha256": "9c68d136b2cbe75af1ed5d07566aad6c711ced26160376648732c0643127a2a6"
+    },
+    "b": {
+      "filename": "data/summary/figure_panels/Supplementary_Figure_S6_Panel_b_Source_Data.csv",
+      "rows": 264,
+      "sha256": "d925c0df60c02df9ac50642fbffdcb3972d51ddc282da9e810bb9ca7227d645d"
+    }
+  },
+  "panel_rows": {
+    "a": 264,
+    "b": 264
+  },
+  "outputs": {
+    "pdf": {
+      "filename": "Supplementary_Figure_S6.pdf",
+      "sha256": "0f17acc28c1143c89b7622fcca2bb9d4d40eddee1822a515d9f26b33013d1825"
+    },
+    "png": {
+      "filename": "Supplementary_Figure_S6.png",
+      "sha256": "99d86368e6bb1795dcbf3888f88c9d65a2dbc9b357b109e76714f37a418b979a"
+    },
+    "svg": {
+      "filename": "Supplementary_Figure_S6.svg",
+      "sha256": "f7dc7d61371d0fd91673b18fe8e31eaeaaf9f14529bef5bda47b9a30ab5d4346"
+    },
+    "tiff": {
+      "filename": "Supplementary_Figure_S6.tiff",
+      "sha256": "e3888aeee670d5ca7f35496382afe9a213ac212f4072cc85921463be2b108010"
+    }
+  }
+}

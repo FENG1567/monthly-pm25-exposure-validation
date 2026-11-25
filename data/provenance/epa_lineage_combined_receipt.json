@@ -1,0 +1,390 @@
+{
+  "status": "passed",
+  "years": [
+    {
+      "year": 2018,
+      "raw_sha256": "a82e60b1bd486ebd23adacedd4f1822a41cda0985194b3a21898e135cdf468e5",
+      "daily": {
+        "passed": true,
+        "saved_rows": 244083,
+        "replayed_rows": 244083,
+        "matched_rows": 244083,
+        "saved_only": 0,
+        "replay_only": 0,
+        "finite_masks_equal": {
+          "pm25": true,
+          "lat": true,
+          "lon": true
+        },
+        "max_abs_difference": {
+          "pm25": 0.0,
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      },
+      "monthly": {
+        "passed": true,
+        "saved_rows": 6865,
+        "replayed_rows": 6865,
+        "matched_rows": 6865,
+        "saved_only": 0,
+        "replay_only": 0,
+        "finite_masks_equal": {
+          "pm25": true,
+          "ndays": true,
+          "lat": true,
+          "lon": true
+        },
+        "max_abs_difference": {
+          "pm25": 0.0,
+          "ndays": 0.0,
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      },
+      "passed": true
+    },
+    {
+      "year": 2019,
+      "raw_sha256": "88b9b0b1bbd0c7545ffc07959a5ecbd4c6fbe951c67ea648cef70cafe956af53",
+      "daily": {
+        "passed": true,
+        "saved_rows": 258131,
+        "replayed_rows": 258131,
+        "matched_rows": 258131,
+        "saved_only": 0,
+        "replay_only": 0,
+        "finite_masks_equal": {
+          "pm25": true,
+          "lat": true,
+          "lon": true
+        },
+        "max_abs_difference": {
+          "pm25": 0.0,
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      },
+      "monthly": {
+        "passed": true,
+        "saved_rows": 7481,
+        "replayed_rows": 7481,
+        "matched_rows": 7481,
+        "saved_only": 0,
+        "replay_only": 0,
+        "finite_masks_equal": {
+          "pm25": true,
+          "ndays": true,
+          "lat": true,
+          "lon": true
+        },
+        "max_abs_difference": {
+          "pm25": 0.0,
+          "ndays": 0.0,
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      },
+      "passed": true
+    },
+    {
+      "year": 2020,
+      "raw_sha256": "18283fe4ffceb53e3091a7fa7de57a2d5b925ce3d56a08d3518021e00212a3ec",
+      "daily": {
+        "passed": true,
+        "saved_rows": 262358,
+        "replayed_rows": 262358,
+        "matched_rows": 262358,
+        "saved_only": 0,
+        "replay_only": 0,
+        "finite_masks_equal": {
+          "pm25": true,
+          "lat": true,
+          "lon": true
+        },
+        "max_abs_difference": {
+          "pm25": 0.0,
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      },
+      "monthly": {
+        "passed": true,
+        "saved_rows": 7789,
+        "replayed_rows": 7789,
+        "matched_rows": 7789,
+        "saved_only": 0,
+        "replay_only": 0,
+        "finite_masks_equal": {
+          "pm25": true,
+          "ndays": true,
+          "lat": true,
+          "lon": true
+        },
+        "max_abs_difference": {
+          "pm25": 0.0,
+          "ndays": 0.0,
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      },
+      "passed": true
+    },
+    {
+      "year": 2021,
+      "raw_sha256": "c3f876f8cd898c3bd921db45e1a2dd39c52ed7f5bb48e82a600066a434f6afd4",
+      "daily": {
+        "passed": true,
+        "saved_rows": 278865,
+        "replayed_rows": 278865,
+        "matched_rows": 278865,
+        "saved_only": 0,
+        "replay_only": 0,
+        "finite_masks_equal": {
+          "pm25": true,
+          "lat": true,
+          "lon": true
+        },
+        "max_abs_difference": {
+          "pm25": 0.0,
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      },
+      "monthly": {
+        "passed": true,
+        "saved_rows": 8466,
+        "replayed_rows": 8466,
+        "matched_rows": 8466,
+        "saved_only": 0,
+        "replay_only": 0,
+        "finite_masks_equal": {
+          "pm25": true,
+          "ndays": true,
+          "lat": true,
+          "lon": true
+        },
+        "max_abs_difference": {
+          "pm25": 0.0,
+          "ndays": 0.0,
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      },
+      "passed": true
+    },
+    {
+      "year": 2022,
+      "raw_sha256": "82f5035943a447f8edebf1f0b3f774e08b81a250a86295871a8574726d6b2f94",
+      "daily": {
+        "passed": true,
+        "saved_rows": 290198,
+        "replayed_rows": 290198,
+        "matched_rows": 290198,
+        "saved_only": 0,
+        "replay_only": 0,
+        "finite_masks_equal": {
+          "pm25": true,
+          "lat": true,
+          "lon": true
+        },
+        "max_abs_difference": {
+          "pm25": 0.0,
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      },
+      "monthly": {
+        "passed": true,
+        "saved_rows": 8931,
+        "replayed_rows": 8931,
+        "matched_rows": 8931,
+        "saved_only": 0,
+        "replay_only": 0,
+        "finite_masks_equal": {
+          "pm25": true,
+          "ndays": true,
+          "lat": true,
+          "lon": true
+        },
+        "max_abs_difference": {
+          "pm25": 0.0,
+          "ndays": 0.0,
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      },
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "raw_sha256": "4b40502e8147419643a1120c666c4aa952633094f21f65475844172bcc78833b",
+      "daily": {
+        "passed": true,
+        "saved_rows": 304919,
+        "replayed_rows": 304919,
+        "matched_rows": 304919,
+        "saved_only": 0,
+        "replay_only": 0,
+        "finite_masks_equal": {
+          "pm25": true,
+          "lat": true,
+          "lon": true
+        },
+        "max_abs_difference": {
+          "pm25": 0.0,
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      },
+      "monthly": {
+        "passed": true,
+        "saved_rows": 9602,
+        "replayed_rows": 9602,
+        "matched_rows": 9602,
+        "saved_only": 0,
+        "replay_only": 0,
+        "finite_masks_equal": {
+          "pm25": true,
+          "ndays": true,
+          "lat": true,
+          "lon": true
+        },
+        "max_abs_difference": {
+          "pm25": 0.0,
+          "ndays": 0.0,
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      },
+      "passed": true
+    },
+    {
+      "year": 2024,
+      "raw_sha256": "409c2d884935bd0a4099d640b7c526ecb0af1d3aac049697e34c2f9f69dbe91d",
+      "daily": {
+        "passed": true,
+        "saved_rows": 327234,
+        "replayed_rows": 327234,
+        "matched_rows": 327234,
+        "saved_only": 0,
+        "replay_only": 0,
+        "finite_masks_equal": {
+          "pm25": true,
+          "lat": true,
+          "lon": true
+        },
+        "max_abs_difference": {
+          "pm25": 0.0,
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      },
+      "monthly": {
+        "passed": true,
+        "saved_rows": 10479,
+        "replayed_rows": 10479,
+        "matched_rows": 10479,
+        "saved_only": 0,
+        "replay_only": 0,
+        "finite_masks_equal": {
+          "pm25": true,
+          "ndays": true,
+          "lat": true,
+          "lon": true
+        },
+        "max_abs_difference": {
+          "pm25": 0.0,
+          "ndays": 0.0,
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      },
+      "passed": true
+    },
+    {
+      "year": 2025,
+      "raw_sha256": "cc8cb80bcc0317705202d12a472918438b8bee60316f54777d6f748c58ac2661",
+      "daily": {
+        "passed": true,
+        "saved_rows": 334202,
+        "replayed_rows": 334202,
+        "matched_rows": 334202,
+        "saved_only": 0,
+        "replay_only": 0,
+        "finite_masks_equal": {
+          "pm25": true,
+          "lat": true,
+          "lon": true
+        },
+        "max_abs_difference": {
+          "pm25": 0.0,
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      },
+      "monthly": {
+        "passed": true,
+        "saved_rows": 10765,
+        "replayed_rows": 10765,
+        "matched_rows": 10765,
+        "saved_only": 0,
+        "replay_only": 0,
+        "finite_masks_equal": {
+          "pm25": true,
+          "ndays": true,
+          "lat": true,
+          "lon": true
+        },
+        "max_abs_difference": {
+          "pm25": 0.0,
+          "ndays": 0.0,
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      },
+      "passed": true
+    }
+  ],
+  "daily_rows_checked": 2299990,
+  "monthly_rows_checked": 70378,
+  "max_abs_difference": 0.0,
+  "recipe_sha256": "b0e0c219a2091791e0578359aa40f6583f73790105221992fb2d2cfee8284d02",
+  "target_generations": [
+    {
+      "name": "2018_2023",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "daily_sha256": "2323e0bafce30e5c4d6c6b0ad92a7dc24c34aaa9f71a9360c0a00a9eb838a36e",
+      "monthly_sha256": "a47a6c845c54f551c77576f9a2f39c088e7a2ecb0941c887582c4768856297f9"
+    },
+    {
+      "name": "2018_2025",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "daily_sha256": "c24f7a0f045bc38ad376389ecca58ec1fbbd6243a8087bbb2cf59909ba471009",
+      "monthly_sha256": "ee3a2d752bfd1c87f6d4087370f26c685b37c5177732b899bc137e12a739b660"
+    }
+  ],
+  "model_fitting": false,
+  "scientific_results_changed": false,
+  "scope": "Eight original AQS yearly ZIPs to saved daily/monthly target values and keys; not an end-to-end predictor/model replay.",
+  "source_receipts": {
+    "2018_2023": "bcb9cccbdce39a671e644abd2b7b64010086d5b2730607f49ec5d694774e8517",
+    "2024_2025": "8b77df1bcf0dd3f19223d8b20d54c323cf23789ae98b282b780a9bfe17e5170b"
+  }
+}

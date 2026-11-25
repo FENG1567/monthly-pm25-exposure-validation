@@ -1,0 +1,44 @@
+{
+  "figure": "Supplementary_Figure_S2",
+  "caption": "Supplementary Figure S2 | Fold-level interval coverage and a separate feasibility analysis. (A,B) Station-month and whole-station coverage for the 32 primary 80/20 folds in each of the United States and Canada. Labels identify task, meteorological profile and fold; the common scale marks nominal 0.90 coverage. (C) Eight Brazilian external-2023 feasibility calibration thresholds, separated by source class and meteorological profile. The Brazil construction is summarized separately from the 64 primary folds. T1 denotes station grouping, T2 spatial blocking, T2b the 50-km buffer and T3/22 the 2022 forward-year task. q90 is the finite-sample calibration threshold for station-wise maximum absolute PM₂.₅ residuals, in µg m⁻³. HGB denotes histogram-based gradient boosting; MET denotes meteorological predictors. Strict and sensitivity refer to AOD quality-screening rules.",
+  "panel_sources": {
+    "a": {
+      "filename": "data/summary/figure_panels/Supplementary_Figure_S2_Panel_a_Source_Data.csv",
+      "rows": 32,
+      "sha256": "7fcd453e6164e25d1e0ef250352049b58fc73c792b9dff7faa363a3e449b0338"
+    },
+    "b": {
+      "filename": "data/summary/figure_panels/Supplementary_Figure_S2_Panel_b_Source_Data.csv",
+      "rows": 32,
+      "sha256": "30c74ccba658c054d297e9a14143a5def4f5c79e6e652357a650f4d399691a33"
+    },
+    "c": {
+      "filename": "data/summary/figure_panels/Supplementary_Figure_S2_Panel_c_Source_Data.csv",
+      "rows": 8,
+      "sha256": "14c04926907553e44bb531a3cf5c871e387894211a37812d68a18b2ef9412c3c"
+    }
+  },
+  "panel_rows": {
+    "a": 32,
+    "b": 32,
+    "c": 8
+  },
+  "outputs": {
+    "pdf": {
+      "filename": "Supplementary_Figure_S2.pdf",
+      "sha256": "4e27a4bcaa28ff52425e960e0f8aea4e59768cc6543265a165d6898c8eb98e5a"
+    },
+    "png": {
+      "filename": "Supplementary_Figure_S2.png",
+      "sha256": "b17aecdca9a6c5d8bd2d7195bd2ce8876fa05f52ae2875ec25e421e59eef8e8f"
+    },
+    "svg": {
+      "filename": "Supplementary_Figure_S2.svg",
+      "sha256": "ad63a98af31b1071eb41ce4b9a136bf9db409a7961986108ca25ba05769412ef"
+    },
+    "tiff": {
+      "filename": "Supplementary_Figure_S2.tiff",
+      "sha256": "6046989dd0106931a4ef1b9bfaf830ebfbcc38b4b7a728f90c22ab14455eac6f"
+    }
+  }
+}

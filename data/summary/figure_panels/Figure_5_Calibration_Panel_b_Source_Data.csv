@@ -1,0 +1,17 @@
+country,task,profile,fold_n,all_month_station_covered_n,all_month_station_group_n,all_month_station_coverage
+CAN,T1_station,no_met,5,216,239,0.9037656903765691
+CAN,T1_station,with_met,5,218,239,0.9121338912133892
+CAN,T2_spatial,no_met,5,176,239,0.7364016736401674
+CAN,T2_spatial,with_met,5,177,239,0.7405857740585774
+CAN,T2_spatial_buffer50km,no_met,5,145,239,0.606694560669456
+CAN,T2_spatial_buffer50km,with_met,5,143,239,0.5983263598326359
+CAN,T3_year_2022,no_met,1,220,220,1.0
+CAN,T3_year_2022,with_met,1,220,220,1.0
+USA,T1_station,no_met,5,791,866,0.9133949191685913
+USA,T1_station,with_met,5,796,866,0.9191685912240185
+USA,T2_spatial,no_met,5,691,866,0.7979214780600462
+USA,T2_spatial,with_met,5,683,866,0.7886836027713626
+USA,T2_spatial_buffer50km,no_met,5,703,866,0.8117782909930716
+USA,T2_spatial_buffer50km,with_met,5,694,866,0.8013856812933026
+USA,T3_year_2022,no_met,1,743,774,0.9599483204134367
+USA,T3_year_2022,with_met,1,743,774,0.9599483204134367

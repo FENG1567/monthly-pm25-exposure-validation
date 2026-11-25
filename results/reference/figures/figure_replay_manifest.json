@@ -1,0 +1,581 @@
+{
+  "method": "source_replay_from_published_panel_csvs",
+  "model_refit": false,
+  "bootstrap_or_resampling": false,
+  "figures": [
+    {
+      "figure": "Figure_1_Historical_Validation",
+      "caption": "Figure 1 | Historical validation across countries and tasks. Full histogram-based gradient boosting (HGB) models use strict aerosol optical depth (AOD) quality screening, log targets and station-cross-fitted smearing. Panels (A,B) show R² with and without meteorology; (C,D) show corresponding root mean square error (RMSE) in µg m⁻³. T1 denotes station grouping, T2 spatial blocking, T2 buffer the 50-km buffer, and T3 2022 forward-year validation. R² colors use a signed logarithmic scale; labels show untransformed scores. RMSE uses a separate linear scale. NA denotes an unavailable metric; hatched I denotes an ineligible estimate. A dagger marks estimates based on fewer eligible folds. MET denotes meteorological predictors.",
+      "panel_sources": {
+        "a": {
+          "filename": "data/summary/figure_panels/Figure_1_Historical_Validation_Panel_a_Source_Data.csv",
+          "rows": 68,
+          "sha256": "7c025a6ae3ee637fe68ed519dcd20dcbcf7a4301018aea329cc285ace0e7063f"
+        },
+        "b": {
+          "filename": "data/summary/figure_panels/Figure_1_Historical_Validation_Panel_b_Source_Data.csv",
+          "rows": 68,
+          "sha256": "6f300dcb27e6d256603835d6d8176e9e8a20d0e90eeabc0027c709852d41522c"
+        },
+        "c": {
+          "filename": "data/summary/figure_panels/Figure_1_Historical_Validation_Panel_c_Source_Data.csv",
+          "rows": 68,
+          "sha256": "7c025a6ae3ee637fe68ed519dcd20dcbcf7a4301018aea329cc285ace0e7063f"
+        },
+        "d": {
+          "filename": "data/summary/figure_panels/Figure_1_Historical_Validation_Panel_d_Source_Data.csv",
+          "rows": 68,
+          "sha256": "6f300dcb27e6d256603835d6d8176e9e8a20d0e90eeabc0027c709852d41522c"
+        }
+      },
+      "panel_rows": {
+        "a": 68,
+        "b": 68,
+        "c": 68,
+        "d": 68
+      },
+      "outputs": {
+        "pdf": {
+          "filename": "Figure_1_Historical_Validation.pdf",
+          "sha256": "6292fa33aab16cc028b38bf6557b4f0bf3c42380eeb0852cfca6b1be8c82973f"
+        },
+        "png": {
+          "filename": "Figure_1_Historical_Validation.png",
+          "sha256": "0620086fd5ed4990bcf8efbb3d67b188f04a9753ea514f1eb4a6eb53506f771e"
+        },
+        "svg": {
+          "filename": "Figure_1_Historical_Validation.svg",
+          "sha256": "59a3103a095d914f9131f68d0c3cea3517f91a273f9d2f0f43b4a11562bf2ae2"
+        },
+        "tiff": {
+          "filename": "Figure_1_Historical_Validation.tiff",
+          "sha256": "667615d13fa91a0f03bf623628b099a9a861674b76efbebb93afd32323c48944"
+        }
+      }
+    },
+    {
+      "figure": "Figure_2_Future_Evaluation",
+      "caption": "Figure 2 | Future-year performance by meteorological profile and update policy. Panels (A,B) show United States R² and RMSE; (C,D) show Canadian results under strict-QA HGB full models. Solid lines/filled markers denote fixed-window models, and dashed lines/open markers denote rolling updates. Color and shape distinguish meteorological profiles. Lines connect observed evaluation years. The reference line marks 2023. The inset lists the four Canadian 2024 RMSE values that overlap at the main panel scale. RMSE is in µg m⁻³.",
+      "panel_sources": {
+        "USA_r2": {
+          "filename": "data/summary/figure_panels/Figure_2_Future_Evaluation_Panel_USA_r2_Source_Data.csv",
+          "rows": 10,
+          "sha256": "6efa7dae7c842802b0fbb7bbf011f058be571f790f42e128de528692b2c9e488"
+        },
+        "USA_rmse": {
+          "filename": "data/summary/figure_panels/Figure_2_Future_Evaluation_Panel_USA_rmse_Source_Data.csv",
+          "rows": 10,
+          "sha256": "a6168c592607dbd520543025ca36a48871e1b4ada8c095d56f65cc5e87df64da"
+        },
+        "CAN_r2": {
+          "filename": "data/summary/figure_panels/Figure_2_Future_Evaluation_Panel_CAN_r2_Source_Data.csv",
+          "rows": 6,
+          "sha256": "c7a10879ff30c02aa142265f563089c44e452e0de36cb5d9fcf20abfc3ba05a4"
+        },
+        "CAN_rmse": {
+          "filename": "data/summary/figure_panels/Figure_2_Future_Evaluation_Panel_CAN_rmse_Source_Data.csv",
+          "rows": 6,
+          "sha256": "7e69cbfad9e83a6244699925c363c9510323e5f6d61ebb2545e833d17d61e12a"
+        }
+      },
+      "panel_rows": {
+        "USA_r2": 10,
+        "USA_rmse": 10,
+        "CAN_r2": 6,
+        "CAN_rmse": 6
+      },
+      "outputs": {
+        "pdf": {
+          "filename": "Figure_2_Future_Evaluation.pdf",
+          "sha256": "fc5f72d27b697bc6a88fbd2b33ff87ada33b1275c53b120ccbcef2b262da987d"
+        },
+        "png": {
+          "filename": "Figure_2_Future_Evaluation.png",
+          "sha256": "802121cf1837373ececaf0544876fb96d8bf6d19cf7bc30be2ec87136ef804d0"
+        },
+        "svg": {
+          "filename": "Figure_2_Future_Evaluation.svg",
+          "sha256": "528e165630a4f50ad3eefa5ac85940619b8f8905ea1a9d829c9b8553f332e770"
+        },
+        "tiff": {
+          "filename": "Figure_2_Future_Evaluation.tiff",
+          "sha256": "9476a5214760209b67a3e769ba41d2ef50f5786af3f892646423e38714b1f9cd"
+        }
+      }
+    },
+    {
+      "figure": "Figure_3_Feature_Increments",
+      "caption": "Figure 3 | RMSE increments from aerosol optical depth (AOD) and fire predictors. Panels compare (A) B+AOD minus B, (B) full minus (B+AOD), and (C) full minus B. Points and bars show estimates and simultaneous 95% max-|t| intervals across all 78 contrasts, using 10,000 Exp(1) station-multiplier draws. The family contains 26 United States/Canada task–meteorology units. Intervals exclude zero in favor of the added predictors in 24/26, 12/26 and 26/26 comparisons, respectively. Rows group 13 country–task combinations with meteorological profiles offset. Negative ΔRMSE favors the added predictors; units are µg m⁻³. B denotes the base model with location, population and seasonal predictors. MET denotes meteorological predictors. T1 denotes station grouping, T2 spatial blocking, T2 buffer the 50-km buffer, T3 2022 forward-year validation, and T4 fixed-window future-year evaluation.",
+      "panel_sources": {
+        "a": {
+          "filename": "data/summary/figure_panels/Figure_3_Feature_Increments_Panel_a_Source_Data.csv",
+          "rows": 26,
+          "sha256": "44ccbde5dd7e1352705e51f5958ba67717760ce82c69db7d218f581d257679bd"
+        },
+        "b": {
+          "filename": "data/summary/figure_panels/Figure_3_Feature_Increments_Panel_b_Source_Data.csv",
+          "rows": 26,
+          "sha256": "6ba2f110805192a844f671f42a6e7be31f72ad4f974142792712c0ef8b19b007"
+        },
+        "c": {
+          "filename": "data/summary/figure_panels/Figure_3_Feature_Increments_Panel_c_Source_Data.csv",
+          "rows": 26,
+          "sha256": "6f71a20f0ff670325d51167f66231002faea178cbee2b3f6e8137f1224c9dca9"
+        }
+      },
+      "panel_rows": {
+        "a": 26,
+        "b": 26,
+        "c": 26
+      },
+      "outputs": {
+        "pdf": {
+          "filename": "Figure_3_Feature_Increments.pdf",
+          "sha256": "f0f7148cc2b424b8dde8e815b12f146e35505a6e8f73fba24e149bb4ae27057d"
+        },
+        "png": {
+          "filename": "Figure_3_Feature_Increments.png",
+          "sha256": "f2dd5e62df54cdaebf672c0f012b7242be6db496b2c4d4cbd112ff49a804a827"
+        },
+        "svg": {
+          "filename": "Figure_3_Feature_Increments.svg",
+          "sha256": "ed36f41fc4904af653d363be16321b2f592f9b48a44115b104172f384ae4938c"
+        },
+        "tiff": {
+          "filename": "Figure_3_Feature_Increments.tiff",
+          "sha256": "41cafe458830f859931c7f34323faa2f233e4202549d45c679608967f35ed249"
+        }
+      }
+    },
+    {
+      "figure": "Figure_4_Fire_Support",
+      "caption": "Figure 4 | Error and observation retention in high-fire-proxy months. (A) Full-model RMSE for P90 fire-proxy and other months across fixed-window country-years. (B) Retention of 2023 high-fire station-months under distance <50 km combined with non-geographic training min–max or P01–P99 bounds. The unrestricted sample is a reference. Canadian models with meteorology retain 466/725 observations (64.3%) under min–max and 302/725 (41.7%) under P01–P99 bounds. Rows group country/year in (A) and country in (B); color and offsets distinguish meteorological profiles. RMSE is in µg m⁻³; retention uses all eligible high-fire station-months as the denominator. P90 marks months above the regional fire-feature 90th percentile in the outer training set; P01–P99 denotes the training first-to-ninety-ninth-percentile range.",
+      "panel_sources": {
+        "a": {
+          "filename": "data/summary/figure_panels/Figure_4_Fire_Support_Panel_a_Source_Data.csv",
+          "rows": 20,
+          "sha256": "6d509403ad46beeeaca40031849d04f497f38d3aa616c244ed50aa9fe6fa7839"
+        },
+        "b": {
+          "filename": "data/summary/figure_panels/Figure_4_Fire_Support_Panel_b_Source_Data.csv",
+          "rows": 12,
+          "sha256": "24d33d78aebf57e967345f0d17ef3170dc57f1ec8ac93ac21ec29d425e3dbd22"
+        }
+      },
+      "panel_rows": {
+        "a": 20,
+        "b": 12
+      },
+      "outputs": {
+        "pdf": {
+          "filename": "Figure_4_Fire_Support.pdf",
+          "sha256": "9fd240fd15f7bc676d6bc5e4a86ce90c2d5e20227db73815c6f090eaa57137d7"
+        },
+        "png": {
+          "filename": "Figure_4_Fire_Support.png",
+          "sha256": "ae2351f8582a6ee040352fad9f67f5e9df04a07787d4983200287c00d7bbf5e4"
+        },
+        "svg": {
+          "filename": "Figure_4_Fire_Support.svg",
+          "sha256": "b7e918e52338a556dd0c6fd1b022f477ec4ae3dfcde0214fd1799d9b714407d1"
+        },
+        "tiff": {
+          "filename": "Figure_4_Fire_Support.tiff",
+          "sha256": "0718b248724b918bb9123b6aa43180df9eabe3f5164aa756a20849839f6a1151"
+        }
+      }
+    },
+    {
+      "figure": "Figure_5_Calibration",
+      "caption": "Figure 5 | Prediction-interval coverage and width in the primary United States/Canada evaluation. (A) Station-month coverage pools covered/tested station-months. (B) Whole-station coverage pools test stations whose entire observed sequence is covered, divided by tested stations. (C) Mean width is weighted by test station-month counts, in µg m⁻³. All 64 primary folds have finite calibration thresholds. The 16 country–task–profile groups contain five folds for T1/T2 tasks and one for T3 2022 forward-year validation. Meteorological profiles are offset within country/task rows; vertical reference lines mark nominal 90% coverage. Fold detail and the separate feasibility construction are in Supplementary Figure S2.",
+      "panel_sources": {
+        "a": {
+          "filename": "data/summary/figure_panels/Figure_5_Calibration_Panel_a_Source_Data.csv",
+          "rows": 16,
+          "sha256": "4403fb01ea225763c82a98766ba9fb342526b1fdacbc9cce17a282a360e73259"
+        },
+        "b": {
+          "filename": "data/summary/figure_panels/Figure_5_Calibration_Panel_b_Source_Data.csv",
+          "rows": 16,
+          "sha256": "262eb9ce0e6d04c9b68ba66cae71ef83078987eb60cbdcbbd883dbe1b07cbcbd"
+        },
+        "c": {
+          "filename": "data/summary/figure_panels/Figure_5_Calibration_Panel_c_Source_Data.csv",
+          "rows": 16,
+          "sha256": "a5982d0c7bee245749c3c7400fcacfbff461dc8cc04e3404b1037b41b4266291"
+        }
+      },
+      "panel_rows": {
+        "a": 16,
+        "b": 16,
+        "c": 16
+      },
+      "outputs": {
+        "pdf": {
+          "filename": "Figure_5_Calibration.pdf",
+          "sha256": "c1a262519c65c6538915ee2fec4865f1da2ed60c8a839f9fbce974fea1c53700"
+        },
+        "png": {
+          "filename": "Figure_5_Calibration.png",
+          "sha256": "c9fd53252e3f090565cd3f0d175022790d2ee10d4fda23fad0ef1b6614101894"
+        },
+        "svg": {
+          "filename": "Figure_5_Calibration.svg",
+          "sha256": "ad63d8d3511e261b7c5415f243b4f949ab57f0fd1e5de58afe05d05e8ef7af49"
+        },
+        "tiff": {
+          "filename": "Figure_5_Calibration.tiff",
+          "sha256": "985e5612d54ea350c15f6d42f27b9e5f6db318fbaf14f0add37007329e0b1005"
+        }
+      }
+    },
+    {
+      "figure": "Figure_6_Monthly_Benchmark",
+      "caption": "Figure 6 | Full-model and native monthly SatPM V6.GL.03 performance on matched station-months. (A) RMSE for the two estimates across 12 country–year–profile combinations: fixed 2023, fixed 2024 and rolling 2024. Filled circles denote the full model and open squares SatPM. (B) Paired ΔRMSE (full minus SatPM) with station-cluster bootstrap 95% intervals (500 resamples; seed 20261116). Negative differences favor the full model. The 2023 difference favors SatPM in the United States and the full model in Canada; all 2024 RMSE intervals include zero. Rows group country, year and update policy, with meteorological profiles offset. Units are µg m⁻³.",
+      "panel_sources": {
+        "a": {
+          "filename": "data/summary/figure_panels/Figure_6_Monthly_Benchmark_Panel_a_Source_Data.csv",
+          "rows": 12,
+          "sha256": "7bc48e47d44d7e85cf64e18ba2eaeb9d945325c3efa014e8ee0987ed24c4feb7"
+        },
+        "b": {
+          "filename": "data/summary/figure_panels/Figure_6_Monthly_Benchmark_Panel_b_Source_Data.csv",
+          "rows": 12,
+          "sha256": "b767b4e51d70235b4575d573f779df432016589a9513927740f581fd6e40d88f"
+        }
+      },
+      "panel_rows": {
+        "a": 12,
+        "b": 12
+      },
+      "outputs": {
+        "pdf": {
+          "filename": "Figure_6_Monthly_Benchmark.pdf",
+          "sha256": "7301490f452ed48acad9f24630d3bbb216950ec928e0857819f3ee2cddee90a2"
+        },
+        "png": {
+          "filename": "Figure_6_Monthly_Benchmark.png",
+          "sha256": "a7c1ba1e2aec38897eeb3dc855fe1611759933228d3cdc2d91dacd7c87228f8c"
+        },
+        "svg": {
+          "filename": "Figure_6_Monthly_Benchmark.svg",
+          "sha256": "a4000c742ad7c0db609b4929f62bae94cc3a0d5d6c2e37a52103e49b8bac072b"
+        },
+        "tiff": {
+          "filename": "Figure_6_Monthly_Benchmark.tiff",
+          "sha256": "31212f3515420b7f0dde6bd5cbbd374019e095ddc2b28f874275dd9cd5980390"
+        }
+      }
+    },
+    {
+      "figure": "Supplementary_Figure_S1",
+      "caption": "Supplementary Figure S1 | Monitoring geometry in spatial validation. (A) Training and test station counts for 154 country/task/fold records; filled and open markers distinguish training and test sets, color denotes task, and shape denotes fold. The count axis is logarithmic. (B) Available training-to-test distance summaries for 78 records: lines span minimum to P90, with median markers. NA labels give counts of unavailable distance summaries (United States: 5; Canada: 15). Small offsets separate overlapping records.",
+      "panel_sources": {
+        "a": {
+          "filename": "data/summary/figure_panels/Supplementary_Figure_S1_Panel_a_Source_Data.csv",
+          "rows": 154,
+          "sha256": "c6137bb825f0762476fe39c6bd81a94402ed620de9d331afa4fb28aa2db95985"
+        },
+        "b": {
+          "filename": "data/summary/figure_panels/Supplementary_Figure_S1_Panel_b_Source_Data.csv",
+          "rows": 78,
+          "sha256": "c4d795d6a09de3c2ce0942cfe8b5d34d41819dd63d79baf70f1bb6961b04ce0d"
+        }
+      },
+      "panel_rows": {
+        "a": 154,
+        "b": 78
+      },
+      "outputs": {
+        "pdf": {
+          "filename": "Supplementary_Figure_S1.pdf",
+          "sha256": "fecfac340f3ec7a8130561aa56c75bfce371e5f14e35d7205130cadc2f9218af"
+        },
+        "png": {
+          "filename": "Supplementary_Figure_S1.png",
+          "sha256": "adcc42f97ec2c2f8deda4b4ae8d867b8e55f7d90d58f725eaa4e7d67b7d23f50"
+        },
+        "svg": {
+          "filename": "Supplementary_Figure_S1.svg",
+          "sha256": "d681bdcb175cfe4e69e018c5f2d3af71b4319c59b75e1239394de54f27ca932b"
+        },
+        "tiff": {
+          "filename": "Supplementary_Figure_S1.tiff",
+          "sha256": "bd2fd1095a7dbf52f321279bf5a55a2c91b1b9d95f6b998d60b5f13672be04c9"
+        }
+      }
+    },
+    {
+      "figure": "Supplementary_Figure_S2",
+      "caption": "Supplementary Figure S2 | Fold-level interval coverage and a separate feasibility analysis. (A,B) Station-month and whole-station coverage for the 32 primary 80/20 folds in each of the United States and Canada. Labels identify task, meteorological profile and fold; the common scale marks nominal 0.90 coverage. (C) Eight Brazilian external-2023 feasibility calibration thresholds, separated by source class and meteorological profile. The Brazil construction is summarized separately from the 64 primary folds. T1 denotes station grouping, T2 spatial blocking, T2b the 50-km buffer and T3/22 the 2022 forward-year task. q90 is the finite-sample calibration threshold for station-wise maximum absolute PM₂.₅ residuals, in µg m⁻³. HGB denotes histogram-based gradient boosting; MET denotes meteorological predictors. Strict and sensitivity refer to AOD quality-screening rules.",
+      "panel_sources": {
+        "a": {
+          "filename": "data/summary/figure_panels/Supplementary_Figure_S2_Panel_a_Source_Data.csv",
+          "rows": 32,
+          "sha256": "7fcd453e6164e25d1e0ef250352049b58fc73c792b9dff7faa363a3e449b0338"
+        },
+        "b": {
+          "filename": "data/summary/figure_panels/Supplementary_Figure_S2_Panel_b_Source_Data.csv",
+          "rows": 32,
+          "sha256": "30c74ccba658c054d297e9a14143a5def4f5c79e6e652357a650f4d399691a33"
+        },
+        "c": {
+          "filename": "data/summary/figure_panels/Supplementary_Figure_S2_Panel_c_Source_Data.csv",
+          "rows": 8,
+          "sha256": "14c04926907553e44bb531a3cf5c871e387894211a37812d68a18b2ef9412c3c"
+        }
+      },
+      "panel_rows": {
+        "a": 32,
+        "b": 32,
+        "c": 8
+      },
+      "outputs": {
+        "pdf": {
+          "filename": "Supplementary_Figure_S2.pdf",
+          "sha256": "4e27a4bcaa28ff52425e960e0f8aea4e59768cc6543265a165d6898c8eb98e5a"
+        },
+        "png": {
+          "filename": "Supplementary_Figure_S2.png",
+          "sha256": "b17aecdca9a6c5d8bd2d7195bd2ce8876fa05f52ae2875ec25e421e59eef8e8f"
+        },
+        "svg": {
+          "filename": "Supplementary_Figure_S2.svg",
+          "sha256": "ad63a98af31b1071eb41ce4b9a136bf9db409a7961986108ca25ba05769412ef"
+        },
+        "tiff": {
+          "filename": "Supplementary_Figure_S2.tiff",
+          "sha256": "6046989dd0106931a4ef1b9bfaf830ebfbcc38b4b7a728f90c22ab14455eac6f"
+        }
+      }
+    },
+    {
+      "figure": "Supplementary_Figure_S3",
+      "caption": "Supplementary Figure S3 | Historical station-grouped sensitivity. Panels (A,B) compare strict/sensitivity AOD quality screening and HGB/Ridge estimators under log-smear prediction. Panels (C,D) compare strict-HGB target/retransformation branches. Left-hand panels use models without meteorology, and right-hand panels use models with meteorology. Cell labels give R²; colors use a symmetric logarithmic scale. Negative estimates are retained, and Portugal is labeled PT. AOD denotes aerosol optical depth; HGB denotes histogram-based gradient boosting. QA denotes quality assurance; sens. denotes the sensitivity AOD screening rule.",
+      "panel_sources": {
+        "a": {
+          "filename": "data/summary/figure_panels/Supplementary_Figure_S3_Panel_a_Source_Data.csv",
+          "rows": 112,
+          "sha256": "65890c9fd9f151e4b162fd62560c57a970c00a587942bfd06084dc285353419d"
+        },
+        "b": {
+          "filename": "data/summary/figure_panels/Supplementary_Figure_S3_Panel_b_Source_Data.csv",
+          "rows": 84,
+          "sha256": "1b2a7edc077a98ac1a6992173acd01df3709f68b79286927d69952e8b2e1a945"
+        }
+      },
+      "panel_rows": {
+        "a": 112,
+        "b": 84
+      },
+      "outputs": {
+        "pdf": {
+          "filename": "Supplementary_Figure_S3.pdf",
+          "sha256": "ad7270af7180d82d37626014be63652f5f6939a31cf288ad1b575109da5e48f3"
+        },
+        "png": {
+          "filename": "Supplementary_Figure_S3.png",
+          "sha256": "23345cf4a7bf414f77289b80336cdf5bf9a506ac0bf0a4ed276318b52c8effc1"
+        },
+        "svg": {
+          "filename": "Supplementary_Figure_S3.svg",
+          "sha256": "544ffe72cbee480019d7224db7f2b2e76e0f937daa7202a49483b971259118e2"
+        },
+        "tiff": {
+          "filename": "Supplementary_Figure_S3.tiff",
+          "sha256": "ced479bf6896dc7a02bfa92a476c477c8ba2282f0ad2cd5f8c07ae71ee4cfc06"
+        }
+      }
+    },
+    {
+      "figure": "Supplementary_Figure_S4",
+      "caption": "Supplementary Figure S4 | Cross-country transfer and monitoring-network sensitivity. (A) R² for all 17 held-out countries under strict-QA no-meteorology HGB and Ridge full models, shown on a signed-log scale. (B,C) United States and Canadian 2022 RMSE under nested station thinning, separated by meteorological profile. Marker shape identifies the three fixed seeds; open diamonds show full-network endpoints. Points represent observed sample sizes, and seed differences are descriptive. LOCO denotes leave-one-country-out validation; HGB denotes histogram-based gradient boosting, and MET meteorological predictors.",
+      "panel_sources": {
+        "a": {
+          "filename": "data/summary/figure_panels/Supplementary_Figure_S4_Panel_a_Source_Data.csv",
+          "rows": 34,
+          "sha256": "1a3d079f011e822415ee037490e0a7276736bf0f87aa51d106d6995770bf328b"
+        },
+        "b": {
+          "filename": "data/summary/figure_panels/Supplementary_Figure_S4_Panel_b_Source_Data.csv",
+          "rows": 64,
+          "sha256": "26ef72012eaa74874a04772ba7826eddab0802cf3a02d8e1e3982fa169c50826"
+        }
+      },
+      "panel_rows": {
+        "a": 34,
+        "b": 64
+      },
+      "outputs": {
+        "pdf": {
+          "filename": "Supplementary_Figure_S4.pdf",
+          "sha256": "d81cce2a2bfb93f2e72a2b394c3e9aac6dad600a2fbc36a5a0809b1f47479df6"
+        },
+        "png": {
+          "filename": "Supplementary_Figure_S4.png",
+          "sha256": "6201f8dfe72b10f0af97e5dc86c0ecf2358e7e6fd793b31d78792fbcbcde02a0"
+        },
+        "svg": {
+          "filename": "Supplementary_Figure_S4.svg",
+          "sha256": "35e68c4ed12ff3d9a59a7ced7991cb87230b4f061e46245a14c6000fcc8f5e64"
+        },
+        "tiff": {
+          "filename": "Supplementary_Figure_S4.tiff",
+          "sha256": "407bf86c425aa6b3ab16f178f5829ddbbaa38f51f1dfd56505d072bcc841da35"
+        }
+      }
+    },
+    {
+      "figure": "Supplementary_Figure_S5",
+      "caption": "Supplementary Figure S5 | Fire-product, plume and tracer comparisons. (A,B) United States and Canadian Hazard Mapping System (HMS) plume-fraction correlations by year and update policy. Color/offsets distinguish meteorological profiles; circles and diamonds denote fixed and rolling evaluation. (C) Eight country/product/profile correlations for 2023 GFED/QFED comparisons. (D) Six US Environmental Protection Agency (EPA) organic-carbon (OC) correlations by parameter/method and meteorological profile. (E) Twelve station-level plume-minus-control OC contrasts under same-date or ±1-day labels and any-plume or medium/heavy definitions. HMS dates are UTC and OC dates local. Intervals condition on fitted predictions; OC is a nonspecific tracer. Labels in D and E give EPA parameter/method codes; M/H denotes medium/heavy plumes, and same denotes matched calendar dates. QFED and GFED denote the Quick Fire Emissions Dataset and Global Fire Emissions Database, respectively. Points and horizontal bars show estimates and 95% percentile intervals from 500 station-cluster bootstrap resamples.",
+      "panel_sources": {
+        "a": {
+          "filename": "data/summary/figure_panels/Supplementary_Figure_S5_Panel_a_Source_Data.csv",
+          "rows": 16,
+          "sha256": "24eecdf364233d2d9f8947afa35e48d9e0d5a90f5980aebc759069821ae6e497"
+        },
+        "b": {
+          "filename": "data/summary/figure_panels/Supplementary_Figure_S5_Panel_b_Source_Data.csv",
+          "rows": 8,
+          "sha256": "6c2aa18b63111fcb20a46aa2511f7add9c78aeb503770554ce86e9d91e8c5888"
+        },
+        "c": {
+          "filename": "data/summary/figure_panels/Supplementary_Figure_S5_Panel_c_Source_Data.csv",
+          "rows": 6,
+          "sha256": "0370d27b20306b964a72c4925ff172c7cd65ee239e6dfce0f568fd77bcf7bec2"
+        },
+        "d": {
+          "filename": "data/summary/figure_panels/Supplementary_Figure_S5_Panel_d_Source_Data.csv",
+          "rows": 12,
+          "sha256": "ad36293f3b8592c3760db570e65792f3ddc39f12a54b73e9b6cbb9af23d025e1"
+        }
+      },
+      "panel_rows": {
+        "a": 16,
+        "b": 8,
+        "c": 6,
+        "d": 12
+      },
+      "outputs": {
+        "pdf": {
+          "filename": "Supplementary_Figure_S5.pdf",
+          "sha256": "a179d73f19d773303cfd20f6715c953e356c44e7fde2b6f02a9df79f2b4fdcad"
+        },
+        "png": {
+          "filename": "Supplementary_Figure_S5.png",
+          "sha256": "2e24514acbf8e8635fae5a2a64f97a3e65e665ea3f2441eeeadde1cc67652c2e"
+        },
+        "svg": {
+          "filename": "Supplementary_Figure_S5.svg",
+          "sha256": "23df2830a356658cf6cfe80073f1b471bc457fd192651cabf4e821b3c8f7a1d8"
+        },
+        "tiff": {
+          "filename": "Supplementary_Figure_S5.tiff",
+          "sha256": "e65da81496462eebad6b796d6aaff754d640dba652f87076809af3bfd1d8d4b1"
+        }
+      }
+    },
+    {
+      "figure": "Supplementary_Figure_S6",
+      "caption": "Supplementary Figure S6 | Plume-definition, date-alignment and fire-threshold sensitivity. (A–C) All 264 Pearson correlations across United States PM₂.₅, Canadian PM₂.₅ and United States organic-carbon (OC) comparisons. Columns cross same-date/±1-day alignment, any-plume/medium-heavy definition, and P80/P90/P95 fire thresholds; P90 is primary. Rows identify year/task/profile or OC parameter/method/profile. (D) Median, range and available/missing counts for days with known HMS status and retained observations across 264 comparisons. Dates with missing HMS archives are treated as unknown. Analyses sharing observations are descriptive comparisons, not independent replications. HMS denotes the Hazard Mapping System; EPA parameter/method codes identify the OC series. P80, P90 and P95 are training-set fire-feature percentiles.",
+      "panel_sources": {
+        "a": {
+          "filename": "data/summary/figure_panels/Supplementary_Figure_S6_Panel_a_Source_Data.csv",
+          "rows": 264,
+          "sha256": "9c68d136b2cbe75af1ed5d07566aad6c711ced26160376648732c0643127a2a6"
+        },
+        "b": {
+          "filename": "data/summary/figure_panels/Supplementary_Figure_S6_Panel_b_Source_Data.csv",
+          "rows": 264,
+          "sha256": "d925c0df60c02df9ac50642fbffdcb3972d51ddc282da9e810bb9ca7227d645d"
+        }
+      },
+      "panel_rows": {
+        "a": 264,
+        "b": 264
+      },
+      "outputs": {
+        "pdf": {
+          "filename": "Supplementary_Figure_S6.pdf",
+          "sha256": "0f17acc28c1143c89b7622fcca2bb9d4d40eddee1822a515d9f26b33013d1825"
+        },
+        "png": {
+          "filename": "Supplementary_Figure_S6.png",
+          "sha256": "99d86368e6bb1795dcbf3888f88c9d65a2dbc9b357b109e76714f37a418b979a"
+        },
+        "svg": {
+          "filename": "Supplementary_Figure_S6.svg",
+          "sha256": "f7dc7d61371d0fd91673b18fe8e31eaeaaf9f14529bef5bda47b9a30ab5d4346"
+        },
+        "tiff": {
+          "filename": "Supplementary_Figure_S6.tiff",
+          "sha256": "e3888aeee670d5ca7f35496382afe9a213ac212f4072cc85921463be2b108010"
+        }
+      }
+    },
+    {
+      "figure": "Supplementary_Figure_S7",
+      "caption": "Supplementary Figure S7 | Geographic availability of the primary 2023 reference-grid component. Finite strict-QA with-meteorology log-smear P90 component estimates are shown for January, April, July and October in the United States and Canada. Panels share the finite-coordinate extent and a square-root color mapping in µg m⁻³. Denominators include the larger grid footprint; unsupported cells remain missing without interpolation. Values are model-derived components, and the sparse maps represent supported cells and months. Panels A–D show the United States and panels E–H Canada, with January, April, July and October ordered from left to right. Panel counts give finite component estimates divided by total grid cells. The colorbar shows the modeled fire-related PM₂.₅ component.",
+      "panel_sources": {
+        "a": {
+          "filename": "data/summary/figure_panels/Supplementary_Figure_S7_Panel_a_Source_Data.csv.gz",
+          "rows": 7716800,
+          "sha256": "74d0b0e2a3d8ad22f26e9d6d743920fc11d641a91e07341460b6836e30e3cb00"
+        }
+      },
+      "panel_rows": {
+        "a": 7716800
+      },
+      "outputs": {
+        "pdf": {
+          "filename": "Supplementary_Figure_S7.pdf",
+          "sha256": "7b54a95d3906052849014dadf089376a8bbd7c3c7ad2f143cfb345b0191c16b0"
+        },
+        "png": {
+          "filename": "Supplementary_Figure_S7.png",
+          "sha256": "6189ac674905e76fee92156c55abb37c1c01b04489679594c0a98a32f2d79540"
+        },
+        "svg": {
+          "filename": "Supplementary_Figure_S7.svg",
+          "sha256": "a3e9acb75616164c74ec6ab1194003af4217c848f0fad8a2c8c358ccfe48455a"
+        },
+        "tiff": {
+          "filename": "Supplementary_Figure_S7.tiff",
+          "sha256": "78b3ddad125c0bc394b49d72f48e4f9a214503efac1d5d024f661d8cc7679538"
+        }
+      }
+    },
+    {
+      "figure": "Supplementary_Figure_S8",
+      "caption": "Supplementary Figure S8 | Annual SatPM comparisons on identical 12-month support. Panels (A,B) show the United States and Canada, each with six tasks and paired meteorological profiles: T1 station, T2 spatial, T2 with 50-km buffer, T3 2022, and fixed 2023/2024. The 24 points show full-model minus SatPM annual RMSE in µg m⁻³, with 95% station-cluster percentile bootstrap intervals (500 resamples). Positive values favor SatPM. Models use strict-QA HGB with log targets and smearing. The fitted-CAMS comparison is reported separately in main Table 2. T4/23 and T4/24 denote fixed-window evaluation in 2023 and 2024, respectively; MET denotes meteorological predictors.",
+      "panel_sources": {
+        "a": {
+          "filename": "data/summary/figure_panels/Supplementary_Figure_S8_Panel_a_Source_Data.csv",
+          "rows": 24,
+          "sha256": "e49672208b25ef976bff6b08ce7781bacce12c52a402de84d498bb67e0a125b8"
+        }
+      },
+      "panel_rows": {
+        "a": 24
+      },
+      "outputs": {
+        "pdf": {
+          "filename": "Supplementary_Figure_S8.pdf",
+          "sha256": "f1dfd115ff903c167049a191258e8f2ee1f625430fb2b90e8274f50480b055bd"
+        },
+        "png": {
+          "filename": "Supplementary_Figure_S8.png",
+          "sha256": "ed0c7afa576f3531133a69b2453fcf2c346c9440597b21887d2b923713c64c01"
+        },
+        "svg": {
+          "filename": "Supplementary_Figure_S8.svg",
+          "sha256": "04657b2acf32b9f427a4fd53046871a380606f6f26ffab2bc04dd62c5bf59b0e"
+        },
+        "tiff": {
+          "filename": "Supplementary_Figure_S8.tiff",
+          "sha256": "877d15ca1c756d430da6fcc7e87631409a38b4644845852a5b4dd21a64666c25"
+        }
+      }
+    }
+  ]
+}

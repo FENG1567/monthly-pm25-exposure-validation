@@ -1,0 +1,38 @@
+{
+  "figure": "Supplementary_Figure_S1",
+  "caption": "Supplementary Figure S1 | Monitoring geometry in spatial validation. (A) Training and test station counts for 154 country/task/fold records; filled and open markers distinguish training and test sets, color denotes task, and shape denotes fold. The count axis is logarithmic. (B) Available training-to-test distance summaries for 78 records: lines span minimum to P90, with median markers. NA labels give counts of unavailable distance summaries (United States: 5; Canada: 15). Small offsets separate overlapping records.",
+  "panel_sources": {
+    "a": {
+      "filename": "data/summary/figure_panels/Supplementary_Figure_S1_Panel_a_Source_Data.csv",
+      "rows": 154,
+      "sha256": "c6137bb825f0762476fe39c6bd81a94402ed620de9d331afa4fb28aa2db95985"
+    },
+    "b": {
+      "filename": "data/summary/figure_panels/Supplementary_Figure_S1_Panel_b_Source_Data.csv",
+      "rows": 78,
+      "sha256": "c4d795d6a09de3c2ce0942cfe8b5d34d41819dd63d79baf70f1bb6961b04ce0d"
+    }
+  },
+  "panel_rows": {
+    "a": 154,
+    "b": 78
+  },
+  "outputs": {
+    "pdf": {
+      "filename": "Supplementary_Figure_S1.pdf",
+      "sha256": "fecfac340f3ec7a8130561aa56c75bfce371e5f14e35d7205130cadc2f9218af"
+    },
+    "png": {
+      "filename": "Supplementary_Figure_S1.png",
+      "sha256": "adcc42f97ec2c2f8deda4b4ae8d867b8e55f7d90d58f725eaa4e7d67b7d23f50"
+    },
+    "svg": {
+      "filename": "Supplementary_Figure_S1.svg",
+      "sha256": "d681bdcb175cfe4e69e018c5f2d3af71b4319c59b75e1239394de54f27ca932b"
+    },
+    "tiff": {
+      "filename": "Supplementary_Figure_S1.tiff",
+      "sha256": "bd2fd1095a7dbf52f321279bf5a55a2c91b1b9d95f6b998d60b5f13672be04c9"
+    }
+  }
+}

@@ -1,0 +1,866 @@
+{
+  "checksums": {
+    "status": "passed",
+    "files_checked": 181
+  },
+  "scientific_summary_checks": {
+    "status": "passed",
+    "checks": {
+      "pooled_conformal": {
+        "status": "passed",
+        "fold_records": 64,
+        "pooled_groups": 16
+      },
+      "monthly_paired_deltas": {
+        "status": "passed",
+        "paired_deltas_checked": 96,
+        "metric_rows": 24,
+        "metric_types": [
+          "bias",
+          "mae",
+          "r2",
+          "rmse"
+        ]
+      },
+      "feature_increment_signs": {
+        "status": "passed",
+        "contrasts_checked": {
+          "B+AOD - B": {
+            "record_n": 26,
+            "delta_rmse_nonmissing_n": 26,
+            "all_below_zero_n": 24,
+            "all_above_zero_n": 0,
+            "contains_zero_n": 2
+          },
+          "full - B": {
+            "record_n": 26,
+            "delta_rmse_nonmissing_n": 26,
+            "all_below_zero_n": 26,
+            "all_above_zero_n": 0,
+            "contains_zero_n": 0
+          },
+          "full - B+AOD": {
+            "record_n": 26,
+            "delta_rmse_nonmissing_n": 26,
+            "all_below_zero_n": 12,
+            "all_above_zero_n": 0,
+            "contains_zero_n": 14
+          }
+        }
+      }
+    }
+  },
+  "derived_summaries": {
+    "status": "passed",
+    "output_files": {
+      "conformal": "conformal_table5_derived.csv",
+      "monthly": "monthly_paired_deltas_derived.csv",
+      "multiplicity": "multiplicity_contrasts_derived.csv",
+      "annual_selection": "annual_satpm_primary_exact_12_months.csv"
+    },
+    "checks": {
+      "conformal": {
+        "status": "passed",
+        "fold_rows": 64,
+        "pooled_groups": 16,
+        "matched_saved_table_rows": 16
+      },
+      "monthly": {
+        "status": "passed",
+        "metric_deltas": 96,
+        "matched_saved_deltas": 96,
+        "bootstrap_refit": false
+      },
+      "multiplicity": {
+        "status": "passed",
+        "source_rows": 78,
+        "contrasts": 3,
+        "summary_matched": true,
+        "interval_source": "stored simultaneous_95_low/high; bootstrap not rerun"
+      },
+      "annual_selection": {
+        "status": "passed",
+        "selected_rows": 24,
+        "scope": "row selection from annual_comparator_primary_subtable; annual estimates not recalculated"
+      }
+    },
+    "scope": [
+      "Conformal pooled coverages and test-row-weighted interval widths were recomputed from the 64 selected fold records.",
+      "Monthly point-metric deltas were recomputed from matched full/comparator metrics; saved paired deltas were used only for consistency checks. Bootstrap intervals were not recomputed.",
+      "Multiplicity sign counts were recomputed from the stored simultaneous interval bounds; bootstrap replicates were not rerun.",
+      "Annual comparator output is a 24-row selection of stored primary_exact_12_months full minus SatPM records; estimates were not recalculated."
+    ]
+  },
+  "tables": {
+    "status": "passed",
+    "tables_generated": 16,
+    "csv_files": 16,
+    "markdown_files": 16,
+    "reference_check": {
+      "status": "passed",
+      "matched": 16,
+      "expected": 16,
+      "missing": [],
+      "extra": [],
+      "content_mismatches": []
+    },
+    "tables": [
+      {
+        "id": "1",
+        "group": "main_tables",
+        "csv": "Table_1.csv",
+        "markdown": "Table_1.md"
+      },
+      {
+        "id": "2",
+        "group": "main_tables",
+        "csv": "Table_2.csv",
+        "markdown": "Table_2.md"
+      },
+      {
+        "id": "3",
+        "group": "main_tables",
+        "csv": "Table_3.csv",
+        "markdown": "Table_3.md"
+      },
+      {
+        "id": "4a",
+        "group": "main_tables",
+        "csv": "Table_4a.csv",
+        "markdown": "Table_4a.md"
+      },
+      {
+        "id": "4b",
+        "group": "main_tables",
+        "csv": "Table_4b.csv",
+        "markdown": "Table_4b.md"
+      },
+      {
+        "id": "5",
+        "group": "main_tables",
+        "csv": "Table_5.csv",
+        "markdown": "Table_5.md"
+      },
+      {
+        "id": "6",
+        "group": "main_tables",
+        "csv": "Table_6.csv",
+        "markdown": "Table_6.md"
+      },
+      {
+        "id": "7",
+        "group": "main_tables",
+        "csv": "Table_7.csv",
+        "markdown": "Table_7.md"
+      },
+      {
+        "id": "S1",
+        "group": "supplementary_tables",
+        "csv": "Table_S1.csv",
+        "markdown": "Table_S1.md"
+      },
+      {
+        "id": "S2",
+        "group": "supplementary_tables",
+        "csv": "Table_S2.csv",
+        "markdown": "Table_S2.md"
+      },
+      {
+        "id": "S3",
+        "group": "supplementary_tables",
+        "csv": "Table_S3.csv",
+        "markdown": "Table_S3.md"
+      },
+      {
+        "id": "S4",
+        "group": "supplementary_tables",
+        "csv": "Table_S4.csv",
+        "markdown": "Table_S4.md"
+      },
+      {
+        "id": "S5",
+        "group": "supplementary_tables",
+        "csv": "Table_S5.csv",
+        "markdown": "Table_S5.md"
+      },
+      {
+        "id": "S6",
+        "group": "supplementary_tables",
+        "csv": "Table_S7.csv",
+        "markdown": "Table_S7.md"
+      },
+      {
+        "id": "S7",
+        "group": "supplementary_tables",
+        "csv": "Table_S6.csv",
+        "markdown": "Table_S6.md"
+      },
+      {
+        "id": "S8",
+        "group": "supplementary_tables",
+        "csv": "Table_S8.csv",
+        "markdown": "Table_S8.md"
+      }
+    ]
+  },
+  "figures": {
+    "method": "source_replay_from_published_panel_csvs",
+    "model_refit": false,
+    "bootstrap_or_resampling": false,
+    "figures": [
+      {
+        "figure": "Figure_1_Historical_Validation",
+        "caption": "Figure1 | Historical validation differs across country and deployment task. Strict-QA HGB full models with log-smear targets and cross-fitted station smearing are shown for the primary United States and Canadian cohorts and eligible domestic cohorts elsewhere. R² uses a signed logarithmic color scale while labels show raw values; RMSE is shown on a separate linear scale. T1 is station grouping, T2 spatial blocking, T2 buffer the 50-km buffer, and T3 2022 historical forward prediction. Gray cells distinguish unavailable metrics from ineligible folds. Negative R² values are not truncated.",
+        "panel_rows": {
+          "a": 68,
+          "b": 68,
+          "c": 68,
+          "d": 68
+        },
+        "panel_sha256": {
+          "a": "7c025a6ae3ee637fe68ed519dcd20dcbcf7a4301018aea329cc285ace0e7063f",
+          "b": "6f300dcb27e6d256603835d6d8176e9e8a20d0e90eeabc0027c709852d41522c",
+          "c": "7c025a6ae3ee637fe68ed519dcd20dcbcf7a4301018aea329cc285ace0e7063f",
+          "d": "6f300dcb27e6d256603835d6d8176e9e8a20d0e90eeabc0027c709852d41522c"
+        },
+        "panel_sources": {
+          "a": {
+            "filename": "data/summary/figure_panels/Figure_1_Historical_Validation_Panel_a_Source_Data.csv",
+            "rows": 68,
+            "sha256": "7c025a6ae3ee637fe68ed519dcd20dcbcf7a4301018aea329cc285ace0e7063f"
+          },
+          "b": {
+            "filename": "data/summary/figure_panels/Figure_1_Historical_Validation_Panel_b_Source_Data.csv",
+            "rows": 68,
+            "sha256": "6f300dcb27e6d256603835d6d8176e9e8a20d0e90eeabc0027c709852d41522c"
+          },
+          "c": {
+            "filename": "data/summary/figure_panels/Figure_1_Historical_Validation_Panel_c_Source_Data.csv",
+            "rows": 68,
+            "sha256": "7c025a6ae3ee637fe68ed519dcd20dcbcf7a4301018aea329cc285ace0e7063f"
+          },
+          "d": {
+            "filename": "data/summary/figure_panels/Figure_1_Historical_Validation_Panel_d_Source_Data.csv",
+            "rows": 68,
+            "sha256": "6f300dcb27e6d256603835d6d8176e9e8a20d0e90eeabc0027c709852d41522c"
+          }
+        },
+        "original_csv_sha256": {},
+        "outputs": {
+          "pdf": {
+            "filename": "Figure_1_Historical_Validation.pdf",
+            "sha256": "1042caa5db459e5d254cb6ebdd4311d6f4db0c8a514e3f6249a6a9959287f2fb"
+          },
+          "png": {
+            "filename": "Figure_1_Historical_Validation.png",
+            "sha256": "7b4fc12daa59e3cf29499e476176a181619c44255dfa8caf5be2fc2d6ea4d65f"
+          },
+          "svg": {
+            "filename": "Figure_1_Historical_Validation.svg",
+            "sha256": "4c5040620cc2815fc3c9be5e106207c67647d89e4f4d1fdc8ec4e8d58b8ec037"
+          }
+        }
+      },
+      {
+        "figure": "Figure_2_Future_Evaluation",
+        "caption": "Figure2 | Future evaluation depends on year, meteorological profile and update policy. Strict-QA HGB full-model R² and RMSE are shown for the primary US and Canadian policies. Solid and dashed lines denote fixed and rolling updates; symbols denote meteorological profile. The dotted reference marks the previously examined 2023 period; protocols for later-year evaluations were fixed before their final scores were examined. Lines join only observed years; no Canadian 2025 value is imputed. Lower RMSE is descriptive for the stated evaluation support and is not an unconditional comparison across years.",
+        "panel_rows": {
+          "USA_r2": 10,
+          "USA_rmse": 10,
+          "CAN_r2": 6,
+          "CAN_rmse": 6
+        },
+        "panel_sha256": {
+          "USA_r2": "6efa7dae7c842802b0fbb7bbf011f058be571f790f42e128de528692b2c9e488",
+          "USA_rmse": "a6168c592607dbd520543025ca36a48871e1b4ada8c095d56f65cc5e87df64da",
+          "CAN_r2": "c7a10879ff30c02aa142265f563089c44e452e0de36cb5d9fcf20abfc3ba05a4",
+          "CAN_rmse": "7e69cbfad9e83a6244699925c363c9510323e5f6d61ebb2545e833d17d61e12a"
+        },
+        "panel_sources": {
+          "USA_r2": {
+            "filename": "data/summary/figure_panels/Figure_2_Future_Evaluation_Panel_USA_r2_Source_Data.csv",
+            "rows": 10,
+            "sha256": "6efa7dae7c842802b0fbb7bbf011f058be571f790f42e128de528692b2c9e488"
+          },
+          "USA_rmse": {
+            "filename": "data/summary/figure_panels/Figure_2_Future_Evaluation_Panel_USA_rmse_Source_Data.csv",
+            "rows": 10,
+            "sha256": "a6168c592607dbd520543025ca36a48871e1b4ada8c095d56f65cc5e87df64da"
+          },
+          "CAN_r2": {
+            "filename": "data/summary/figure_panels/Figure_2_Future_Evaluation_Panel_CAN_r2_Source_Data.csv",
+            "rows": 6,
+            "sha256": "c7a10879ff30c02aa142265f563089c44e452e0de36cb5d9fcf20abfc3ba05a4"
+          },
+          "CAN_rmse": {
+            "filename": "data/summary/figure_panels/Figure_2_Future_Evaluation_Panel_CAN_rmse_Source_Data.csv",
+            "rows": 6,
+            "sha256": "7e69cbfad9e83a6244699925c363c9510323e5f6d61ebb2545e833d17d61e12a"
+          }
+        },
+        "original_csv_sha256": {},
+        "outputs": {
+          "pdf": {
+            "filename": "Figure_2_Future_Evaluation.pdf",
+            "sha256": "4902feff70c512bbabc56e393d65b86ef6f96ca4250f2fbc0949f4ab66eaea46"
+          },
+          "png": {
+            "filename": "Figure_2_Future_Evaluation.png",
+            "sha256": "b6484e4f03970977031807e9e4becb238b81c8384319b049316d219a85b7cf2d"
+          },
+          "svg": {
+            "filename": "Figure_2_Future_Evaluation.svg",
+            "sha256": "19457a5a0d5f87fbff2c1db3a0bac3a8601d786e1fee84dfe5749bd4a7cf1b7b"
+          }
+        }
+      },
+      {
+        "figure": "Figure_4_Fire_Support",
+        "caption": "Figure4 | Under fixed, strict-QA HGB primary policies, held-out error and P90 fire-proxy support are shown for the United States and Canada. (a) Full-model RMSE for P90 fire-proxy and other months. (b) 2023 P90-month row coverage under two rules: the 50-km distance screen combined with non-geographic min–max bounds, or the 50-km screen combined with P01–P99 bounds; the unrestricted rule is shown only as a reference. CAN with MET retains 466/725 row-months (64.3%) under min–max and 302/725 (41.7%) under 1st–99th percentile bounds. Each point is a country, MET profile and support rule; these conditional descriptive strata are not independent replicates or measures of smoke mass. Underlying data are provided in the supplementary materials.",
+        "panel_rows": {
+          "a": 20,
+          "b": 12
+        },
+        "panel_sha256": {
+          "a": "6d509403ad46beeeaca40031849d04f497f38d3aa616c244ed50aa9fe6fa7839",
+          "b": "24d33d78aebf57e967345f0d17ef3170dc57f1ec8ac93ac21ec29d425e3dbd22"
+        },
+        "panel_sources": {
+          "a": {
+            "filename": "data/summary/figure_panels/Figure_4_Fire_Support_Panel_a_Source_Data.csv",
+            "rows": 20,
+            "sha256": "6d509403ad46beeeaca40031849d04f497f38d3aa616c244ed50aa9fe6fa7839"
+          },
+          "b": {
+            "filename": "data/summary/figure_panels/Figure_4_Fire_Support_Panel_b_Source_Data.csv",
+            "rows": 12,
+            "sha256": "24d33d78aebf57e967345f0d17ef3170dc57f1ec8ac93ac21ec29d425e3dbd22"
+          }
+        },
+        "original_csv_sha256": {},
+        "outputs": {
+          "pdf": {
+            "filename": "Figure_4_Fire_Support.pdf",
+            "sha256": "973347d1ee3696427f419e8e6d5e445ddf2f1ab7d48c46c697ceefb761c25ef2"
+          },
+          "png": {
+            "filename": "Figure_4_Fire_Support.png",
+            "sha256": "5c9a88df54ced94993ab4e4544b27d7c00a9bc8951092901fb6429090a32b142"
+          },
+          "svg": {
+            "filename": "Figure_4_Fire_Support.svg",
+            "sha256": "4270ef986ea7db305cbf8d24ec7c9632fcd0e00ea5ad1cd150ef6ea48dec553b"
+          }
+        }
+      },
+      {
+        "figure": "Figure_5_Calibration",
+        "caption": "Figure5 | Primary conformal calibration summarized by country, task and MET profile in the United States and Canada. (a) Point coverage is the sum of covered test rows divided by the sum of test rows. (b) Whole-station coverage is the number of test stations whose observed months were all covered divided by the number of test stations. (c) Mean interval width is weighted by test-row count across folds. All 64 primary folds had finite q90. The 16 country–task–profile groups summarize five folds for each T1/T2 task and one for T3 2022. These descriptive summaries are not independent replicates. Feasibility analyses are shown separately in Supplementary Figure S2.",
+        "panel_rows": {
+          "a": 16,
+          "b": 16,
+          "c": 16
+        },
+        "panel_sha256": {
+          "a": "4403fb01ea225763c82a98766ba9fb342526b1fdacbc9cce17a282a360e73259",
+          "b": "262eb9ce0e6d04c9b68ba66cae71ef83078987eb60cbdcbbd883dbe1b07cbcbd",
+          "c": "a5982d0c7bee245749c3c7400fcacfbff461dc8cc04e3404b1037b41b4266291"
+        },
+        "panel_sources": {
+          "a": {
+            "filename": "data/summary/figure_panels/Figure_5_Calibration_Panel_a_Source_Data.csv",
+            "rows": 16,
+            "sha256": "4403fb01ea225763c82a98766ba9fb342526b1fdacbc9cce17a282a360e73259"
+          },
+          "b": {
+            "filename": "data/summary/figure_panels/Figure_5_Calibration_Panel_b_Source_Data.csv",
+            "rows": 16,
+            "sha256": "262eb9ce0e6d04c9b68ba66cae71ef83078987eb60cbdcbbd883dbe1b07cbcbd"
+          },
+          "c": {
+            "filename": "data/summary/figure_panels/Figure_5_Calibration_Panel_c_Source_Data.csv",
+            "rows": 16,
+            "sha256": "a5982d0c7bee245749c3c7400fcacfbff461dc8cc04e3404b1037b41b4266291"
+          }
+        },
+        "original_csv_sha256": {},
+        "outputs": {
+          "pdf": {
+            "filename": "Figure_5_Calibration.pdf",
+            "sha256": "c21cd4db3050f7a4f90b1d1cf8e6ac939e9bc2fbe400da48bc3dc52f57eba1e6"
+          },
+          "png": {
+            "filename": "Figure_5_Calibration.png",
+            "sha256": "38a928a60c258a683caa5a5f914b27c5588ebec52be9fddb5b69a96cd9838732"
+          },
+          "svg": {
+            "filename": "Figure_5_Calibration.svg",
+            "sha256": "e676116669b955d117da2dfbec77e0c4f37a1eb4011bfee0f842a5bfa5c2378b"
+          }
+        }
+      },
+      {
+        "figure": "Figure_3_Feature_Increments",
+        "caption": "Figure3 | RMSE feature increments across the 26-unit comparison family. Points show contrasts and bars show simultaneous 95% max-|t| intervals across all 78 contrasts (three contrasts × 26 units), using 10,000 prespecified Exp(1) station-multiplier draws. The number of intervals excluding zero is 24/26, 12/26 and 26/26 in the displayed contrast order. The family-level intervals are conditional and exploratory; no additional bootstrap was performed.",
+        "panel_rows": {
+          "a": 26,
+          "b": 26,
+          "c": 26
+        },
+        "panel_sha256": {
+          "a": "44ccbde5dd7e1352705e51f5958ba67717760ce82c69db7d218f581d257679bd",
+          "b": "6ba2f110805192a844f671f42a6e7be31f72ad4f974142792712c0ef8b19b007",
+          "c": "6f71a20f0ff670325d51167f66231002faea178cbee2b3f6e8137f1224c9dca9"
+        },
+        "panel_sources": {
+          "a": {
+            "filename": "data/summary/figure_panels/Figure_3_Feature_Increments_Panel_a_Source_Data.csv",
+            "rows": 26,
+            "sha256": "44ccbde5dd7e1352705e51f5958ba67717760ce82c69db7d218f581d257679bd"
+          },
+          "b": {
+            "filename": "data/summary/figure_panels/Figure_3_Feature_Increments_Panel_b_Source_Data.csv",
+            "rows": 26,
+            "sha256": "6ba2f110805192a844f671f42a6e7be31f72ad4f974142792712c0ef8b19b007"
+          },
+          "c": {
+            "filename": "data/summary/figure_panels/Figure_3_Feature_Increments_Panel_c_Source_Data.csv",
+            "rows": 26,
+            "sha256": "6f71a20f0ff670325d51167f66231002faea178cbee2b3f6e8137f1224c9dca9"
+          }
+        },
+        "original_csv_sha256": {},
+        "outputs": {
+          "pdf": {
+            "filename": "Figure_3_Feature_Increments.pdf",
+            "sha256": "77338b718529cba818bff38fff5dc7237b6a704f2ada50287cf4e652a0e5654c"
+          },
+          "png": {
+            "filename": "Figure_3_Feature_Increments.png",
+            "sha256": "2934ec8a37f3379c730d49295a20f0b3e9dc4017b9029e31a9233342a4688672"
+          },
+          "svg": {
+            "filename": "Figure_3_Feature_Increments.svg",
+            "sha256": "83387d819550593d013cf19fe1864cf3e9fc305ad16f615c6a87971fd377ee6e"
+          }
+        }
+      },
+      {
+        "figure": "Figure_6_Monthly_Benchmark",
+        "caption": "Figure6 | Full-model performance versus native monthly SatPM V6GL03 on identical station-month support. (a) Full-model and SatPM RMSE for 12 fixed/rolling country–year–profile cells: fixed 2023, fixed 2024 and rolling 2024. (b) Paired ΔRMSE (full minus SatPM) with conditional station-cluster bootstrap 95% intervals (500 resamples; seed 20261116). Negative differences favor the full model. The 2023 contrast is adverse for the United States and favors the full model for Canada; all 2024 intervals cross zero. SatPM V6GL03 uses ground-monitor calibration whose overlap with our test stations is unknown and is not independent truth. The comparison ends in 2024; no 2025 value is imputed. Source data are provided in the panel and complete matched station-month files.",
+        "panel_rows": {
+          "a": 12,
+          "b": 12
+        },
+        "panel_sha256": {
+          "a": "7bc48e47d44d7e85cf64e18ba2eaeb9d945325c3efa014e8ee0987ed24c4feb7",
+          "b": "b767b4e51d70235b4575d573f779df432016589a9513927740f581fd6e40d88f"
+        },
+        "panel_sources": {
+          "a": {
+            "filename": "data/summary/figure_panels/Figure_6_Monthly_Benchmark_Panel_a_Source_Data.csv",
+            "rows": 12,
+            "sha256": "7bc48e47d44d7e85cf64e18ba2eaeb9d945325c3efa014e8ee0987ed24c4feb7"
+          },
+          "b": {
+            "filename": "data/summary/figure_panels/Figure_6_Monthly_Benchmark_Panel_b_Source_Data.csv",
+            "rows": 12,
+            "sha256": "b767b4e51d70235b4575d573f779df432016589a9513927740f581fd6e40d88f"
+          }
+        },
+        "original_csv_sha256": {},
+        "outputs": {
+          "pdf": {
+            "filename": "Figure_6_Monthly_Benchmark.pdf",
+            "sha256": "9631423518b8973f92b496c90220562cdceaf85ba9ed52a9aaa1521f16c5ab1c"
+          },
+          "png": {
+            "filename": "Figure_6_Monthly_Benchmark.png",
+            "sha256": "6196d50ead231d45eeef6d07bf3ea8d2ce4c6dfbe18e2d5967359c347285fcbf"
+          },
+          "svg": {
+            "filename": "Figure_6_Monthly_Benchmark.svg",
+            "sha256": "ed2d7ef4349de4e93236ef78d9751950b028f2726ab52e4eb1c6f5e52e44e41a"
+          }
+        }
+      },
+      {
+        "figure": "Supplementary_Figure_S3",
+        "caption": "Supplementary Figure S3 | Historical T1 station-grouped sensitivity. The upper panels show QA and estimator branches under log-smear/smearing; the lower panels show strict-HGB target/retransformation branches. MET profiles are separated by column, so no-MET and with-MET records are not merged. Each point is a country-level estimate; the signed-log x-axis preserves adverse negative R². PT denotes Portugal. No confidence interval or new inference is added.",
+        "panel_rows": {
+          "a": 112,
+          "b": 84
+        },
+        "panel_sha256": {
+          "a": "65890c9fd9f151e4b162fd62560c57a970c00a587942bfd06084dc285353419d",
+          "b": "1b2a7edc077a98ac1a6992173acd01df3709f68b79286927d69952e8b2e1a945"
+        },
+        "panel_sources": {
+          "a": {
+            "filename": "data/summary/figure_panels/Supplementary_Figure_S3_Panel_a_Source_Data.csv",
+            "rows": 112,
+            "sha256": "65890c9fd9f151e4b162fd62560c57a970c00a587942bfd06084dc285353419d"
+          },
+          "b": {
+            "filename": "data/summary/figure_panels/Supplementary_Figure_S3_Panel_b_Source_Data.csv",
+            "rows": 84,
+            "sha256": "1b2a7edc077a98ac1a6992173acd01df3709f68b79286927d69952e8b2e1a945"
+          }
+        },
+        "original_csv_sha256": {},
+        "outputs": {
+          "pdf": {
+            "filename": "Supplementary_Figure_S3.pdf",
+            "sha256": "8eb5d5b147fee95dcf4eadcc8851d80e8c36a7a4241c1d627ff6445fd4b04df8"
+          },
+          "png": {
+            "filename": "Supplementary_Figure_S3.png",
+            "sha256": "850e458bd5b61ea9fde2f01fb7edd34860722d6715f848d6ef18e26b91694a5e"
+          },
+          "svg": {
+            "filename": "Supplementary_Figure_S3.svg",
+            "sha256": "dffad5c4956a919aa902a04f723d408cea16dbdd8d58821dfcf6cf90656547da"
+          }
+        }
+      },
+      {
+        "figure": "Supplementary_Figure_S4",
+        "caption": "Supplementary Figure S4 | Transfer and monitoring-network sensitivity. (a) Strict-QA no-MET leave-one-country-out R² for all 17 held-out countries under HGB and Ridge, full feature arm; negative values are retained on a signed-log x-axis. (b,c) Full-arm 2022 RMSE across nested training-site counts for all three prespecified fixed thinning seeds, separated by MET profile. Line style identifies seed; color identifies MET profile. The open diamond is the shared full-network endpoint and is plotted once per country/profile, not joined to the seed curves. Curves are descriptive sensitivity runs, not confidence intervals. Source data accompany the figure.",
+        "panel_rows": {
+          "a": 34,
+          "b": 64
+        },
+        "panel_sha256": {
+          "a": "1a3d079f011e822415ee037490e0a7276736bf0f87aa51d106d6995770bf328b",
+          "b": "26ef72012eaa74874a04772ba7826eddab0802cf3a02d8e1e3982fa169c50826"
+        },
+        "panel_sources": {
+          "a": {
+            "filename": "data/summary/figure_panels/Supplementary_Figure_S4_Panel_a_Source_Data.csv",
+            "rows": 34,
+            "sha256": "1a3d079f011e822415ee037490e0a7276736bf0f87aa51d106d6995770bf328b"
+          },
+          "b": {
+            "filename": "data/summary/figure_panels/Supplementary_Figure_S4_Panel_b_Source_Data.csv",
+            "rows": 64,
+            "sha256": "26ef72012eaa74874a04772ba7826eddab0802cf3a02d8e1e3982fa169c50826"
+          }
+        },
+        "original_csv_sha256": {},
+        "outputs": {
+          "pdf": {
+            "filename": "Supplementary_Figure_S4.pdf",
+            "sha256": "c45dd66fa3e54aedf8a6d8a01de96386bd24858a4f5ac1e059d23653a19a7d34"
+          },
+          "png": {
+            "filename": "Supplementary_Figure_S4.png",
+            "sha256": "06116e2e122e10102086a95d7d65f88b7b2e071865e08f881a9d4988727970eb"
+          },
+          "svg": {
+            "filename": "Supplementary_Figure_S4.svg",
+            "sha256": "30f1dfbbf8ceaa2d8e226a95473108bfc40ef847253a70d414a833a95d1605e7"
+          }
+        }
+      },
+      {
+        "figure": "Supplementary_Figure_S2",
+        "caption": "Supplementary Figure S2 | Fold-level calibration detail grouped within country. (a) 32 United States strict-HGB full-arm primary 80/20 folds show pointwise and whole-station coverage by fold. (b) The 32 corresponding Canadian folds. Dotted lines mark nominal 90% coverage. Blue and orange denote with-MET and no-MET profiles; circles and diamonds denote pointwise and whole-station coverage. (c) Eight Brazil external-2023 feasibility-only thresholds from separate strict/sensitivity HGB/Ridge sources; labels identify source classes. Primary empirical coverage and feasibility thresholds are not pooled. The full set of 440 interval records accompanies the analysis. Records without sufficient task metadata are not included in the plotted summaries. Source data accompany the figure.",
+        "panel_rows": {
+          "a": 32,
+          "b": 32,
+          "c": 8
+        },
+        "panel_sha256": {
+          "a": "7fcd453e6164e25d1e0ef250352049b58fc73c792b9dff7faa363a3e449b0338",
+          "b": "30c74ccba658c054d297e9a14143a5def4f5c79e6e652357a650f4d399691a33",
+          "c": "14c04926907553e44bb531a3cf5c871e387894211a37812d68a18b2ef9412c3c"
+        },
+        "panel_sources": {
+          "a": {
+            "filename": "data/summary/figure_panels/Supplementary_Figure_S2_Panel_a_Source_Data.csv",
+            "rows": 32,
+            "sha256": "7fcd453e6164e25d1e0ef250352049b58fc73c792b9dff7faa363a3e449b0338"
+          },
+          "b": {
+            "filename": "data/summary/figure_panels/Supplementary_Figure_S2_Panel_b_Source_Data.csv",
+            "rows": 32,
+            "sha256": "30c74ccba658c054d297e9a14143a5def4f5c79e6e652357a650f4d399691a33"
+          },
+          "c": {
+            "filename": "data/summary/figure_panels/Supplementary_Figure_S2_Panel_c_Source_Data.csv",
+            "rows": 8,
+            "sha256": "14c04926907553e44bb531a3cf5c871e387894211a37812d68a18b2ef9412c3c"
+          }
+        },
+        "original_csv_sha256": {},
+        "outputs": {
+          "pdf": {
+            "filename": "Supplementary_Figure_S2.pdf",
+            "sha256": "876af490ef24d885c908d176ed142d404c0f55b8270dd027a1e051b95d743b2a"
+          },
+          "png": {
+            "filename": "Supplementary_Figure_S2.png",
+            "sha256": "8b5d318b63eabb9980c11c8058273b2fe5e35f4082777d3fce27f56f3ee4ece7"
+          },
+          "svg": {
+            "filename": "Supplementary_Figure_S2.svg",
+            "sha256": "3acac115dbbdab4bc15df09dadb2ff338cd5c91ab8bb8f6956ba846bd1d9d1dd"
+          }
+        }
+      },
+      {
+        "figure": "Supplementary_Figure_S8",
+        "caption": "Supplementary Figure S8 | Annual SatPM comparator contrasts on primary exact-12-month support. Each country facet shows 12 rows: T1 station, T2 spatial, T2 buffer, and T3 2022 historical tasks under both MET profiles, plus fixed 2023 and fixed 2024 external tasks under both profiles. Plotted estimates use the primary strict-HGB/log-smear/smearing full-model specification; repeated lineage copies, common-support records, and rolling evaluations are excluded. For ΔRMSE = full − SatPM, positive values mean lower RMSE for SatPM and negative values favor the full model. Each comparison requires 12 exact matched months. Annual raw-CAMS comparisons are not shown; fitted-CAMS comparisons are reported in main Table 6. Source data accompany the figure.",
+        "panel_rows": {
+          "a": 24
+        },
+        "panel_sha256": {
+          "a": "e49672208b25ef976bff6b08ce7781bacce12c52a402de84d498bb67e0a125b8"
+        },
+        "panel_sources": {
+          "a": {
+            "filename": "data/summary/figure_panels/Supplementary_Figure_S8_Panel_a_Source_Data.csv",
+            "rows": 24,
+            "sha256": "e49672208b25ef976bff6b08ce7781bacce12c52a402de84d498bb67e0a125b8"
+          }
+        },
+        "original_csv_sha256": {},
+        "outputs": {
+          "pdf": {
+            "filename": "Supplementary_Figure_S8.pdf",
+            "sha256": "45e8a766ac646f0c56cd6024aaeb15f247c7c49210ed3758c536a201da03a7ae"
+          },
+          "png": {
+            "filename": "Supplementary_Figure_S8.png",
+            "sha256": "b4cc8dd822af2cbb17d6d3d92a1a3bdf148393f34a4ec8ea60c3e12f4c0e3436"
+          },
+          "svg": {
+            "filename": "Supplementary_Figure_S8.svg",
+            "sha256": "ded5bae0326dd5a77ebbd0eca69d6a9c4bdfbcb876342d2d2cc277e446495b31"
+          }
+        }
+      },
+      {
+        "figure": "Supplementary_Figure_S5",
+        "caption": "Supplementary Figure S5 | Complementary fire-related consistency evidence. (a) All 16 country/profile/year HMS plume-fraction correlations are shown with intervals, faceted by country; color identifies MET profile and marker fill/shape distinguishes fixed from rolling evaluations. United States and Canadian records are never connected across countries. (b) 2023 fire-product comparator correlations. (c) EPA OC-tracer correlation estimates labeled by parameter/method codes (for example, 88320/805) and MET profile. (d) Station-level observed OC plume-minus-control contrasts retain parameter/method, plume, and date-alignment labels. “Same date” means matching date labels although HMS uses UTC and EPA uses local dates; “±1 day” means the expanded local-date window. Shared supports are not independent replication, OC is nonspecific, and these comparisons do not identify ground-level smoke mass. Source data accompany the figure.",
+        "panel_rows": {
+          "a": 16,
+          "b": 8,
+          "c": 6,
+          "d": 12
+        },
+        "panel_sha256": {
+          "a": "24eecdf364233d2d9f8947afa35e48d9e0d5a90f5980aebc759069821ae6e497",
+          "b": "6c2aa18b63111fcb20a46aa2511f7add9c78aeb503770554ce86e9d91e8c5888",
+          "c": "0370d27b20306b964a72c4925ff172c7cd65ee239e6dfce0f568fd77bcf7bec2",
+          "d": "ad36293f3b8592c3760db570e65792f3ddc39f12a54b73e9b6cbb9af23d025e1"
+        },
+        "panel_sources": {
+          "a": {
+            "filename": "data/summary/figure_panels/Supplementary_Figure_S5_Panel_a_Source_Data.csv",
+            "rows": 16,
+            "sha256": "24eecdf364233d2d9f8947afa35e48d9e0d5a90f5980aebc759069821ae6e497"
+          },
+          "b": {
+            "filename": "data/summary/figure_panels/Supplementary_Figure_S5_Panel_b_Source_Data.csv",
+            "rows": 8,
+            "sha256": "6c2aa18b63111fcb20a46aa2511f7add9c78aeb503770554ce86e9d91e8c5888"
+          },
+          "c": {
+            "filename": "data/summary/figure_panels/Supplementary_Figure_S5_Panel_c_Source_Data.csv",
+            "rows": 6,
+            "sha256": "0370d27b20306b964a72c4925ff172c7cd65ee239e6dfce0f568fd77bcf7bec2"
+          },
+          "d": {
+            "filename": "data/summary/figure_panels/Supplementary_Figure_S5_Panel_d_Source_Data.csv",
+            "rows": 12,
+            "sha256": "ad36293f3b8592c3760db570e65792f3ddc39f12a54b73e9b6cbb9af23d025e1"
+          }
+        },
+        "original_csv_sha256": {},
+        "outputs": {
+          "pdf": {
+            "filename": "Supplementary_Figure_S5.pdf",
+            "sha256": "0cb70d41cc57f6488d804e2bcf4d5985be9268946a3bc5ef12967ef9066f3181"
+          },
+          "png": {
+            "filename": "Supplementary_Figure_S5.png",
+            "sha256": "6cc9b47c242f350448ff148c86274417ba82e759ad9701e3f43e954ff5a78cb1"
+          },
+          "svg": {
+            "filename": "Supplementary_Figure_S5.svg",
+            "sha256": "e2c038dc7ec59e656afcb09cbd395207813ad1991c858e3fd3f05a863f44fa43"
+          }
+        }
+      },
+      {
+        "figure": "Supplementary_Figure_S6",
+        "caption": "Supplementary Figure S6 | HMS definition, date-alignment, and fire-gate sensitivity. (a) Strict log-smear/smearing correlations across model scopes, plume definitions, alignments, and P80/P90/P95 gates using available-calendar plume fraction. (b) Matched-day known fractions and retained-row fractions from the associated coverage records. Points are analytical strata with shared supports, not independent model replications. Unknown archive days remain unknown; same-named dates do not establish OC sampling-window overlap.",
+        "panel_rows": {
+          "a": 264,
+          "b": 264
+        },
+        "panel_sha256": {
+          "a": "9c68d136b2cbe75af1ed5d07566aad6c711ced26160376648732c0643127a2a6",
+          "b": "d925c0df60c02df9ac50642fbffdcb3972d51ddc282da9e810bb9ca7227d645d"
+        },
+        "panel_sources": {
+          "a": {
+            "filename": "data/summary/figure_panels/Supplementary_Figure_S6_Panel_a_Source_Data.csv",
+            "rows": 264,
+            "sha256": "9c68d136b2cbe75af1ed5d07566aad6c711ced26160376648732c0643127a2a6"
+          },
+          "b": {
+            "filename": "data/summary/figure_panels/Supplementary_Figure_S6_Panel_b_Source_Data.csv",
+            "rows": 264,
+            "sha256": "d925c0df60c02df9ac50642fbffdcb3972d51ddc282da9e810bb9ca7227d645d"
+          }
+        },
+        "original_csv_sha256": {},
+        "outputs": {
+          "pdf": {
+            "filename": "Supplementary_Figure_S6.pdf",
+            "sha256": "e264a4136d4c2d1a65500b6d44d529e425a64d9da26a87cfbfe5610757991c73"
+          },
+          "png": {
+            "filename": "Supplementary_Figure_S6.png",
+            "sha256": "059b205b27ee294950b10eaea765d5129f54e9c8f8d02a80329f04d71e35f3f4"
+          },
+          "svg": {
+            "filename": "Supplementary_Figure_S6.svg",
+            "sha256": "f39eb199eff1bd6591f4b8a8fb9722da7a3cc733ba210a3b05ce20c410e1ccda"
+          }
+        }
+      },
+      {
+        "figure": "Supplementary_Figure_S7",
+        "caption": "Supplementary Figure S7 | Sparse reference-grid integration for January, April, July, and October 2023. The strict-QA with-MET log-smear/smearing P90 model component is shown for the United States and Canada. Finite grid cells are plotted; unsupported cells remain nodata, with no interpolation. This station-supported integration is not a complete national/global exposure release or an identified smoke-mass product.",
+        "panel_rows": {
+          "a": 7716800
+        },
+        "panel_sha256": {
+          "a": "74d0b0e2a3d8ad22f26e9d6d743920fc11d641a91e07341460b6836e30e3cb00"
+        },
+        "panel_sources": {
+          "a": {
+            "filename": "data/summary/figure_panels/Supplementary_Figure_S7_Panel_a_Source_Data.csv.gz",
+            "rows": 7716800,
+            "sha256": "74d0b0e2a3d8ad22f26e9d6d743920fc11d641a91e07341460b6836e30e3cb00"
+          }
+        },
+        "original_csv_sha256": {},
+        "outputs": {
+          "pdf": {
+            "filename": "Supplementary_Figure_S7.pdf",
+            "sha256": "89f52a59db56ae06ac964709c09aafa7e6a8c239cbe670a6b32c8a8cc1f5fda1"
+          },
+          "png": {
+            "filename": "Supplementary_Figure_S7.png",
+            "sha256": "73a27c81fec59ba8bedea11d3bdd0ca210cb87d16e3c88437829a8eaf81ad082"
+          },
+          "svg": {
+            "filename": "Supplementary_Figure_S7.svg",
+            "sha256": "bfced415f5c6ea0b22e89d1141eefc97d28a707b81ec8c79cdb2ec1c1905b733"
+          }
+        },
+        "support_summary": {
+          "rows": 7716800,
+          "finite_model_component": 3647,
+          "nodata_model_component": 7713153,
+          "support_counts_by_country_month": {
+            "USA/1": {
+              "rows": 964600,
+              "finite": 700,
+              "nodata": 963900,
+              "supported_flag": 700
+            },
+            "USA/4": {
+              "rows": 964600,
+              "finite": 704,
+              "nodata": 963896,
+              "supported_flag": 704
+            },
+            "USA/7": {
+              "rows": 964600,
+              "finite": 716,
+              "nodata": 963884,
+              "supported_flag": 716
+            },
+            "USA/10": {
+              "rows": 964600,
+              "finite": 759,
+              "nodata": 963841,
+              "supported_flag": 759
+            },
+            "CAN/1": {
+              "rows": 964600,
+              "finite": 193,
+              "nodata": 964407,
+              "supported_flag": 193
+            },
+            "CAN/4": {
+              "rows": 964600,
+              "finite": 188,
+              "nodata": 964412,
+              "supported_flag": 188
+            },
+            "CAN/7": {
+              "rows": 964600,
+              "finite": 196,
+              "nodata": 964404,
+              "supported_flag": 196
+            },
+            "CAN/10": {
+              "rows": 964600,
+              "finite": 191,
+              "nodata": 964409,
+              "supported_flag": 191
+            }
+          },
+          "value_min": 0.0,
+          "value_max": 41.173153
+        }
+      },
+      {
+        "figure": "Supplementary_Figure_S1",
+        "caption": "Supplementary Figure S1 | Spatial-fold geometry summaries without map reconstruction. (a) Training (filled) and test (open) station counts are shown as paired values for each country/task/fold. (b) T2 train-to-test station distance ranges (minimum to P90; dot, median) are shown by country and fold. Horizontal offsets distinguish source jobs and carry no quantitative meaning. United States and Canadian distance values are unavailable and are counted in country labels; source rows are retained. No coordinates, block maps, or interpolated geometry are inferred. Source data accompany the figure.",
+        "panel_rows": {
+          "a": 154,
+          "b": 78
+        },
+        "panel_sha256": {
+          "a": "c6137bb825f0762476fe39c6bd81a94402ed620de9d331afa4fb28aa2db95985",
+          "b": "c4d795d6a09de3c2ce0942cfe8b5d34d41819dd63d79baf70f1bb6961b04ce0d"
+        },
+        "panel_sources": {
+          "a": {
+            "filename": "data/summary/figure_panels/Supplementary_Figure_S1_Panel_a_Source_Data.csv",
+            "rows": 154,
+            "sha256": "c6137bb825f0762476fe39c6bd81a94402ed620de9d331afa4fb28aa2db95985"
+          },
+          "b": {
+            "filename": "data/summary/figure_panels/Supplementary_Figure_S1_Panel_b_Source_Data.csv",
+            "rows": 78,
+            "sha256": "c4d795d6a09de3c2ce0942cfe8b5d34d41819dd63d79baf70f1bb6961b04ce0d"
+          }
+        },
+        "original_csv_sha256": {},
+        "outputs": {
+          "pdf": {
+            "filename": "Supplementary_Figure_S1.pdf",
+            "sha256": "22831c24380301796f0d0de7fa39bee70894a2069d25657652dd8db0d1f0c8cc"
+          },
+          "png": {
+            "filename": "Supplementary_Figure_S1.png",
+            "sha256": "79d368a5363b23c6b35fff5735d77188cd6eaeebdb3b164ecc82d189cf8399e2"
+          },
+          "svg": {
+            "filename": "Supplementary_Figure_S1.svg",
+            "sha256": "c85d48675d78cc0f9a868c116c186a62acce91a6e94dd4eb234d972b82a0cd53"
+          }
+        }
+      }
+    ]
+  },
+  "scope": "Deterministic replay of author-owned summaries; not a new full model fit or station bootstrap."
+}

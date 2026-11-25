@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "date": "2026-11-16",
+  "candidate_revision_id": "candidate1-ec0b743a91582d98",
+  "isolated_environment": {
+    "fresh_venv": true,
+    "dependency_install": "Tsinghua PyPI mirror after two upstream download timeouts",
+    "python": "3.11.16",
+    "unit_tests": 42,
+    "full_summary_replay": "passed",
+    "figures": 14,
+    "table_blocks": 16,
+    "derived_summary_checks": {
+      "conformal": {
+        "status": "passed",
+        "fold_rows": 64,
+        "pooled_groups": 16,
+        "matched_saved_table_rows": 16
+      },
+      "monthly": {
+        "status": "passed",
+        "metric_deltas": 96,
+        "matched_saved_deltas": 96,
+        "bootstrap_refit": false
+      },
+      "multiplicity": {
+        "status": "passed",
+        "source_rows": 78,
+        "contrasts": 3,
+        "summary_matched": true,
+        "interval_source": "stored simultaneous_95_low/high; bootstrap not rerun"
+      },
+      "annual_selection": {
+        "status": "passed",
+        "selected_rows": 24,
+        "scope": "row selection from annual_comparator_primary_subtable; annual estimates not recalculated"
+      }
+    }
+  },
+  "canonical_runtime_algorithm_self_checks": "historical and Portugal passed in project analysis environment",
+  "source_snapshot_records": 54,
+  "archived_python_files": 50,
+  "new_full_model_fit": false,
+  "uncertainty_resampling": false,
+  "raw_end_to_end_reconstruction": false,
+  "scope_limits": [
+    "M02 inherited monitoring-target collection/aggregation rules not fully recovered",
+    "M03 historical meteorology/population product-generation mappings incomplete",
+    "Archives of auxiliary code require external features, predictions and provenance contracts; not all are portable CLI components"
+  ],
+  "visual_checks": "All 14 source-replay layouts inspected; country-axis identity and stratum labels corrected; reference PDFs preserved. Redraw layouts are not asserted pixel-identical."
+}

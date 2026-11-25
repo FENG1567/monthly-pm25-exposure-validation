@@ -1,0 +1,44 @@
+{
+  "figure": "Figure_3_Feature_Increments",
+  "caption": "Figure 3 | RMSE increments from aerosol optical depth (AOD) and fire predictors. Panels compare (A) B+AOD minus B, (B) full minus (B+AOD), and (C) full minus B. Points and bars show estimates and simultaneous 95% max-|t| intervals across all 78 contrasts, using 10,000 Exp(1) station-multiplier draws. The family contains 26 United States/Canada task–meteorology units. Intervals exclude zero in favor of the added predictors in 24/26, 12/26 and 26/26 comparisons, respectively. Rows group 13 country–task combinations with meteorological profiles offset. Negative ΔRMSE favors the added predictors; units are µg m⁻³. B denotes the base model with location, population and seasonal predictors. MET denotes meteorological predictors. T1 denotes station grouping, T2 spatial blocking, T2 buffer the 50-km buffer, T3 2022 forward-year validation, and T4 fixed-window future-year evaluation.",
+  "panel_sources": {
+    "a": {
+      "filename": "data/summary/figure_panels/Figure_3_Feature_Increments_Panel_a_Source_Data.csv",
+      "rows": 26,
+      "sha256": "44ccbde5dd7e1352705e51f5958ba67717760ce82c69db7d218f581d257679bd"
+    },
+    "b": {
+      "filename": "data/summary/figure_panels/Figure_3_Feature_Increments_Panel_b_Source_Data.csv",
+      "rows": 26,
+      "sha256": "6ba2f110805192a844f671f42a6e7be31f72ad4f974142792712c0ef8b19b007"
+    },
+    "c": {
+      "filename": "data/summary/figure_panels/Figure_3_Feature_Increments_Panel_c_Source_Data.csv",
+      "rows": 26,
+      "sha256": "6f71a20f0ff670325d51167f66231002faea178cbee2b3f6e8137f1224c9dca9"
+    }
+  },
+  "panel_rows": {
+    "a": 26,
+    "b": 26,
+    "c": 26
+  },
+  "outputs": {
+    "pdf": {
+      "filename": "Figure_3_Feature_Increments.pdf",
+      "sha256": "f0f7148cc2b424b8dde8e815b12f146e35505a6e8f73fba24e149bb4ae27057d"
+    },
+    "png": {
+      "filename": "Figure_3_Feature_Increments.png",
+      "sha256": "f2dd5e62df54cdaebf672c0f012b7242be6db496b2c4d4cbd112ff49a804a827"
+    },
+    "svg": {
+      "filename": "Figure_3_Feature_Increments.svg",
+      "sha256": "ed36f41fc4904af653d363be16321b2f592f9b48a44115b104172f384ae4938c"
+    },
+    "tiff": {
+      "filename": "Figure_3_Feature_Increments.tiff",
+      "sha256": "41cafe458830f859931c7f34323faa2f233e4202549d45c679608967f35ed249"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "candidate_revision_id": "candidate1-ec0b743a91582d98",
+  "historical_years": [
+    2018,
+    2022
+  ],
+  "future_years": {
+    "USA": [
+      2023,
+      2024,
+      2025
+    ],
+    "CAN": [
+      2023,
+      2024
+    ]
+  },
+  "estimators": [
+    "hgb",
+    "ridge"
+  ],
+  "hgb": {
+    "max_iter": 400,
+    "learning_rate": 0.06,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 25,
+    "l2_regularization": 1.0,
+    "random_state": 0
+  },
+  "target": {
+    "primary": "log(pm25 + 0.1)",
+    "smear": "three-fold training-station cross-fit",
+    "keep_sensitivities": [
+      "unsmeared inverse",
+      "original-scale fit"
+    ]
+  },
+  "spatial": {
+    "folds": 5,
+    "kmeans_seed": 0,
+    "n_init": 20,
+    "buffer_km": 50,
+    "haversine_radius_km": 6371.0088
+  },
+  "monthly_satpm": {
+    "version": "V6.GL.03",
+    "grid_degrees": 0.1,
+    "months": 24,
+    "years": [
+      2023,
+      2024
+    ],
+    "pairs_unit": [
+      "country",
+      "site_id",
+      "year",
+      "month"
+    ],
+    "bootstrap_station_clusters": 500,
+    "seed": 20261116,
+    "target_tolerance": 1e-10
+  },
+  "multiplicity": {
+    "contrasts": 78,
+    "units": 26,
+    "station_multiplier_draws": 10000,
+    "critical_value": 3.539,
+    "conditional_exploratory": true
+  },
+  "thinning": {
+    "seeds": [
+      20261113,
+      20261114,
+      20261115
+    ],
+    "sites": [
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "shared_full_endpoint": true
+  },
+  "threads": 1,
+  "source_limitations": [
+    "Some inherited monthly targets lack reconstructable upstream collection rules.",
+    "Historical meteorology and population source-generation mappings are incomplete."
+  ]
+}

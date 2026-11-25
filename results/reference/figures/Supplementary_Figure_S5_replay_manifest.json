@@ -1,0 +1,50 @@
+{
+  "figure": "Supplementary_Figure_S5",
+  "caption": "Supplementary Figure S5 | Fire-product, plume and tracer comparisons. (A,B) United States and Canadian Hazard Mapping System (HMS) plume-fraction correlations by year and update policy. Color/offsets distinguish meteorological profiles; circles and diamonds denote fixed and rolling evaluation. (C) Eight country/product/profile correlations for 2023 GFED/QFED comparisons. (D) Six US Environmental Protection Agency (EPA) organic-carbon (OC) correlations by parameter/method and meteorological profile. (E) Twelve station-level plume-minus-control OC contrasts under same-date or ±1-day labels and any-plume or medium/heavy definitions. HMS dates are UTC and OC dates local. Intervals condition on fitted predictions; OC is a nonspecific tracer. Labels in D and E give EPA parameter/method codes; M/H denotes medium/heavy plumes, and same denotes matched calendar dates. QFED and GFED denote the Quick Fire Emissions Dataset and Global Fire Emissions Database, respectively. Points and horizontal bars show estimates and 95% percentile intervals from 500 station-cluster bootstrap resamples.",
+  "panel_sources": {
+    "a": {
+      "filename": "data/summary/figure_panels/Supplementary_Figure_S5_Panel_a_Source_Data.csv",
+      "rows": 16,
+      "sha256": "24eecdf364233d2d9f8947afa35e48d9e0d5a90f5980aebc759069821ae6e497"
+    },
+    "b": {
+      "filename": "data/summary/figure_panels/Supplementary_Figure_S5_Panel_b_Source_Data.csv",
+      "rows": 8,
+      "sha256": "6c2aa18b63111fcb20a46aa2511f7add9c78aeb503770554ce86e9d91e8c5888"
+    },
+    "c": {
+      "filename": "data/summary/figure_panels/Supplementary_Figure_S5_Panel_c_Source_Data.csv",
+      "rows": 6,
+      "sha256": "0370d27b20306b964a72c4925ff172c7cd65ee239e6dfce0f568fd77bcf7bec2"
+    },
+    "d": {
+      "filename": "data/summary/figure_panels/Supplementary_Figure_S5_Panel_d_Source_Data.csv",
+      "rows": 12,
+      "sha256": "ad36293f3b8592c3760db570e65792f3ddc39f12a54b73e9b6cbb9af23d025e1"
+    }
+  },
+  "panel_rows": {
+    "a": 16,
+    "b": 8,
+    "c": 6,
+    "d": 12
+  },
+  "outputs": {
+    "pdf": {
+      "filename": "Supplementary_Figure_S5.pdf",
+      "sha256": "a179d73f19d773303cfd20f6715c953e356c44e7fde2b6f02a9df79f2b4fdcad"
+    },
+    "png": {
+      "filename": "Supplementary_Figure_S5.png",
+      "sha256": "2e24514acbf8e8635fae5a2a64f97a3e65e665ea3f2441eeeadde1cc67652c2e"
+    },
+    "svg": {
+      "filename": "Supplementary_Figure_S5.svg",
+      "sha256": "23df2830a356658cf6cfe80073f1b471bc457fd192651cabf4e821b3c8f7a1d8"
+    },
+    "tiff": {
+      "filename": "Supplementary_Figure_S5.tiff",
+      "sha256": "e65da81496462eebad6b796d6aaff754d640dba652f87076809af3bfd1d8d4b1"
+    }
+  }
+}

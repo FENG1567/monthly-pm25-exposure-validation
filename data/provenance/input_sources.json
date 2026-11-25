@@ -1,0 +1,183 @@
+{
+  "snapshot_sha256": {
+    "audit_sinaica.py": "1ab3590ba0bf82d0e8a7e325aef6efbd039eb0c17e72a9f7f1d798653aec5e57",
+    "build_features.py": "9ef67139947b1d74941e0a5b5a788b1fed20d559aae74cdf4277c23bb6cd2bc2",
+    "build_model_eligibility.py": "fb8b023730227ab75ab3cf2f257e92dc622066aa87ee509b5d5ee02b1ada4f3a",
+    "grid0p1.py": "c2b39b5e990916c4f7433d4b3091c5e0b50251c614a37d3e69a2b5bb0551a9fd",
+    "prep_era5.py": "96de6a7835c9d4df7710a04c31da7ccf6571576bcb55179a18f7922b7ea5e966",
+    "prep_firms.py": "7f6b3ade75ac76113ff66d1cbcf1dea9336837e9ee17f81067d07e977d6e5efb",
+    "prep_gfas.py": "50d2856e70041019d5d5beeb592560385cd38bda65b5e22d9920cc16d7a8ee55",
+    "prep_pop_ghsl.py": "edc0a718bd808e283c293c609a38cf2053bd79f16a9985d315c906dc1d7558bd",
+    "prepare_clean_regional_features.py": "709ac4be205dd63ec715e66ce56e2cb38db46243256306d10810eeae22604273",
+    "prepare_epa.py": "b0e0c219a2091791e0578359aa40f6583f73790105221992fb2d2cfee8284d02",
+    "prepare_monitorar.py": "d9df1ee081c21f5935bf43c0835f3b2607a9b157bf9b187a143a3261a402fe7e",
+    "prepare_openaq.py": "654d93273955b6227839b1ee183a27df8bb209d79f1e4fc6bb98c4aeab1b325a",
+    "prepare_us_features.py": "a48e5d2a3883fd0e296037d38d3ef2ded6716eefd4c9a09ed6c4d4beeb4ec1f5",
+    "rebuild_qld_hourly.py": "7f7adb373931f42c848eb5fe611a9f7a9994016ba5c9534e16f2da66415975ed"
+  },
+  "selected_monthly_links": [
+    {
+      "country": "AUS",
+      "rows": 1508,
+      "input_sha256": "e6aabef4aa1d87787b175db1313616ae5dbad9dc1239f3e108cd4850d0ac83da",
+      "source_rows": 1508,
+      "all_selected_keys_matched": true,
+      "max_abs_pm_difference": 0.0,
+      "minimum_valid_days": 20,
+      "maximum_valid_days": 31,
+      "median_valid_days": 30.0,
+      "source_sha256": "5d7f1be85fd369c2e64c81594283fe432bf17b0511720eab61ed558b237b51ad"
+    },
+    {
+      "country": "BD",
+      "rows": 52,
+      "input_sha256": "a58f0e3195b2d687f60cfd82d2635e0d2391c83012ccb7bf9e2dde485ea51331",
+      "source_rows": 77,
+      "all_selected_keys_matched": true,
+      "max_abs_pm_difference": 0.0,
+      "minimum_valid_days": 20,
+      "maximum_valid_days": 29,
+      "median_valid_days": 28.0,
+      "source_sha256": "a70fbe789fe88f1bc40bedb245898d462221d40a57120365a1fbcc745c42dc69"
+    },
+    {
+      "country": "CL",
+      "rows": 2780,
+      "input_sha256": "da5654ab33014e4928ee62bbcb5d3aa2a620428047d273b164aa73cc1a2e5227",
+      "source_rows": 2780,
+      "all_selected_keys_matched": true,
+      "max_abs_pm_difference": 0.0,
+      "minimum_valid_days": 20,
+      "maximum_valid_days": 30,
+      "median_valid_days": 28.0,
+      "source_sha256": "a70fbe789fe88f1bc40bedb245898d462221d40a57120365a1fbcc745c42dc69"
+    },
+    {
+      "country": "ES",
+      "rows": 845,
+      "input_sha256": "bbf87d7f510f8e18a5937a97b8f8ec944b1c0a91577058b339b9ba84e0781e86",
+      "source_rows": 1112,
+      "all_selected_keys_matched": true,
+      "max_abs_pm_difference": 0.0,
+      "minimum_valid_days": 20,
+      "maximum_valid_days": 30,
+      "median_valid_days": 26.0,
+      "source_sha256": "a70fbe789fe88f1bc40bedb245898d462221d40a57120365a1fbcc745c42dc69"
+    },
+    {
+      "country": "GR",
+      "rows": 202,
+      "input_sha256": "42a56b6513b0776518dfa29d86d4b91a7416e9f589e653166c109995e59ab320",
+      "source_rows": 202,
+      "all_selected_keys_matched": true,
+      "max_abs_pm_difference": 0.0,
+      "minimum_valid_days": 20,
+      "maximum_valid_days": 30,
+      "median_valid_days": 25.0,
+      "source_sha256": "a70fbe789fe88f1bc40bedb245898d462221d40a57120365a1fbcc745c42dc69"
+    },
+    {
+      "country": "IT",
+      "rows": 289,
+      "input_sha256": "24da543abe956e362b282ea88d71fe93d60ad8745066cf3c5a3e9cfe56839046",
+      "source_rows": 289,
+      "all_selected_keys_matched": true,
+      "max_abs_pm_difference": 0.0,
+      "minimum_valid_days": 20,
+      "maximum_valid_days": 30,
+      "median_valid_days": 25.0,
+      "source_sha256": "a70fbe789fe88f1bc40bedb245898d462221d40a57120365a1fbcc745c42dc69"
+    },
+    {
+      "country": "MEX",
+      "rows": 3924,
+      "input_sha256": "05b59837fdf16805d0516502c71a1c12c744fb23521b707a68cfb689e4cc0723",
+      "source_rows": 3924,
+      "all_selected_keys_matched": true,
+      "max_abs_pm_difference": 0.0,
+      "minimum_valid_days": 20,
+      "maximum_valid_days": 31,
+      "median_valid_days": 29.0,
+      "source_sha256": "a424fe1276aee0609b644543e4d591bb7ba462438196c7a165eaa2efec86e65a"
+    },
+    {
+      "country": "NP",
+      "rows": 101,
+      "input_sha256": "f68454a5938ac7e84d6bf256fe165713292e75777e2d0cb5736a9a2f79d9c7da",
+      "source_rows": 146,
+      "all_selected_keys_matched": true,
+      "max_abs_pm_difference": 0.0,
+      "minimum_valid_days": 20,
+      "maximum_valid_days": 30,
+      "median_valid_days": 27.0,
+      "source_sha256": "a70fbe789fe88f1bc40bedb245898d462221d40a57120365a1fbcc745c42dc69"
+    },
+    {
+      "country": "PK",
+      "rows": 147,
+      "input_sha256": "3d18eec3fa5399c43589cdd7913904a8563a67c113e33da1debca509d3d99e2e",
+      "source_rows": 264,
+      "all_selected_keys_matched": true,
+      "max_abs_pm_difference": 0.0,
+      "minimum_valid_days": 20,
+      "maximum_valid_days": 30,
+      "median_valid_days": 28.0,
+      "source_sha256": "a70fbe789fe88f1bc40bedb245898d462221d40a57120365a1fbcc745c42dc69"
+    },
+    {
+      "country": "PT",
+      "rows": 434,
+      "input_sha256": "2c29a727e0bacb889f79b07516c48eafea042b57d1e97612324af81f0cf71ff8",
+      "source_rows": 590,
+      "all_selected_keys_matched": true,
+      "max_abs_pm_difference": 0.0,
+      "minimum_valid_days": 20,
+      "maximum_valid_days": 30,
+      "median_valid_days": 26.0,
+      "source_sha256": "a70fbe789fe88f1bc40bedb245898d462221d40a57120365a1fbcc745c42dc69"
+    },
+    {
+      "country": "TH",
+      "rows": 1367,
+      "input_sha256": "1dafd219d9bc089dba5ee75b6fc71dc603f502a394af17bd27d77e8b111490d5",
+      "source_rows": 3155,
+      "all_selected_keys_matched": true,
+      "max_abs_pm_difference": 0.0,
+      "minimum_valid_days": 20,
+      "maximum_valid_days": 29,
+      "median_valid_days": 27.0,
+      "source_sha256": "a70fbe789fe88f1bc40bedb245898d462221d40a57120365a1fbcc745c42dc69"
+    },
+    {
+      "country": "VN",
+      "rows": 103,
+      "input_sha256": "09cee9c876f019f2433a1442a25a0c19ecf4f59da92ae307f225a2816ef6d7df",
+      "source_rows": 285,
+      "all_selected_keys_matched": true,
+      "max_abs_pm_difference": 0.0,
+      "minimum_valid_days": 20,
+      "maximum_valid_days": 29,
+      "median_valid_days": 27.0,
+      "source_sha256": "a70fbe789fe88f1bc40bedb245898d462221d40a57120365a1fbcc745c42dc69"
+    },
+    {
+      "country": "ZA",
+      "rows": 322,
+      "input_sha256": "dcb4a3ba70359d869e8209bf17965b5e0d5e8c410e2d7a4d805d5b4b1cfa8b52",
+      "source_rows": 322,
+      "all_selected_keys_matched": true,
+      "max_abs_pm_difference": 0.0,
+      "minimum_valid_days": 20,
+      "maximum_valid_days": 31,
+      "median_valid_days": 24.0,
+      "source_sha256": "a70fbe789fe88f1bc40bedb245898d462221d40a57120365a1fbcc745c42dc69"
+    }
+  ],
+  "unrecovered_final_feature_countries": [
+    "BRA",
+    "CAN",
+    "IN",
+    "USA"
+  ],
+  "scope_note": "USA/CAN recovered via hash-pinned parents and preserved-field contract; IN/BRA target masters separately available; not a complete raw-source rerun"
+}

@@ -1,0 +1,32 @@
+{
+  "figure": "Supplementary_Figure_S8",
+  "caption": "Supplementary Figure S8 | Annual SatPM comparisons on identical 12-month support. Panels (A,B) show the United States and Canada, each with six tasks and paired meteorological profiles: T1 station, T2 spatial, T2 with 50-km buffer, T3 2022, and fixed 2023/2024. The 24 points show full-model minus SatPM annual RMSE in µg m⁻³, with 95% station-cluster percentile bootstrap intervals (500 resamples). Positive values favor SatPM. Models use strict-QA HGB with log targets and smearing. The fitted-CAMS comparison is reported separately in main Table 2. T4/23 and T4/24 denote fixed-window evaluation in 2023 and 2024, respectively; MET denotes meteorological predictors.",
+  "panel_sources": {
+    "a": {
+      "filename": "data/summary/figure_panels/Supplementary_Figure_S8_Panel_a_Source_Data.csv",
+      "rows": 24,
+      "sha256": "e49672208b25ef976bff6b08ce7781bacce12c52a402de84d498bb67e0a125b8"
+    }
+  },
+  "panel_rows": {
+    "a": 24
+  },
+  "outputs": {
+    "pdf": {
+      "filename": "Supplementary_Figure_S8.pdf",
+      "sha256": "f1dfd115ff903c167049a191258e8f2ee1f625430fb2b90e8274f50480b055bd"
+    },
+    "png": {
+      "filename": "Supplementary_Figure_S8.png",
+      "sha256": "ed0c7afa576f3531133a69b2453fcf2c346c9440597b21887d2b923713c64c01"
+    },
+    "svg": {
+      "filename": "Supplementary_Figure_S8.svg",
+      "sha256": "04657b2acf32b9f427a4fd53046871a380606f6f26ffab2bc04dd62c5bf59b0e"
+    },
+    "tiff": {
+      "filename": "Supplementary_Figure_S8.tiff",
+      "sha256": "877d15ca1c756d430da6fcc7e87631409a38b4644845852a5b4dd21a64666c25"
+    }
+  }
+}

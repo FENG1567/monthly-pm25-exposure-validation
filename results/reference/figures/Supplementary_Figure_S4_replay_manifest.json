@@ -1,0 +1,38 @@
+{
+  "figure": "Supplementary_Figure_S4",
+  "caption": "Supplementary Figure S4 | Cross-country transfer and monitoring-network sensitivity. (A) R² for all 17 held-out countries under strict-QA no-meteorology HGB and Ridge full models, shown on a signed-log scale. (B,C) United States and Canadian 2022 RMSE under nested station thinning, separated by meteorological profile. Marker shape identifies the three fixed seeds; open diamonds show full-network endpoints. Points represent observed sample sizes, and seed differences are descriptive. LOCO denotes leave-one-country-out validation; HGB denotes histogram-based gradient boosting, and MET meteorological predictors.",
+  "panel_sources": {
+    "a": {
+      "filename": "data/summary/figure_panels/Supplementary_Figure_S4_Panel_a_Source_Data.csv",
+      "rows": 34,
+      "sha256": "1a3d079f011e822415ee037490e0a7276736bf0f87aa51d106d6995770bf328b"
+    },
+    "b": {
+      "filename": "data/summary/figure_panels/Supplementary_Figure_S4_Panel_b_Source_Data.csv",
+      "rows": 64,
+      "sha256": "26ef72012eaa74874a04772ba7826eddab0802cf3a02d8e1e3982fa169c50826"
+    }
+  },
+  "panel_rows": {
+    "a": 34,
+    "b": 64
+  },
+  "outputs": {
+    "pdf": {
+      "filename": "Supplementary_Figure_S4.pdf",
+      "sha256": "d81cce2a2bfb93f2e72a2b394c3e9aac6dad600a2fbc36a5a0809b1f47479df6"
+    },
+    "png": {
+      "filename": "Supplementary_Figure_S4.png",
+      "sha256": "6201f8dfe72b10f0af97e5dc86c0ecf2358e7e6fd793b31d78792fbcbcde02a0"
+    },
+    "svg": {
+      "filename": "Supplementary_Figure_S4.svg",
+      "sha256": "35e68c4ed12ff3d9a59a7ced7991cb87230b4f061e46245a14c6000fcc8f5e64"
+    },
+    "tiff": {
+      "filename": "Supplementary_Figure_S4.tiff",
+      "sha256": "407bf86c425aa6b3ab16f178f5829ddbbaa38f51f1dfd56505d072bcc841da35"
+    }
+  }
+}

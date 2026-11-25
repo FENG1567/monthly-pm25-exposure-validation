@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "input": "epa/station_day_2018_2025.parquet",
+      "rejected": true,
+      "input_unchanged": true
+    },
+    {
+      "input": "epa/station_month_2018_2025.parquet",
+      "rejected": true,
+      "input_unchanged": true
+    },
+    {
+      "input": "epa_source_manifest.json",
+      "rejected": true,
+      "input_unchanged": true
+    },
+    {
+      "input": "epa/prepare_epa.py",
+      "rejected": true,
+      "input_unchanged": true
+    },
+    {
+      "input": "epa/daily_88101_2025.zip",
+      "rejected": true,
+      "input_unchanged": true
+    }
+  ]
+}

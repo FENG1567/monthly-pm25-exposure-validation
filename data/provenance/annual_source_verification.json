@@ -1,0 +1,187 @@
+{
+  "status": "passed",
+  "frozen_source_hashes": {
+    "score_totalpm_v1.py": "b68b02ba0dc154594f0699c7aae5d4402ed4695c391be9d10f7e20c690182ae5",
+    "compare_cams.py": "adfe83af59cc9ba7e6889a8229487e3961268b0b71f69bfe7b4bcc739462444c",
+    "fast_cluster_bootstrap.py": "f8cbbbb53ce94a79b3da6b506788583880d81b817f18a5eba2b0f92fd1eb9332"
+  },
+  "selected_rows": 24,
+  "seed_matches": 24,
+  "quantiles": [
+    2.5,
+    97.5
+  ],
+  "bootstrap_replicates": 500,
+  "real_interval_replay_executed": false,
+  "method": "physical-station cluster sampling with all station-year observations retained",
+  "details": [
+    {
+      "record": "annual_deltas.csv#row=258",
+      "country": "CAN",
+      "profile": "no_met",
+      "task": "T1_station",
+      "seed": 2617820740
+    },
+    {
+      "record": "annual_deltas.csv#row=266",
+      "country": "CAN",
+      "profile": "no_met",
+      "task": "T2_spatial",
+      "seed": 2011581597
+    },
+    {
+      "record": "annual_deltas.csv#row=274",
+      "country": "CAN",
+      "profile": "no_met",
+      "task": "T2_spatial_buffer50km",
+      "seed": 863559750
+    },
+    {
+      "record": "annual_deltas.csv#row=282",
+      "country": "CAN",
+      "profile": "no_met",
+      "task": "T3_year_2022",
+      "seed": 2322108700
+    },
+    {
+      "record": "annual_deltas.csv#row=290",
+      "country": "CAN",
+      "profile": "with_met",
+      "task": "T1_station",
+      "seed": 1813114203
+    },
+    {
+      "record": "annual_deltas.csv#row=298",
+      "country": "CAN",
+      "profile": "with_met",
+      "task": "T2_spatial",
+      "seed": 1687111121
+    },
+    {
+      "record": "annual_deltas.csv#row=306",
+      "country": "CAN",
+      "profile": "with_met",
+      "task": "T2_spatial_buffer50km",
+      "seed": 4289398546
+    },
+    {
+      "record": "annual_deltas.csv#row=314",
+      "country": "CAN",
+      "profile": "with_met",
+      "task": "T3_year_2022",
+      "seed": 2865262684
+    },
+    {
+      "record": "annual_deltas.csv#row=338",
+      "country": "CAN",
+      "profile": "no_met",
+      "task": "T4_external_2023_no_met",
+      "seed": 1527035118
+    },
+    {
+      "record": "annual_deltas.csv#row=346",
+      "country": "CAN",
+      "profile": "with_met",
+      "task": "T4_external_2023_with_met",
+      "seed": 3405390289
+    },
+    {
+      "record": "annual_deltas.csv#row=370",
+      "country": "CAN",
+      "profile": "no_met",
+      "task": "T4_external_2024_no_met",
+      "seed": 1542074237
+    },
+    {
+      "record": "annual_deltas.csv#row=378",
+      "country": "CAN",
+      "profile": "with_met",
+      "task": "T4_external_2024_with_met",
+      "seed": 2889879322
+    },
+    {
+      "record": "annual_deltas.csv#row=482",
+      "country": "USA",
+      "profile": "no_met",
+      "task": "T1_station",
+      "seed": 2250830072
+    },
+    {
+      "record": "annual_deltas.csv#row=490",
+      "country": "USA",
+      "profile": "no_met",
+      "task": "T2_spatial",
+      "seed": 3827871028
+    },
+    {
+      "record": "annual_deltas.csv#row=498",
+      "country": "USA",
+      "profile": "no_met",
+      "task": "T2_spatial_buffer50km",
+      "seed": 2384618043
+    },
+    {
+      "record": "annual_deltas.csv#row=506",
+      "country": "USA",
+      "profile": "no_met",
+      "task": "T3_year_2022",
+      "seed": 1022811347
+    },
+    {
+      "record": "annual_deltas.csv#row=514",
+      "country": "USA",
+      "profile": "with_met",
+      "task": "T1_station",
+      "seed": 587226096
+    },
+    {
+      "record": "annual_deltas.csv#row=522",
+      "country": "USA",
+      "profile": "with_met",
+      "task": "T2_spatial",
+      "seed": 3700256308
+    },
+    {
+      "record": "annual_deltas.csv#row=530",
+      "country": "USA",
+      "profile": "with_met",
+      "task": "T2_spatial_buffer50km",
+      "seed": 3695243600
+    },
+    {
+      "record": "annual_deltas.csv#row=538",
+      "country": "USA",
+      "profile": "with_met",
+      "task": "T3_year_2022",
+      "seed": 193544063
+    },
+    {
+      "record": "annual_deltas.csv#row=562",
+      "country": "USA",
+      "profile": "no_met",
+      "task": "T4_external_2023_no_met",
+      "seed": 211924773
+    },
+    {
+      "record": "annual_deltas.csv#row=570",
+      "country": "USA",
+      "profile": "with_met",
+      "task": "T4_external_2023_with_met",
+      "seed": 892062658
+    },
+    {
+      "record": "annual_deltas.csv#row=594",
+      "country": "USA",
+      "profile": "no_met",
+      "task": "T4_external_2024_no_met",
+      "seed": 1841477055
+    },
+    {
+      "record": "annual_deltas.csv#row=602",
+      "country": "USA",
+      "profile": "with_met",
+      "task": "T4_external_2024_with_met",
+      "seed": 2745684885
+    }
+  ]
+}

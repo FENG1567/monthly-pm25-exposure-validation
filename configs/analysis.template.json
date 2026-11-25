@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "output_root": "results/analysis-replay",
+  "components": {
+    "historical": {
+      "runner": "analysis/original/historical/validation/run_validation.py",
+      "source_root": "__REPLACE_WITH_EXISTING_REPO_RELATIVE_SOURCE_ROOT__",
+      "countries": ["USA"],
+      "feature_files": {
+        "USA": {
+          "path": "__REPLACE_WITH_PREPARED_FEATURE_TABLE__"
+        }
+      },
+      "meteorology": "source_declared",
+      "max_iter": 400,
+      "estimator_kind": "hgb",
+      "smear_strategies": "crossfit_station,in_sample",
+      "bootstrap_replicates": 500,
+      "bootstrap_engine": "cluster_stats"
+    },
+    "portugal": {
+      "runner": "analysis/original/portugal/validation/run_validation.py",
+      "source_root": "__REPLACE_WITH_EXISTING_REPO_RELATIVE_SOURCE_ROOT__",
+      "countries": ["PT"],
+      "feature_files": {
+        "PT": {
+          "path": "__REPLACE_WITH_PREPARED_FEATURE_TABLE__"
+        }
+      },
+      "meteorology": "source_declared",
+      "max_iter": 400,
+      "estimator_kind": "hgb",
+      "smear_strategies": "crossfit_station,in_sample",
+      "bootstrap_replicates": 500,
+      "bootstrap_engine": "cluster_stats"
+    },
+    "future": {
+      "runner": "analysis/original/historical/validation/run_external_year.py",
+      "arguments": [
+        "--country", "USA",
+        "--training-features", "@repo/__REPLACE_WITH_TRAINING_FEATURES__",
+        "--external-features", "@repo/__REPLACE_WITH_EXTERNAL_YEAR_FEATURES__"
+      ]
+    },
+    "loco": {
+      "runner": "analysis/original/loco/validation/run_loco.py",
+      "manifest": {
+        "path": "__REPLACE_WITH_HASH_BOUND_LOCO_MANIFEST__",
+        "sha256": "__REPLACE_WITH_64_CHARACTER_SHA256__"
+      },
+      "include_ridge": false,
+      "run": false,
+      "bootstrap_replicates": 500
+    },
+    "multiplicity": {
+      "runner": "analysis/original/historical/checks/multiplicity_final.py",
+      "arguments": [
+        "--workspace", "@repo/__REPLACE_WITH_REPO_RELATIVE_WORKSPACE__",
+        "--registry", "@repo/__REPLACE_WITH_RELATIVE_WORK_REPAIR_V2_REGISTRY__"
+      ]
+    },
+    "thinning": {
+      "runner": "analysis/original/extras/run_station_thinning.py",
+      "validation_dir": "__REPLACE_WITH_VALIDATION_SNAPSHOT_BOUND_BY_THINNING_MANIFEST__",
+      "arguments": [
+        "--manifest", "@repo/__REPLACE_WITH_HASH_BOUND_THINNING_MANIFEST__"
+      ]
+    }
+  }
+}

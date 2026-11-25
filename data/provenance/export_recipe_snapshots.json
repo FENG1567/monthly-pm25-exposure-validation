@@ -1,0 +1,9 @@
+{
+  "sha256": {
+    "collect_sources_root_v2.py": "f1d3eadb3feac553c41acca481eb26f517f92e7d6d006dfc632bb3071990b29f",
+    "normalize_publication_sources_v2.py": "5fe4bc913a6bd62da9d596db32d32d4af296778f5e2b816840764f2433aa446a",
+    "prepare_editor_data.py": "0ed50c2e7ab8a9a2febc8dedd2369793fb055e51ac786bddfa8944e06e516435"
+  },
+  "scope": "Original export code snapshots with historical dependencies; not a claim that the absent canonical input CSV bytes have been recovered.",
+  "code_license": "MIT"
+}

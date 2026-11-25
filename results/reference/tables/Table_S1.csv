@@ -1,0 +1,18 @@
+Code,Source / source policy,Period,Input rows / sites,Domestic T1 eligibility
+AUS,Queensland monitoring (QLD retain-valid-negative-hourly / coordinate-repaired primary),2018–2022,"1,508 / 42",Eligible
+BD,OpenAQ (OpenAQ reference-sensor-first),2018–2022,52 / 1,Ineligible
+BRA,MonitorAr (source-month-coordinate convention; 2022 historical model cohort),2022,180 / 43,Eligible
+CAN,NAPS (primary all-published target; common-method definitions separate sensitivities),2018–2022,"12,658 / 239",Eligible
+CL,OpenAQ (OpenAQ reference-sensor-first),2018–2022,"2,780 / 86",Eligible
+ES,OpenAQ (OpenAQ reference-sensor-first),2019–2022,845 / 96,Eligible
+GR,OpenAQ (OpenAQ reference-sensor-first),2020–2022,202 / 11,Eligible
+IN,OpenAQ (OpenAQ reference-sensor-first),2018–2022,"2,213 / 218",Eligible
+IT,OpenAQ (OpenAQ reference-sensor-first),2020–2022,289 / 20,Eligible
+MEX,SINAICA (SINAICA operational-primary; source policy label nonnegative-hourly/quarantine 503/504/2022),2018–2022,"3,924 / 115",Eligible
+NP,OpenAQ (OpenAQ reference-sensor-first),2018–2022,101 / 2,Ineligible
+PK,OpenAQ (OpenAQ reference-sensor-first),2019–2022,147 / 5,Eligible
+PT,OpenAQ (OpenAQ reference-sensor-first),2018–2022,434 / 16,Eligible
+TH,OpenAQ (OpenAQ reference-sensor-first),2021–2022,"1,367 / 114",Eligible
+USA,US EPA AQS/CSN (primary target excludes method codes 236/238),2018–2022,"38,358 / 866",Eligible
+VN,OpenAQ (OpenAQ reference-sensor-first),2018–2022,103 / 2,Ineligible
+ZA,OpenAQ (OpenAQ reference-sensor-first),2021–2022,322 / 61,Eligible

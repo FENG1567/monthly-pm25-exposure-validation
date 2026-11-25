@@ -1,0 +1,32 @@
+{
+  "figure": "Supplementary_Figure_S7",
+  "caption": "Supplementary Figure S7 | Geographic availability of the primary 2023 reference-grid component. Finite strict-QA with-meteorology log-smear P90 component estimates are shown for January, April, July and October in the United States and Canada. Panels share the finite-coordinate extent and a square-root color mapping in µg m⁻³. Denominators include the larger grid footprint; unsupported cells remain missing without interpolation. Values are model-derived components, and the sparse maps represent supported cells and months. Panels A–D show the United States and panels E–H Canada, with January, April, July and October ordered from left to right. Panel counts give finite component estimates divided by total grid cells. The colorbar shows the modeled fire-related PM₂.₅ component.",
+  "panel_sources": {
+    "a": {
+      "filename": "data/summary/figure_panels/Supplementary_Figure_S7_Panel_a_Source_Data.csv.gz",
+      "rows": 7716800,
+      "sha256": "74d0b0e2a3d8ad22f26e9d6d743920fc11d641a91e07341460b6836e30e3cb00"
+    }
+  },
+  "panel_rows": {
+    "a": 7716800
+  },
+  "outputs": {
+    "pdf": {
+      "filename": "Supplementary_Figure_S7.pdf",
+      "sha256": "7b54a95d3906052849014dadf089376a8bbd7c3c7ad2f143cfb345b0191c16b0"
+    },
+    "png": {
+      "filename": "Supplementary_Figure_S7.png",
+      "sha256": "6189ac674905e76fee92156c55abb37c1c01b04489679594c0a98a32f2d79540"
+    },
+    "svg": {
+      "filename": "Supplementary_Figure_S7.svg",
+      "sha256": "a3e9acb75616164c74ec6ab1194003af4217c848f0fad8a2c8c358ccfe48455a"
+    },
+    "tiff": {
+      "filename": "Supplementary_Figure_S7.tiff",
+      "sha256": "78b3ddad125c0bc394b49d72f48e4f9a214503efac1d5d024f661d8cc7679538"
+    }
+  }
+}

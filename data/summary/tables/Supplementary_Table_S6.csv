@@ -1,0 +1,13 @@
+Country / mode / year,Profile,Prediction rows / sites,Matched rows / sites,Row loss,Status
+CAN / fixed / 2023,no_met,2537 / 220,2537 / 220,0,eligible
+CAN / fixed / 2023,with_met,2537 / 220,2537 / 220,0,eligible
+CAN / fixed / 2024,no_met,2083 / 183,2083 / 183,0,eligible
+CAN / fixed / 2024,with_met,2083 / 183,2083 / 183,0,eligible
+CAN / rolling / 2024,no_met,2083 / 183,2083 / 183,0,eligible
+CAN / rolling / 2024,with_met,2083 / 183,2083 / 183,0,eligible
+USA / fixed / 2023,no_met,9371 / 855,9371 / 855,0,eligible
+USA / fixed / 2023,with_met,9371 / 855,9371 / 855,0,eligible
+USA / fixed / 2024,no_met,10242 / 909,10242 / 909,0,eligible
+USA / fixed / 2024,with_met,10242 / 909,10242 / 909,0,eligible
+USA / rolling / 2024,no_met,10242 / 909,10242 / 909,0,eligible
+USA / rolling / 2024,with_met,10242 / 909,10242 / 909,0,eligible

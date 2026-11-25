@@ -1,0 +1,101 @@
+{
+  "recipe_sha256": "b0e0c219a2091791e0578359aa40f6583f73790105221992fb2d2cfee8284d02",
+  "target_generations": [
+    {
+      "name": "2018_2023",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "daily_sha256": "2323e0bafce30e5c4d6c6b0ad92a7dc24c34aaa9f71a9360c0a00a9eb838a36e",
+      "monthly_sha256": "a47a6c845c54f551c77576f9a2f39c088e7a2ecb0941c887582c4768856297f9"
+    },
+    {
+      "name": "2018_2025",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "daily_sha256": "c24f7a0f045bc38ad376389ecca58ec1fbbd6243a8087bbb2cf59909ba471009",
+      "monthly_sha256": "ee3a2d752bfd1c87f6d4087370f26c685b37c5177732b899bc137e12a739b660"
+    }
+  ],
+  "raw_sources": [
+    {
+      "year": 2018,
+      "filename": "daily_88101_2018.zip",
+      "bytes": 6325876,
+      "sha256": "a82e60b1bd486ebd23adacedd4f1822a41cda0985194b3a21898e135cdf468e5",
+      "url": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2018.zip",
+      "zip_member": "daily_88101_2018.csv"
+    },
+    {
+      "year": 2019,
+      "filename": "daily_88101_2019.zip",
+      "bytes": 7315771,
+      "sha256": "88b9b0b1bbd0c7545ffc07959a5ecbd4c6fbe951c67ea648cef70cafe956af53",
+      "url": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2019.zip",
+      "zip_member": "daily_88101_2019.csv"
+    },
+    {
+      "year": 2020,
+      "filename": "daily_88101_2020.zip",
+      "bytes": 7911864,
+      "sha256": "18283fe4ffceb53e3091a7fa7de57a2d5b925ce3d56a08d3518021e00212a3ec",
+      "url": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2020.zip",
+      "zip_member": "daily_88101_2020.csv"
+    },
+    {
+      "year": 2021,
+      "filename": "daily_88101_2021.zip",
+      "bytes": 9003762,
+      "sha256": "c3f876f8cd898c3bd921db45e1a2dd39c52ed7f5bb48e82a600066a434f6afd4",
+      "url": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2021.zip",
+      "zip_member": "daily_88101_2021.csv"
+    },
+    {
+      "year": 2022,
+      "filename": "daily_88101_2022.zip",
+      "bytes": 9687295,
+      "sha256": "82f5035943a447f8edebf1f0b3f774e08b81a250a86295871a8574726d6b2f94",
+      "url": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2022.zip",
+      "zip_member": "daily_88101_2022.csv"
+    },
+    {
+      "year": 2023,
+      "filename": "daily_88101_2023.zip",
+      "bytes": 9919616,
+      "sha256": "4b40502e8147419643a1120c666c4aa952633094f21f65475844172bcc78833b",
+      "url": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2023.zip",
+      "zip_member": "daily_88101_2023.csv"
+    },
+    {
+      "year": 2024,
+      "filename": "daily_88101_2024.zip",
+      "bytes": 8405604,
+      "sha256": "409c2d884935bd0a4099d640b7c526ecb0af1d3aac049697e34c2f9f69dbe91d",
+      "url": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2024.zip",
+      "zip_member": "daily_88101_2024.csv"
+    },
+    {
+      "year": 2025,
+      "filename": "daily_88101_2025.zip",
+      "bytes": 8647326,
+      "sha256": "cc8cb80bcc0317705202d12a472918438b8bee60316f54777d6f748c58ac2661",
+      "url": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2025.zip",
+      "zip_member": "daily_88101_2025.csv"
+    }
+  ],
+  "license_note": "Metadata and author-owned summaries CC BY 4.0; original code MIT; third-party AQS inputs retain their own terms.",
+  "original_input_ledger_sha256": "a840a76849e146bf1f9b0c66ff89f6543e713c221725c5ec609616a0aba443cc"
+}
