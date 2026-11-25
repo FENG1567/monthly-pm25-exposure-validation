@@ -1,6 +1,12 @@
+import sys
 import unittest
+from pathlib import Path
+
 import numpy as np
 import pandas as pd
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "analysis"))
 from annual_replay import replay,check_frame,annual_seed,load_kernel,metric
 
 def fixture():

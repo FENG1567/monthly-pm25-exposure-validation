@@ -1,12 +1,16 @@
 """Synthetic contract tests for shared_support_v1; no project data is read."""
 from __future__ import annotations
 
+import sys
 import unittest
 from calendar import monthrange
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "analysis" / "original" / "annual"))
 from shared_support_v1 import annualize_exact_shared_support, join_monthly_model_oof_raw_cams
 
 
