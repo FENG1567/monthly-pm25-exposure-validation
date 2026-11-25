@@ -4,7 +4,7 @@
 
 **作者：** Shuo Feng、Chao Shi、Tianming Liu、Haoran Ding、Fenghe Hang、Zhenghao Huang、Xianzhi Meng。
 
-这是为可能的 GitHub 发布准备的未发布包；本文档不声称已有公开仓库地址、release 或 DOI。
+公开仓库：https://github.com/FENG1567/monthly-pm25-exposure-validation 。对应论文的软件发布版本为 v0.1.0，尚未分配 DOI。
 
 ## 包含内容
 
@@ -54,6 +54,6 @@ EPA 2018—2025年原始ZIP到日/月目标值的处理链已重建核对；重�
 
 ## 引用
 
-论文正式发表后，请按最终出版记录引用论文，并在适当情况下引用本软件。发布前不声明出版信息、仓库 URL、release 或 DOI。作者和软件元数据另见 [CITATION.cff](CITATION.cff)。
+论文正式发表后，请按最终出版记录引用论文，并在适当情况下引用本软件。仓库地址和软件版本用于标识本软件，论文尚无正式出版记录，软件尚未分配 DOI。作者和软件元数据另见 [CITATION.cff](CITATION.cff)。
 
 14幅图已采用大写18号Arial加粗标签与全图粗体文字，并提供600 dpi TIFF；字体配置及输出说明见[图件版式说明](docs/FIGURE_LAYOUT.md)。
